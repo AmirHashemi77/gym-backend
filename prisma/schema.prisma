@@ -1,0 +1,193 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum Role {
+  ADMIN
+  COACH
+  STUDENT
+}
+
+enum ExerciseBlockType {
+  NORMAL
+  SUPERSET
+  TRISET
+}
+
+enum QuestionStatus {
+  PENDING
+  ANSWERED
+}
+
+model User {
+  id              String             @id @default(uuid())
+  fullName        String
+  phone           String             @unique
+  email           String?            @unique
+  password        String
+  role            Role               @default(STUDENT)
+  avatar          String?
+  createdAt       DateTime           @default(now())
+  updatedAt       DateTime           @updatedAt
+  deletedAt       DateTime?
+  studentProfile  StudentProfile?    @relation("UserStudentProfile")
+  coachedStudents StudentProfile[]   @relation("CoachStudents")
+  exercises       Exercise[]         @relation("ExerciseCreator")
+  coachedPrograms Program[]          @relation("CoachPrograms")
+  studentPrograms Program[]          @relation("StudentPrograms")
+  questions       Question[]         @relation("StudentQuestions")
+  refreshTokens   RefreshToken[]
+  bookmarks       ExerciseBookmark[]
+
+  @@index([role])
+  @@index([deletedAt])
+}
+
+model StudentProfile {
+  id        String    @id @default(uuid())
+  userId    String    @unique
+  coachId   String?
+  age       Int?
+  weight    Decimal?  @db.Decimal(5, 2)
+  height    Decimal?  @db.Decimal(5, 2)
+  goal      String?
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+  deletedAt DateTime?
+  user      User      @relation("UserStudentProfile", fields: [userId], references: [id], onDelete: Cascade)
+  coach     User?     @relation("CoachStudents", fields: [coachId], references: [id], onDelete: SetNull)
+
+  @@index([coachId])
+  @@index([deletedAt])
+}
+
+model Exercise {
+  id           String              @id @default(uuid())
+  title        String
+  slug         String              @unique
+  description  String?
+  videoUrl     String?
+  thumbnailUrl String?
+  createdBy    String
+  createdAt    DateTime            @default(now())
+  updatedAt    DateTime            @updatedAt
+  deletedAt    DateTime?
+  creator      User                @relation("ExerciseCreator", fields: [createdBy], references: [id], onDelete: Restrict)
+  bookmarks    ExerciseBookmark[]
+  blockItems   ExerciseBlockItem[]
+  questions    Question[]
+
+  @@index([title])
+  @@index([createdBy])
+  @@index([deletedAt])
+}
+
+model ExerciseBookmark {
+  id         String   @id @default(uuid())
+  studentId  String
+  exerciseId String
+  createdAt  DateTime @default(now())
+  student    User     @relation(fields: [studentId], references: [id], onDelete: Cascade)
+  exercise   Exercise @relation(fields: [exerciseId], references: [id], onDelete: Cascade)
+
+  @@unique([studentId, exerciseId])
+  @@index([studentId])
+  @@index([exerciseId])
+}
+
+model Program {
+  id        String       @id @default(uuid())
+  title     String
+  studentId String
+  coachId   String
+  createdAt DateTime     @default(now())
+  updatedAt DateTime     @updatedAt
+  deletedAt DateTime?
+  student   User         @relation("StudentPrograms", fields: [studentId], references: [id], onDelete: Cascade)
+  coach     User         @relation("CoachPrograms", fields: [coachId], references: [id], onDelete: Restrict)
+  days      ProgramDay[]
+
+  @@index([studentId])
+  @@index([coachId])
+  @@index([deletedAt])
+}
+
+model ProgramDay {
+  id        String          @id @default(uuid())
+  programId String
+  dayNumber Int
+  createdAt DateTime        @default(now())
+  updatedAt DateTime        @updatedAt
+  program   Program         @relation(fields: [programId], references: [id], onDelete: Cascade)
+  blocks    ExerciseBlock[]
+
+  @@unique([programId, dayNumber])
+  @@index([programId])
+}
+
+model ExerciseBlock {
+  id        String              @id @default(uuid())
+  dayId     String
+  type      ExerciseBlockType   @default(NORMAL)
+  note      String?
+  createdAt DateTime            @default(now())
+  updatedAt DateTime            @updatedAt
+  day       ProgramDay          @relation(fields: [dayId], references: [id], onDelete: Cascade)
+  items     ExerciseBlockItem[]
+
+  @@index([dayId])
+}
+
+model ExerciseBlockItem {
+  id         String        @id @default(uuid())
+  blockId    String
+  exerciseId String
+  sets       Int
+  reps       String
+  rest       String?
+  order      Int
+  createdAt  DateTime      @default(now())
+  updatedAt  DateTime      @updatedAt
+  block      ExerciseBlock @relation(fields: [blockId], references: [id], onDelete: Cascade)
+  exercise   Exercise      @relation(fields: [exerciseId], references: [id], onDelete: Restrict)
+
+  @@index([blockId])
+  @@index([exerciseId])
+}
+
+model Question {
+  id         String         @id @default(uuid())
+  studentId  String
+  exerciseId String?
+  question   String
+  answer     String?
+  status     QuestionStatus @default(PENDING)
+  createdAt  DateTime       @default(now())
+  updatedAt  DateTime       @updatedAt
+  deletedAt  DateTime?
+  student    User           @relation("StudentQuestions", fields: [studentId], references: [id], onDelete: Cascade)
+  exercise   Exercise?      @relation(fields: [exerciseId], references: [id], onDelete: SetNull)
+
+  @@index([studentId])
+  @@index([exerciseId])
+  @@index([status])
+  @@index([deletedAt])
+}
+
+model RefreshToken {
+  id        String   @id @default(uuid())
+  userId    String
+  token     String   @unique
+  expiresAt DateTime
+  revokedAt DateTime?
+  createdAt DateTime @default(now())
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@index([expiresAt])
+}
