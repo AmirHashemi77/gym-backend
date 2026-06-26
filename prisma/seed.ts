@@ -81,6 +81,7 @@ async function main(): Promise<void> {
   await prisma.program.create({
     data: {
       title: 'برنامه چهار هفته‌ای افزایش حجم',
+      durationDays: 28,
       studentId: student.id,
       coachId: coach.id,
       days: {

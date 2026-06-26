@@ -30,6 +30,12 @@ export class ProgramsController {
     return this.programsService.findMany(query, user, query.studentId);
   }
 
+  @Roles(Role.STUDENT)
+  @Get('active/stats')
+  getActiveStats(@CurrentUser('sub') studentId: string) {
+    return this.programsService.getActiveStats(studentId);
+  }
+
   @Get(':id')
   findById(@Param('id') id: string, @CurrentUser() user: JwtUser) {
     return this.programsService.findById(id, user);

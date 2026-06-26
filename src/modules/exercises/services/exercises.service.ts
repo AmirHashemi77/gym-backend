@@ -23,6 +23,11 @@ export class ExercisesService {
     return { message: 'حرکت ایجاد شد', data: exercise };
   }
 
+  async findPopular(limit: number) {
+    const exercises = await this.exercisesRepository.findPopular(limit);
+    return { data: exercises };
+  }
+
   async findMany(query: PaginationQueryDto) {
     const [items, total] = await this.exercisesRepository.findMany(query);
     return { data: { items, meta: getPaginationMeta(query.page, query.limit, total) } };

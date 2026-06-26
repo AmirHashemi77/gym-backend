@@ -8,7 +8,7 @@
     "start": "nest start",
     "start:dev": "nest start --watch",
     "start:prod": "node dist/main.js",
-    "test:register-student": "tsx scripts/register-student.e2e.ts",
+    "test:register-student": "node --import tsx scripts/register-student.e2e.ts",
     "lint": "eslint \"src/**/*.ts\" \"prisma/**/*.ts\" --fix",
     "format": "prettier --write \"src/**/*.ts\" \"prisma/**/*.ts\"",
     "prisma:generate": "prisma generate",
@@ -57,6 +57,6 @@
     "typescript": "^5.4.5"
   },
   "prisma": {
-    "seed": "tsx prisma/seed.ts"
+    "seed": "node --import tsx prisma/seed.ts"
   }
 }

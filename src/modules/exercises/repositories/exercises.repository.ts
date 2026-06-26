@@ -54,6 +54,18 @@ export class ExercisesRepository {
     return this.prisma.exercise.update({ where: { id }, data: { deletedAt: new Date() } });
   }
 
+  findPopular(limit: number) {
+    return this.prisma.exercise.findMany({
+      where: { deletedAt: null },
+      take: limit,
+      orderBy: { bookmarks: { _count: 'desc' } },
+      include: {
+        creator: { select: { id: true, fullName: true } },
+        _count: { select: { bookmarks: true } },
+      },
+    });
+  }
+
   bookmark(studentId: string, exerciseId: string) {
     return this.prisma.exerciseBookmark.upsert({
       where: { studentId_exerciseId: { studentId, exerciseId } },

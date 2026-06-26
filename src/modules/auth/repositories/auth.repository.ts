@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import { Role } from '@prisma/client';
+import { Gender, Role } from '@prisma/client';
 import { PrismaService } from '../../../database/prisma.service';
 
 interface RegisterStudentInput {
@@ -7,6 +7,7 @@ interface RegisterStudentInput {
   phone: string;
   email?: string;
   password: string;
+  gender?: Gender;
   age?: number;
   weight?: number;
   height?: number;
@@ -36,6 +37,7 @@ export class AuthRepository {
           studentProfile: {
             create: {
               coachId: null,
+              gender: data.gender,
               age: data.age,
               weight: data.weight,
               height: data.height,
@@ -71,7 +73,10 @@ export class AuthRepository {
   }
 
   findRefreshToken(token: string) {
-    return this.prisma.refreshToken.findUnique({ where: { token }, include: { user: true } });
+    return this.prisma.refreshToken.findUnique({
+      where: { token },
+      include: { user: { include: { studentProfile: true } } },
+    });
   }
 
   revokeRefreshToken(token: string) {

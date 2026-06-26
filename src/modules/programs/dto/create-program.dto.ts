@@ -65,6 +65,11 @@ export class CreateProgramDto {
   @IsString()
   title!: string;
 
+  @ApiProperty({ example: 30 })
+  @IsInt()
+  @Min(1)
+  durationDays!: number;
+
   @ApiProperty()
   @IsUUID()
   studentId!: string;

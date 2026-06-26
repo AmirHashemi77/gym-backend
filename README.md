@@ -23,6 +23,8 @@ npm run prisma:seed
 npm run start:dev
 ```
 
+PostgreSQL is exposed on `localhost:5433` to avoid conflicts with an existing local Postgres service.
+
 ## Seed Users
 
 All seed users use password `Password123!`.

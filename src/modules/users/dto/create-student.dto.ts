@@ -1,5 +1,6 @@
 import { ApiProperty, ApiPropertyOptional } from '@nestjs/swagger';
-import { IsEmail, IsInt, IsOptional, IsPhoneNumber, IsString, Max, Min, MinLength } from 'class-validator';
+import { Gender } from '@prisma/client';
+import { IsEmail, IsEnum, IsInt, IsOptional, IsPhoneNumber, IsString, Max, Min, MinLength } from 'class-validator';
 
 export class CreateStudentDto {
   @ApiProperty({ example: 'رضا احمدی' })
@@ -24,6 +25,11 @@ export class CreateStudentDto {
   @IsOptional()
   @IsString()
   avatar?: string;
+
+  @ApiPropertyOptional({ enum: Gender })
+  @IsOptional()
+  @IsEnum(Gender)
+  gender?: Gender;
 
   @ApiPropertyOptional()
   @IsOptional()

@@ -2,15 +2,19 @@ import { ConflictException, Injectable, UnauthorizedException } from '@nestjs/co
 import { JwtService, JwtSignOptions } from '@nestjs/jwt';
 import { ConfigService } from '@nestjs/config';
 import * as bcrypt from 'bcryptjs';
-import { Prisma, Role, StudentProfile, User } from '@prisma/client';
+import { Gender, Prisma, Role, StudentProfile, User } from '@prisma/client';
 import { LoginDto } from '../dto/login.dto';
 import { AuthRepository } from '../repositories/auth.repository';
 import { ChangePasswordDto } from '../dto/change-password.dto';
 import { JwtUser } from '../../../common/entities/jwt-user.entity';
 import { RegisterStudentDto } from '../dto/register-student.dto';
 
+type UserWithGender = Pick<User, 'id' | 'fullName' | 'phone' | 'email' | 'role' | 'avatar'> & {
+  studentProfile?: Pick<StudentProfile, 'gender'> | null;
+};
+
 type StudentUser = Pick<User, 'id' | 'fullName' | 'phone' | 'email' | 'role' | 'avatar'> & {
-  studentProfile: Pick<StudentProfile, 'id' | 'userId' | 'coachId' | 'age' | 'weight' | 'height' | 'goal'> | null;
+  studentProfile: Pick<StudentProfile, 'id' | 'userId' | 'coachId' | 'gender' | 'age' | 'weight' | 'height' | 'goal'> | null;
 };
 
 @Injectable()
@@ -42,6 +46,7 @@ export class AuthService {
         phone: dto.phone,
         email: dto.email,
         password,
+        gender: dto.gender,
         age: dto.age,
         weight: dto.weight,
         height: dto.height,
@@ -94,7 +99,7 @@ export class AuthService {
     return { message: 'رمز عبور با موفقیت تغییر کرد', data: null };
   }
 
-  private async createTokenResponse(user: Pick<User, 'id' | 'fullName' | 'phone' | 'email' | 'role' | 'avatar'>) {
+  private async createTokenResponse(user: UserWithGender) {
     const payload: JwtUser = { sub: user.id, phone: user.phone, role: user.role };
     const accessToken = await this.jwtService.signAsync(payload, {
       secret: this.config.getOrThrow<string>('JWT_ACCESS_SECRET'),
@@ -118,13 +123,14 @@ export class AuthService {
     return (this.config.get<string>(key) ?? fallback) as JwtSignOptions['expiresIn'];
   }
 
-  private sanitizeUser(user: Pick<User, 'id' | 'fullName' | 'phone' | 'email' | 'role' | 'avatar'>): {
+  private sanitizeUser(user: UserWithGender): {
     id: string;
     fullName: string;
     phone: string;
     email: string | null;
     role: Role;
     avatar: string | null;
+    gender: Gender | null;
   } {
     return {
       id: user.id,
@@ -133,6 +139,7 @@ export class AuthService {
       email: user.email,
       role: user.role,
       avatar: user.avatar,
+      gender: user.studentProfile?.gender ?? null,
     };
   }
 
@@ -143,10 +150,12 @@ export class AuthService {
     email: string | null;
     role: Role;
     avatar: string | null;
+    gender: Gender | null;
     studentProfile: {
       id: string;
       userId: string;
       coachId: string | null;
+      gender: Gender | null;
       age: number | null;
       weight: number | null;
       height: number | null;
@@ -162,6 +171,7 @@ export class AuthService {
             id: profile.id,
             userId: profile.userId,
             coachId: profile.coachId,
+            gender: profile.gender,
             age: profile.age,
             weight: this.decimalToNumber(profile.weight),
             height: this.decimalToNumber(profile.height),

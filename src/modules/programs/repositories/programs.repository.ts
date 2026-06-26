@@ -64,6 +64,18 @@ export class ProgramsRepository {
     });
   }
 
+  findActiveByStudent(studentId: string) {
+    return this.prisma.program.findFirst({
+      where: { studentId, deletedAt: null },
+      orderBy: { createdAt: 'desc' },
+      select: {
+        id: true,
+        createdAt: true,
+        durationDays: true,
+      },
+    });
+  }
+
   softDelete(id: string) {
     return this.prisma.program.update({ where: { id }, data: { deletedAt: new Date() } });
   }

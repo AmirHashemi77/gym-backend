@@ -20,6 +20,7 @@ export class ProgramsService {
     const coachId = user.role === Role.COACH ? user.sub : await this.resolveCoachId(dto.studentId);
     const program = await this.programsRepository.create({
       title: dto.title,
+      durationDays: dto.durationDays,
       student: { connect: { id: dto.studentId } },
       coach: { connect: { id: coachId } },
       days: { create: this.mapDays(dto.days) },
@@ -56,6 +57,18 @@ export class ProgramsService {
       dto.days ? this.mapDays(dto.days) : undefined,
     );
     return { message: 'برنامه تمرینی ویرایش شد', data: program };
+  }
+
+  async getActiveStats(studentId: string) {
+    const program = await this.programsRepository.findActiveByStudent(studentId);
+    if (!program) throw new NotFoundException('برنامه فعالی یافت نشد');
+
+    const totalDays = program.durationDays;
+    const elapsedDays = Math.floor((Date.now() - program.createdAt.getTime()) / 86_400_000);
+    const completedDays = Math.min(elapsedDays, totalDays);
+    const remainingDays = Math.max(0, totalDays - elapsedDays);
+
+    return { data: { programId: program.id, totalDays, completedDays, remainingDays } };
   }
 
   async remove(id: string, user: JwtUser) {

@@ -34,6 +34,7 @@ export class UsersService {
       studentProfile: {
         create: {
           coachId,
+          gender: dto.gender,
           age: dto.age,
           weight: dto.weight,
           height: dto.height,
@@ -70,12 +71,14 @@ export class UsersService {
       studentProfile: {
         upsert: {
           create: {
+            gender: dto.gender,
             age: dto.age,
             weight: dto.weight,
             height: dto.height,
             goal: dto.goal,
           },
           update: {
+            gender: dto.gender,
             age: dto.age,
             weight: dto.weight,
             height: dto.height,

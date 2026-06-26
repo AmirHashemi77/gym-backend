@@ -1,4 +1,4 @@
-import { Body, Controller, Delete, Get, Param, Patch, Post, Query, UseGuards } from '@nestjs/common';
+import { Body, Controller, Delete, Get, Param, ParseIntPipe, Patch, Post, Query, UseGuards } from '@nestjs/common';
 import { ApiBearerAuth, ApiTags } from '@nestjs/swagger';
 import { Role } from '@prisma/client';
 import { JwtAuthGuard } from '../../common/guards/jwt-auth.guard';
@@ -27,6 +27,11 @@ export class ExercisesController {
   @Get()
   findMany(@Query() query: PaginationQueryDto) {
     return this.exercisesService.findMany(query);
+  }
+
+  @Get('popular')
+  findPopular(@Query('limit', new ParseIntPipe({ optional: true })) limit = 4) {
+    return this.exercisesService.findPopular(limit);
   }
 
   @Get(':id')

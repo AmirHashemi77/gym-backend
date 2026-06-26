@@ -13,6 +13,11 @@ enum Role {
   STUDENT
 }
 
+enum Gender {
+  MALE
+  FEMALE
+}
+
 enum ExerciseBlockType {
   NORMAL
   SUPERSET
@@ -52,6 +57,7 @@ model StudentProfile {
   id        String    @id @default(uuid())
   userId    String    @unique
   coachId   String?
+  gender    Gender?
   age       Int?
   weight    Decimal?  @db.Decimal(5, 2)
   height    Decimal?  @db.Decimal(5, 2)
@@ -101,10 +107,11 @@ model ExerciseBookmark {
 }
 
 model Program {
-  id        String       @id @default(uuid())
-  title     String
-  studentId String
-  coachId   String
+  id           String       @id @default(uuid())
+  title        String
+  durationDays Int
+  studentId    String
+  coachId      String
   createdAt DateTime     @default(now())
   updatedAt DateTime     @updatedAt
   deletedAt DateTime?
