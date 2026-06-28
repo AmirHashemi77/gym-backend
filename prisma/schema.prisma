@@ -29,6 +29,29 @@ enum QuestionStatus {
   ANSWERED
 }
 
+enum MealType {
+  BREAKFAST
+  LUNCH
+  DINNER
+  SNACK
+}
+
+enum MuscleGroup {
+  CHEST
+  BACK
+  SHOULDERS
+  BICEPS
+  TRICEPS
+  FOREARMS
+  CORE
+  GLUTES
+  QUADRICEPS
+  HAMSTRINGS
+  CALVES
+  FULL_BODY
+  CARDIO
+}
+
 model User {
   id              String             @id @default(uuid())
   fullName        String
@@ -45,9 +68,12 @@ model User {
   exercises       Exercise[]         @relation("ExerciseCreator")
   coachedPrograms Program[]          @relation("CoachPrograms")
   studentPrograms Program[]          @relation("StudentPrograms")
-  questions       Question[]         @relation("StudentQuestions")
-  refreshTokens   RefreshToken[]
-  bookmarks       ExerciseBookmark[]
+  questions                Question[]         @relation("StudentQuestions")
+  refreshTokens            RefreshToken[]
+  bookmarks                ExerciseBookmark[]
+  nutritionPlansAsStudent  NutritionPlan[]    @relation("StudentNutritionPlans")
+  nutritionPlansAsCoach    NutritionPlan[]    @relation("CoachNutritionPlans")
+  pushSubscriptions        PushSubscription[]
 
   @@index([role])
   @@index([deletedAt])
@@ -79,6 +105,8 @@ model Exercise {
   description  String?
   videoUrl     String?
   thumbnailUrl String?
+  muscleGroup  MuscleGroup?
+  imageUrl     String?
   createdBy    String
   createdAt    DateTime            @default(now())
   updatedAt    DateTime            @updatedAt
@@ -91,6 +119,7 @@ model Exercise {
   @@index([title])
   @@index([createdBy])
   @@index([deletedAt])
+  @@index([muscleGroup])
 }
 
 model ExerciseBookmark {
@@ -197,4 +226,46 @@ model RefreshToken {
 
   @@index([userId])
   @@index([expiresAt])
+}
+
+model NutritionPlan {
+  id        String          @id @default(uuid())
+  studentId String
+  coachId   String
+  createdAt DateTime        @default(now())
+  updatedAt DateTime        @updatedAt
+  student   User            @relation("StudentNutritionPlans", fields: [studentId], references: [id], onDelete: Cascade)
+  coach     User            @relation("CoachNutritionPlans", fields: [coachId], references: [id], onDelete: Restrict)
+  meals     NutritionMeal[]
+
+  @@index([studentId])
+  @@index([coachId])
+}
+
+model NutritionMeal {
+  id           String        @id @default(uuid())
+  planId       String
+  type         MealType
+  label        String        @db.VarChar(100)
+  description  String
+  order        Int
+  reminderTime String?       @db.VarChar(5)
+  createdAt    DateTime      @default(now())
+  updatedAt    DateTime      @updatedAt
+  plan         NutritionPlan @relation(fields: [planId], references: [id], onDelete: Cascade)
+
+  @@index([planId])
+  @@index([reminderTime])
+}
+
+model PushSubscription {
+  id        String   @id @default(uuid())
+  userId    String
+  endpoint  String   @unique
+  p256dh    String
+  auth      String
+  createdAt DateTime @default(now())
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
 }

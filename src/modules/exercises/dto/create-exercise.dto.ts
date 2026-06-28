@@ -1,5 +1,6 @@
 import { ApiProperty, ApiPropertyOptional } from '@nestjs/swagger';
-import { IsOptional, IsString, IsUrl } from 'class-validator';
+import { IsEnum, IsOptional, IsString, IsUrl } from 'class-validator';
+import { MuscleGroup } from '@prisma/client';
 
 export class CreateExerciseDto {
   @ApiProperty({ example: 'پرس سرشانه دمبل' })
@@ -20,4 +21,14 @@ export class CreateExerciseDto {
   @IsOptional()
   @IsUrl({ require_tld: false })
   thumbnailUrl?: string;
+
+  @ApiPropertyOptional({ enum: MuscleGroup })
+  @IsOptional()
+  @IsEnum(MuscleGroup)
+  muscleGroup?: MuscleGroup;
+
+  @ApiPropertyOptional()
+  @IsOptional()
+  @IsUrl({ require_tld: false })
+  imageUrl?: string;
 }

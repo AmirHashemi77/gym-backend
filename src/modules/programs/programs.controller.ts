@@ -36,6 +36,12 @@ export class ProgramsController {
     return this.programsService.getActiveStats(studentId);
   }
 
+  @Roles(Role.ADMIN, Role.COACH)
+  @Get('students/expired')
+  getExpiredStudentPrograms(@CurrentUser() user: JwtUser) {
+    return this.programsService.getExpiredStudentPrograms(user);
+  }
+
   @Get(':id')
   findById(@Param('id') id: string, @CurrentUser() user: JwtUser) {
     return this.programsService.findById(id, user);

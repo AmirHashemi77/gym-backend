@@ -23,4 +23,13 @@ export class UploadController {
   uploadVideo(@UploadedFile() file: Express.Multer.File) {
     return this.uploadService.uploadVideo(file);
   }
+
+  @Roles(Role.ADMIN, Role.COACH)
+  @Post('image')
+  @ApiConsumes('multipart/form-data')
+  @ApiBody({ schema: { type: 'object', properties: { file: { type: 'string', format: 'binary' } } } })
+  @UseInterceptors(FileInterceptor('file', { storage: memoryStorage() }))
+  uploadImage(@UploadedFile() file: Express.Multer.File) {
+    return this.uploadService.uploadImage(file);
+  }
 }

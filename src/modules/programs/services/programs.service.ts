@@ -68,7 +68,27 @@ export class ProgramsService {
     const completedDays = Math.min(elapsedDays, totalDays);
     const remainingDays = Math.max(0, totalDays - elapsedDays);
 
-    return { data: { programId: program.id, totalDays, completedDays, remainingDays } };
+    const daysSinceCreated = elapsedDays;
+    const calendarRemainingDays =
+      program.durationDays != null ? Math.max(0, program.durationDays - daysSinceCreated) : null;
+
+    return {
+      data: {
+        programId: program.id,
+        programTitle: program.title,
+        totalDays,
+        completedDays,
+        remainingDays,
+        durationDays: program.durationDays ?? null,
+        calendarRemainingDays,
+      },
+    };
+  }
+
+  async getExpiredStudentPrograms(user: JwtUser) {
+    const coachId = user.role === Role.COACH ? user.sub : undefined;
+    const data = await this.programsRepository.findExpiredProgramsPerStudent(coachId);
+    return { data };
   }
 
   async remove(id: string, user: JwtUser) {

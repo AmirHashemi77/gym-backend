@@ -4,6 +4,17 @@ import { PrismaService } from '../../../database/prisma.service';
 import { PaginationQueryDto } from '../../../common/dto/pagination-query.dto';
 import { getPagination } from '../../../common/utils/pagination.util';
 
+export interface ExpiredStudentProgram {
+  studentId: string;
+  studentName: string;
+  studentPhone: string;
+  lastProgramId: string;
+  lastProgramTitle: string;
+  lastProgramCreatedAt: Date;
+  durationDays: number;
+  expiredAt: Date;
+}
+
 const programInclude = {
   student: { select: { id: true, fullName: true, phone: true } },
   coach: { select: { id: true, fullName: true } },
@@ -70,6 +81,7 @@ export class ProgramsRepository {
       orderBy: { createdAt: 'desc' },
       select: {
         id: true,
+        title: true,
         createdAt: true,
         durationDays: true,
       },
@@ -78,5 +90,45 @@ export class ProgramsRepository {
 
   softDelete(id: string) {
     return this.prisma.program.update({ where: { id }, data: { deletedAt: new Date() } });
+  }
+
+  findExpiredProgramsPerStudent(coachId?: string) {
+    const now = new Date();
+    if (coachId) {
+      return this.prisma.$queryRaw<ExpiredStudentProgram[]>`
+        SELECT DISTINCT ON (p."studentId")
+          u.id                                                          AS "studentId",
+          u."fullName"                                                  AS "studentName",
+          u.phone                                                       AS "studentPhone",
+          p.id                                                          AS "lastProgramId",
+          p.title                                                       AS "lastProgramTitle",
+          p."createdAt"                                                 AS "lastProgramCreatedAt",
+          p."durationDays"                                              AS "durationDays",
+          (p."createdAt" + p."durationDays" * INTERVAL '1 day')        AS "expiredAt"
+        FROM "Program" p
+        JOIN "User" u           ON u.id = p."studentId"
+        JOIN "StudentProfile" sp ON sp."userId" = p."studentId"
+        WHERE p."deletedAt" IS NULL
+          AND sp."coachId" = ${coachId}
+          AND (p."createdAt" + p."durationDays" * INTERVAL '1 day') < ${now}
+        ORDER BY p."studentId", p."createdAt" DESC
+      `;
+    }
+    return this.prisma.$queryRaw<ExpiredStudentProgram[]>`
+      SELECT DISTINCT ON (p."studentId")
+        u.id                                                          AS "studentId",
+        u."fullName"                                                  AS "studentName",
+        u.phone                                                       AS "studentPhone",
+        p.id                                                          AS "lastProgramId",
+        p.title                                                       AS "lastProgramTitle",
+        p."createdAt"                                                 AS "lastProgramCreatedAt",
+        p."durationDays"                                              AS "durationDays",
+        (p."createdAt" + p."durationDays" * INTERVAL '1 day')        AS "expiredAt"
+      FROM "Program" p
+      JOIN "User" u ON u.id = p."studentId"
+      WHERE p."deletedAt" IS NULL
+        AND (p."createdAt" + p."durationDays" * INTERVAL '1 day') < ${now}
+      ORDER BY p."studentId", p."createdAt" DESC
+    `;
   }
 }

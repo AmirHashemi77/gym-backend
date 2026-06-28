@@ -1,3 +1,5 @@
+import { MuscleGroup } from '@prisma/client';
+
 export class ExerciseEntity {
   id!: string;
   title!: string;
@@ -5,6 +7,8 @@ export class ExerciseEntity {
   description!: string | null;
   videoUrl!: string | null;
   thumbnailUrl!: string | null;
+  muscleGroup!: MuscleGroup | null;
+  imageUrl!: string | null;
   createdBy!: string;
   createdAt!: Date;
 }
