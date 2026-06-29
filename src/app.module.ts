@@ -12,6 +12,7 @@ import { UploadModule } from './modules/upload/upload.module';
 import { NotificationsModule } from './modules/notifications/notifications.module';
 import { CoachModule } from './modules/coach/coach.module';
 import { NutritionModule } from './modules/nutrition/nutrition.module';
+import { FoodsModule } from './modules/foods/foods.module';
 import { DatabaseModule } from './database/database.module';
 import { RequestLoggerMiddleware } from './common/middlewares/request-logger.middleware';
 
@@ -30,6 +31,7 @@ import { RequestLoggerMiddleware } from './common/middlewares/request-logger.mid
     NotificationsModule,
     CoachModule,
     NutritionModule,
+    FoodsModule,
   ],
   providers: [
     {

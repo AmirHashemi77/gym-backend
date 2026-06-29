@@ -2,8 +2,30 @@ import { PrismaClient, Role, ExerciseBlockType, MuscleGroup } from '@prisma/clie
 import * as bcrypt from 'bcryptjs';
 import slugify from 'slugify';
 import exercisesJson from '../exercises.json';
+import foodJson from '../food.json';
 
 const prisma = new PrismaClient();
+
+interface FoodJson {
+  id: string;
+  name: string;
+  name_en: string;
+  category: string;
+  categoryId: string;
+  image?: string;
+  serving: { amount: number; unit: string };
+  nutrition_per_100g: {
+    calories: number;
+    protein_g: number;
+    carbohydrate_g: number;
+    fat_g: number;
+    fiber_g: number;
+    sugar_g: number;
+    sodium_mg: number;
+  };
+  source?: string;
+  verified?: boolean;
+}
 
 interface ExerciseJson {
   id: string;
@@ -95,6 +117,55 @@ async function main(): Promise<void> {
   });
 
   console.log(`✓ ${count} exercise(s) inserted from JSON`);
+
+  // ─── Seed food categories and foods ─────────────────────────────────────────
+
+  const foods = (foodJson as { data: FoodJson[] }).data;
+
+  const seenCategoryIds = new Set<string>();
+  const categories: { name: string; categoryId: string; order: number }[] = [];
+  for (const food of foods) {
+    if (!seenCategoryIds.has(food.categoryId)) {
+      categories.push({ name: food.category, categoryId: food.categoryId, order: seenCategoryIds.size });
+      seenCategoryIds.add(food.categoryId);
+    }
+  }
+
+  const categoryMap = new Map<string, string>(); // categoryId slug -> db id
+  for (const cat of categories) {
+    const record = await prisma.foodCategory.upsert({
+      where: { categoryId: cat.categoryId },
+      update: { name: cat.name, order: cat.order },
+      create: { name: cat.name, categoryId: cat.categoryId, order: cat.order },
+    });
+    categoryMap.set(cat.categoryId, record.id);
+  }
+  console.log(`✓ ${categories.length} food categor(ies) upserted`);
+
+  const foodRecords = foods.map((f) => ({
+    id: f.id,
+    name: f.name,
+    nameEn: f.name_en,
+    image: f.image ?? null,
+    servingAmount: f.serving.amount,
+    servingUnit: f.serving.unit,
+    calories: f.nutrition_per_100g.calories,
+    proteinG: f.nutrition_per_100g.protein_g,
+    carbohydrateG: f.nutrition_per_100g.carbohydrate_g,
+    fatG: f.nutrition_per_100g.fat_g,
+    fiberG: f.nutrition_per_100g.fiber_g,
+    sugarG: f.nutrition_per_100g.sugar_g,
+    sodiumMg: f.nutrition_per_100g.sodium_mg,
+    source: f.source ?? 'USDA FoodData Central',
+    verified: f.verified ?? true,
+    categoryId: categoryMap.get(f.categoryId)!,
+  }));
+
+  const { count: foodCount } = await prisma.food.createMany({
+    data: foodRecords,
+    skipDuplicates: true,
+  });
+  console.log(`✓ ${foodCount} food(s) inserted from JSON`);
 
   // ─── Sample program ──────────────────────────────────────────────────────────
 

@@ -1,0 +1,3201 @@
+{
+  "data": [
+    {
+      "id": "rice-cooked-white",
+      "name": "برنج سفید پخته",
+      "name_en": "Cooked white rice",
+      "category": "غلات و نشاسته",
+      "categoryId": "grains-and-starches",
+      "image": "https://your-cdn.com/foods/rice-cooked-white.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 130,
+        "protein_g": 2.7,
+        "carbohydrate_g": 28.2,
+        "fat_g": 0.3,
+        "fiber_g": 0.4,
+        "sugar_g": 0.1,
+        "sodium_mg": 1
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "rice-cooked-brown",
+      "name": "برنج قهوه‌ای پخته",
+      "name_en": "Cooked brown rice",
+      "category": "غلات و نشاسته",
+      "categoryId": "grains-and-starches",
+      "image": "https://your-cdn.com/foods/rice-cooked-brown.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 123,
+        "protein_g": 2.7,
+        "carbohydrate_g": 25.6,
+        "fat_g": 1.0,
+        "fiber_g": 1.8,
+        "sugar_g": 0.2,
+        "sodium_mg": 4
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "oats-rolled-raw",
+      "name": "جو دوسر پرک خام",
+      "name_en": "Rolled oats, raw",
+      "category": "غلات و نشاسته",
+      "categoryId": "grains-and-starches",
+      "image": "https://your-cdn.com/foods/oats-rolled-raw.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 389,
+        "protein_g": 16.9,
+        "carbohydrate_g": 66.3,
+        "fat_g": 6.9,
+        "fiber_g": 10.6,
+        "sugar_g": 0.9,
+        "sodium_mg": 2
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "barley-cooked",
+      "name": "جو پخته",
+      "name_en": "Cooked barley",
+      "category": "غلات و نشاسته",
+      "categoryId": "grains-and-starches",
+      "image": "https://your-cdn.com/foods/barley-cooked.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 123,
+        "protein_g": 2.3,
+        "carbohydrate_g": 28.2,
+        "fat_g": 0.4,
+        "fiber_g": 3.8,
+        "sugar_g": 0.3,
+        "sodium_mg": 3
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "bulgur-cooked",
+      "name": "بلغور گندم پخته",
+      "name_en": "Cooked bulgur",
+      "category": "غلات و نشاسته",
+      "categoryId": "grains-and-starches",
+      "image": "https://your-cdn.com/foods/bulgur-cooked.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 83,
+        "protein_g": 3.1,
+        "carbohydrate_g": 18.6,
+        "fat_g": 0.2,
+        "fiber_g": 4.5,
+        "sugar_g": 0.1,
+        "sodium_mg": 5
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "quinoa-cooked",
+      "name": "کینوا پخته",
+      "name_en": "Cooked quinoa",
+      "category": "غلات و نشاسته",
+      "categoryId": "grains-and-starches",
+      "image": "https://your-cdn.com/foods/quinoa-cooked.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 120,
+        "protein_g": 4.4,
+        "carbohydrate_g": 21.3,
+        "fat_g": 1.9,
+        "fiber_g": 2.8,
+        "sugar_g": 0.9,
+        "sodium_mg": 7
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "couscous-cooked",
+      "name": "کوسکوس پخته",
+      "name_en": "Cooked couscous",
+      "category": "غلات و نشاسته",
+      "categoryId": "grains-and-starches",
+      "image": "https://your-cdn.com/foods/couscous-cooked.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 112,
+        "protein_g": 3.8,
+        "carbohydrate_g": 23.2,
+        "fat_g": 0.2,
+        "fiber_g": 1.4,
+        "sugar_g": 0.1,
+        "sodium_mg": 5
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "pasta-cooked",
+      "name": "ماکارونی پخته",
+      "name_en": "Cooked pasta",
+      "category": "غلات و نشاسته",
+      "categoryId": "grains-and-starches",
+      "image": "https://your-cdn.com/foods/pasta-cooked.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 158,
+        "protein_g": 5.8,
+        "carbohydrate_g": 30.9,
+        "fat_g": 0.9,
+        "fiber_g": 1.8,
+        "sugar_g": 0.6,
+        "sodium_mg": 1
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "wheat-flour-white",
+      "name": "آرد گندم سفید",
+      "name_en": "White wheat flour",
+      "category": "غلات و نشاسته",
+      "categoryId": "grains-and-starches",
+      "image": "https://your-cdn.com/foods/wheat-flour-white.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 364,
+        "protein_g": 10.3,
+        "carbohydrate_g": 76.3,
+        "fat_g": 1.0,
+        "fiber_g": 2.7,
+        "sugar_g": 0.3,
+        "sodium_mg": 2
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "wheat-flour-whole",
+      "name": "آرد گندم سبوس‌دار",
+      "name_en": "Whole wheat flour",
+      "category": "غلات و نشاسته",
+      "categoryId": "grains-and-starches",
+      "image": "https://your-cdn.com/foods/wheat-flour-whole.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 340,
+        "protein_g": 13.2,
+        "carbohydrate_g": 72.0,
+        "fat_g": 2.5,
+        "fiber_g": 10.7,
+        "sugar_g": 0.4,
+        "sodium_mg": 5
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "corn-boiled",
+      "name": "ذرت آب‌پز",
+      "name_en": "Boiled corn",
+      "category": "غلات و نشاسته",
+      "categoryId": "grains-and-starches",
+      "image": "https://your-cdn.com/foods/corn-boiled.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 96,
+        "protein_g": 3.4,
+        "carbohydrate_g": 21.0,
+        "fat_g": 1.5,
+        "fiber_g": 2.4,
+        "sugar_g": 4.5,
+        "sodium_mg": 1
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "potato-boiled",
+      "name": "سیب‌زمینی آب‌پز",
+      "name_en": "Boiled potato",
+      "category": "غلات و نشاسته",
+      "categoryId": "grains-and-starches",
+      "image": "https://your-cdn.com/foods/potato-boiled.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 87,
+        "protein_g": 1.9,
+        "carbohydrate_g": 20.1,
+        "fat_g": 0.1,
+        "fiber_g": 1.8,
+        "sugar_g": 0.9,
+        "sodium_mg": 4
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "sweet-potato-baked",
+      "name": "سیب‌زمینی شیرین پخته",
+      "name_en": "Baked sweet potato",
+      "category": "غلات و نشاسته",
+      "categoryId": "grains-and-starches",
+      "image": "https://your-cdn.com/foods/sweet-potato-baked.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 90,
+        "protein_g": 2.0,
+        "carbohydrate_g": 20.7,
+        "fat_g": 0.2,
+        "fiber_g": 3.3,
+        "sugar_g": 6.5,
+        "sodium_mg": 36
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "bread-lavash",
+      "name": "نان لواش",
+      "name_en": "Lavash bread",
+      "category": "انواع نان",
+      "categoryId": "breads",
+      "image": "https://your-cdn.com/foods/bread-lavash.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 290,
+        "protein_g": 9.1,
+        "carbohydrate_g": 56.0,
+        "fat_g": 2.2,
+        "fiber_g": 2.2,
+        "sugar_g": 1.5,
+        "sodium_mg": 550
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "bread-sangak",
+      "name": "نان سنگک",
+      "name_en": "Sangak bread",
+      "category": "انواع نان",
+      "categoryId": "breads",
+      "image": "https://your-cdn.com/foods/bread-sangak.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 260,
+        "protein_g": 9.0,
+        "carbohydrate_g": 52.0,
+        "fat_g": 1.7,
+        "fiber_g": 4.0,
+        "sugar_g": 1.3,
+        "sodium_mg": 520
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "bread-barbari",
+      "name": "نان بربری",
+      "name_en": "Barbari bread",
+      "category": "انواع نان",
+      "categoryId": "breads",
+      "image": "https://your-cdn.com/foods/bread-barbari.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 280,
+        "protein_g": 8.5,
+        "carbohydrate_g": 55.0,
+        "fat_g": 2.8,
+        "fiber_g": 3.0,
+        "sugar_g": 2.0,
+        "sodium_mg": 560
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "bread-taftoon",
+      "name": "نان تافتون",
+      "name_en": "Taftoon bread",
+      "category": "انواع نان",
+      "categoryId": "breads",
+      "image": "https://your-cdn.com/foods/bread-taftoon.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 275,
+        "protein_g": 8.8,
+        "carbohydrate_g": 54.0,
+        "fat_g": 2.0,
+        "fiber_g": 2.6,
+        "sugar_g": 1.7,
+        "sodium_mg": 540
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "bread-whole-wheat",
+      "name": "نان سبوس‌دار",
+      "name_en": "Whole wheat bread",
+      "category": "انواع نان",
+      "categoryId": "breads",
+      "image": "https://your-cdn.com/foods/bread-whole-wheat.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 247,
+        "protein_g": 13.0,
+        "carbohydrate_g": 41.0,
+        "fat_g": 4.2,
+        "fiber_g": 7.0,
+        "sugar_g": 5.6,
+        "sodium_mg": 400
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "bread-toast-white",
+      "name": "نان تست سفید",
+      "name_en": "White toast bread",
+      "category": "انواع نان",
+      "categoryId": "breads",
+      "image": "https://your-cdn.com/foods/bread-toast-white.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 265,
+        "protein_g": 9.0,
+        "carbohydrate_g": 49.0,
+        "fat_g": 3.2,
+        "fiber_g": 2.7,
+        "sugar_g": 5.0,
+        "sodium_mg": 490
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "bread-baguette",
+      "name": "نان باگت",
+      "name_en": "Baguette",
+      "category": "انواع نان",
+      "categoryId": "breads",
+      "image": "https://your-cdn.com/foods/bread-baguette.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 270,
+        "protein_g": 8.6,
+        "carbohydrate_g": 56.0,
+        "fat_g": 0.9,
+        "fiber_g": 2.5,
+        "sugar_g": 2.5,
+        "sodium_mg": 570
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "lentils-cooked",
+      "name": "عدس پخته",
+      "name_en": "Cooked lentils",
+      "category": "حبوبات",
+      "categoryId": "legumes",
+      "image": "https://your-cdn.com/foods/lentils-cooked.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 116,
+        "protein_g": 9.0,
+        "carbohydrate_g": 20.1,
+        "fat_g": 0.4,
+        "fiber_g": 7.9,
+        "sugar_g": 1.8,
+        "sodium_mg": 2
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "chickpeas-cooked",
+      "name": "نخود پخته",
+      "name_en": "Cooked chickpeas",
+      "category": "حبوبات",
+      "categoryId": "legumes",
+      "image": "https://your-cdn.com/foods/chickpeas-cooked.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 164,
+        "protein_g": 8.9,
+        "carbohydrate_g": 27.4,
+        "fat_g": 2.6,
+        "fiber_g": 7.6,
+        "sugar_g": 4.8,
+        "sodium_mg": 7
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "beans-red-cooked",
+      "name": "لوبیا قرمز پخته",
+      "name_en": "Cooked red kidney beans",
+      "category": "حبوبات",
+      "categoryId": "legumes",
+      "image": "https://your-cdn.com/foods/beans-red-cooked.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 127,
+        "protein_g": 8.7,
+        "carbohydrate_g": 22.8,
+        "fat_g": 0.5,
+        "fiber_g": 6.4,
+        "sugar_g": 0.3,
+        "sodium_mg": 1
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "beans-white-cooked",
+      "name": "لوبیا سفید پخته",
+      "name_en": "Cooked white beans",
+      "category": "حبوبات",
+      "categoryId": "legumes",
+      "image": "https://your-cdn.com/foods/beans-white-cooked.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 139,
+        "protein_g": 9.7,
+        "carbohydrate_g": 25.1,
+        "fat_g": 0.4,
+        "fiber_g": 6.3,
+        "sugar_g": 0.3,
+        "sodium_mg": 5
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "beans-black-cooked",
+      "name": "لوبیا سیاه پخته",
+      "name_en": "Cooked black beans",
+      "category": "حبوبات",
+      "categoryId": "legumes",
+      "image": "https://your-cdn.com/foods/beans-black-cooked.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 132,
+        "protein_g": 8.9,
+        "carbohydrate_g": 23.7,
+        "fat_g": 0.5,
+        "fiber_g": 8.7,
+        "sugar_g": 0.3,
+        "sodium_mg": 1
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "split-peas-cooked",
+      "name": "لپه پخته",
+      "name_en": "Cooked split peas",
+      "category": "حبوبات",
+      "categoryId": "legumes",
+      "image": "https://your-cdn.com/foods/split-peas-cooked.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 118,
+        "protein_g": 8.3,
+        "carbohydrate_g": 21.1,
+        "fat_g": 0.4,
+        "fiber_g": 8.3,
+        "sugar_g": 2.9,
+        "sodium_mg": 2
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "mung-beans-cooked",
+      "name": "ماش پخته",
+      "name_en": "Cooked mung beans",
+      "category": "حبوبات",
+      "categoryId": "legumes",
+      "image": "https://your-cdn.com/foods/mung-beans-cooked.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 105,
+        "protein_g": 7.0,
+        "carbohydrate_g": 19.2,
+        "fat_g": 0.4,
+        "fiber_g": 7.6,
+        "sugar_g": 2.0,
+        "sodium_mg": 2
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "soybeans-cooked",
+      "name": "سویا پخته",
+      "name_en": "Cooked soybeans",
+      "category": "حبوبات",
+      "categoryId": "legumes",
+      "image": "https://your-cdn.com/foods/soybeans-cooked.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 172,
+        "protein_g": 18.2,
+        "carbohydrate_g": 8.4,
+        "fat_g": 9.0,
+        "fiber_g": 6.0,
+        "sugar_g": 3.0,
+        "sodium_mg": 1
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "beef-lean-cooked",
+      "name": "گوشت گوساله کم‌چرب پخته",
+      "name_en": "Cooked lean beef",
+      "category": "انواع گوشت",
+      "categoryId": "meats",
+      "image": "https://your-cdn.com/foods/beef-lean-cooked.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 250,
+        "protein_g": 26.0,
+        "carbohydrate_g": 0.0,
+        "fat_g": 15.0,
+        "fiber_g": 0.0,
+        "sugar_g": 0.0,
+        "sodium_mg": 72
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "beef-ground-cooked",
+      "name": "گوشت چرخ‌کرده پخته",
+      "name_en": "Cooked ground beef",
+      "category": "انواع گوشت",
+      "categoryId": "meats",
+      "image": "https://your-cdn.com/foods/beef-ground-cooked.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 270,
+        "protein_g": 25.0,
+        "carbohydrate_g": 0.0,
+        "fat_g": 18.0,
+        "fiber_g": 0.0,
+        "sugar_g": 0.0,
+        "sodium_mg": 72
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "lamb-cooked",
+      "name": "گوشت گوسفند پخته",
+      "name_en": "Cooked lamb",
+      "category": "انواع گوشت",
+      "categoryId": "meats",
+      "image": "https://your-cdn.com/foods/lamb-cooked.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 294,
+        "protein_g": 25.6,
+        "carbohydrate_g": 0.0,
+        "fat_g": 21.0,
+        "fiber_g": 0.0,
+        "sugar_g": 0.0,
+        "sodium_mg": 72
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "goat-meat-cooked",
+      "name": "گوشت بز پخته",
+      "name_en": "Cooked goat meat",
+      "category": "انواع گوشت",
+      "categoryId": "meats",
+      "image": "https://your-cdn.com/foods/goat-meat-cooked.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 143,
+        "protein_g": 27.1,
+        "carbohydrate_g": 0.0,
+        "fat_g": 3.0,
+        "fiber_g": 0.0,
+        "sugar_g": 0.0,
+        "sodium_mg": 86
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "veal-cooked",
+      "name": "گوشت گوساله جوان پخته",
+      "name_en": "Cooked veal",
+      "category": "انواع گوشت",
+      "categoryId": "meats",
+      "image": "https://your-cdn.com/foods/veal-cooked.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 172,
+        "protein_g": 24.4,
+        "carbohydrate_g": 0.0,
+        "fat_g": 7.6,
+        "fiber_g": 0.0,
+        "sugar_g": 0.0,
+        "sodium_mg": 83
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "liver-beef-cooked",
+      "name": "جگر گاو پخته",
+      "name_en": "Cooked beef liver",
+      "category": "انواع گوشت",
+      "categoryId": "meats",
+      "image": "https://your-cdn.com/foods/liver-beef-cooked.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 191,
+        "protein_g": 29.1,
+        "carbohydrate_g": 5.1,
+        "fat_g": 5.3,
+        "fiber_g": 0.0,
+        "sugar_g": 0.0,
+        "sodium_mg": 76
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "chicken-breast-cooked",
+      "name": "سینه مرغ پخته",
+      "name_en": "Cooked chicken breast",
+      "category": "مرغ و ماکیان",
+      "categoryId": "poultry",
+      "image": "https://your-cdn.com/foods/chicken-breast-cooked.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 165,
+        "protein_g": 31.0,
+        "carbohydrate_g": 0.0,
+        "fat_g": 3.6,
+        "fiber_g": 0.0,
+        "sugar_g": 0.0,
+        "sodium_mg": 74
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "chicken-thigh-cooked",
+      "name": "ران مرغ پخته",
+      "name_en": "Cooked chicken thigh",
+      "category": "مرغ و ماکیان",
+      "categoryId": "poultry",
+      "image": "https://your-cdn.com/foods/chicken-thigh-cooked.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 209,
+        "protein_g": 26.0,
+        "carbohydrate_g": 0.0,
+        "fat_g": 10.9,
+        "fiber_g": 0.0,
+        "sugar_g": 0.0,
+        "sodium_mg": 84
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "turkey-breast-cooked",
+      "name": "سینه بوقلمون پخته",
+      "name_en": "Cooked turkey breast",
+      "category": "مرغ و ماکیان",
+      "categoryId": "poultry",
+      "image": "https://your-cdn.com/foods/turkey-breast-cooked.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 135,
+        "protein_g": 29.0,
+        "carbohydrate_g": 0.0,
+        "fat_g": 1.5,
+        "fiber_g": 0.0,
+        "sugar_g": 0.0,
+        "sodium_mg": 55
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "duck-meat-cooked",
+      "name": "گوشت اردک پخته",
+      "name_en": "Cooked duck meat",
+      "category": "مرغ و ماکیان",
+      "categoryId": "poultry",
+      "image": "https://your-cdn.com/foods/duck-meat-cooked.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 337,
+        "protein_g": 19.0,
+        "carbohydrate_g": 0.0,
+        "fat_g": 28.0,
+        "fiber_g": 0.0,
+        "sugar_g": 0.0,
+        "sodium_mg": 59
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "egg-whole-boiled",
+      "name": "تخم‌مرغ آب‌پز کامل",
+      "name_en": "Boiled whole egg",
+      "category": "تخم‌مرغ و لبنیات",
+      "categoryId": "eggs-and-dairy",
+      "image": "https://your-cdn.com/foods/egg-whole-boiled.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 155,
+        "protein_g": 12.6,
+        "carbohydrate_g": 1.1,
+        "fat_g": 10.6,
+        "fiber_g": 0.0,
+        "sugar_g": 1.1,
+        "sodium_mg": 124
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "egg-white",
+      "name": "سفیده تخم‌مرغ",
+      "name_en": "Egg white",
+      "category": "تخم‌مرغ و لبنیات",
+      "categoryId": "eggs-and-dairy",
+      "image": "https://your-cdn.com/foods/egg-white.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 52,
+        "protein_g": 10.9,
+        "carbohydrate_g": 0.7,
+        "fat_g": 0.2,
+        "fiber_g": 0.0,
+        "sugar_g": 0.7,
+        "sodium_mg": 166
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "salmon-cooked",
+      "name": "ماهی سالمون پخته",
+      "name_en": "Cooked salmon",
+      "category": "ماهی و دریایی",
+      "categoryId": "fish-and-seafood",
+      "image": "https://your-cdn.com/foods/salmon-cooked.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 206,
+        "protein_g": 22.1,
+        "carbohydrate_g": 0.0,
+        "fat_g": 12.4,
+        "fiber_g": 0.0,
+        "sugar_g": 0.0,
+        "sodium_mg": 59
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "tuna-canned-water",
+      "name": "تن ماهی در آب",
+      "name_en": "Canned tuna in water",
+      "category": "ماهی و دریایی",
+      "categoryId": "fish-and-seafood",
+      "image": "https://your-cdn.com/foods/tuna-canned-water.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 116,
+        "protein_g": 25.5,
+        "carbohydrate_g": 0.0,
+        "fat_g": 0.8,
+        "fiber_g": 0.0,
+        "sugar_g": 0.0,
+        "sodium_mg": 338
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "trout-cooked",
+      "name": "ماهی قزل‌آلا پخته",
+      "name_en": "Cooked trout",
+      "category": "ماهی و دریایی",
+      "categoryId": "fish-and-seafood",
+      "image": "https://your-cdn.com/foods/trout-cooked.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 190,
+        "protein_g": 26.6,
+        "carbohydrate_g": 0.0,
+        "fat_g": 8.0,
+        "fiber_g": 0.0,
+        "sugar_g": 0.0,
+        "sodium_mg": 65
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "cod-cooked",
+      "name": "ماهی کاد پخته",
+      "name_en": "Cooked cod",
+      "category": "ماهی و دریایی",
+      "categoryId": "fish-and-seafood",
+      "image": "https://your-cdn.com/foods/cod-cooked.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 105,
+        "protein_g": 22.8,
+        "carbohydrate_g": 0.0,
+        "fat_g": 0.9,
+        "fiber_g": 0.0,
+        "sugar_g": 0.0,
+        "sodium_mg": 78
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "shrimp-cooked",
+      "name": "میگو پخته",
+      "name_en": "Cooked shrimp",
+      "category": "ماهی و دریایی",
+      "categoryId": "fish-and-seafood",
+      "image": "https://your-cdn.com/foods/shrimp-cooked.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 99,
+        "protein_g": 24.0,
+        "carbohydrate_g": 0.2,
+        "fat_g": 0.3,
+        "fiber_g": 0.0,
+        "sugar_g": 0.0,
+        "sodium_mg": 111
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "sardine-canned",
+      "name": "ساردین کنسروی",
+      "name_en": "Canned sardines",
+      "category": "ماهی و دریایی",
+      "categoryId": "fish-and-seafood",
+      "image": "https://your-cdn.com/foods/sardine-canned.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 208,
+        "protein_g": 24.6,
+        "carbohydrate_g": 0.0,
+        "fat_g": 11.5,
+        "fiber_g": 0.0,
+        "sugar_g": 0.0,
+        "sodium_mg": 505
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "milk-whole",
+      "name": "شیر پرچرب",
+      "name_en": "Whole milk",
+      "category": "تخم‌مرغ و لبنیات",
+      "categoryId": "eggs-and-dairy",
+      "image": "https://your-cdn.com/foods/milk-whole.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 61,
+        "protein_g": 3.2,
+        "carbohydrate_g": 4.8,
+        "fat_g": 3.3,
+        "fiber_g": 0.0,
+        "sugar_g": 5.1,
+        "sodium_mg": 43
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "milk-low-fat",
+      "name": "شیر کم‌چرب",
+      "name_en": "Low-fat milk",
+      "category": "تخم‌مرغ و لبنیات",
+      "categoryId": "eggs-and-dairy",
+      "image": "https://your-cdn.com/foods/milk-low-fat.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 42,
+        "protein_g": 3.4,
+        "carbohydrate_g": 5.0,
+        "fat_g": 1.0,
+        "fiber_g": 0.0,
+        "sugar_g": 5.0,
+        "sodium_mg": 44
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "yogurt-plain",
+      "name": "ماست ساده",
+      "name_en": "Plain yogurt",
+      "category": "تخم‌مرغ و لبنیات",
+      "categoryId": "eggs-and-dairy",
+      "image": "https://your-cdn.com/foods/yogurt-plain.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 61,
+        "protein_g": 3.5,
+        "carbohydrate_g": 4.7,
+        "fat_g": 3.3,
+        "fiber_g": 0.0,
+        "sugar_g": 4.7,
+        "sodium_mg": 46
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "greek-yogurt-plain",
+      "name": "ماست یونانی ساده",
+      "name_en": "Plain Greek yogurt",
+      "category": "تخم‌مرغ و لبنیات",
+      "categoryId": "eggs-and-dairy",
+      "image": "https://your-cdn.com/foods/greek-yogurt-plain.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 97,
+        "protein_g": 9.0,
+        "carbohydrate_g": 3.6,
+        "fat_g": 5.0,
+        "fiber_g": 0.0,
+        "sugar_g": 3.2,
+        "sodium_mg": 36
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "cheese-feta",
+      "name": "پنیر فتا",
+      "name_en": "Feta cheese",
+      "category": "تخم‌مرغ و لبنیات",
+      "categoryId": "eggs-and-dairy",
+      "image": "https://your-cdn.com/foods/cheese-feta.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 264,
+        "protein_g": 14.2,
+        "carbohydrate_g": 4.1,
+        "fat_g": 21.3,
+        "fiber_g": 0.0,
+        "sugar_g": 4.1,
+        "sodium_mg": 1116
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "cheese-cheddar",
+      "name": "پنیر چدار",
+      "name_en": "Cheddar cheese",
+      "category": "تخم‌مرغ و لبنیات",
+      "categoryId": "eggs-and-dairy",
+      "image": "https://your-cdn.com/foods/cheese-cheddar.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 403,
+        "protein_g": 24.9,
+        "carbohydrate_g": 1.3,
+        "fat_g": 33.1,
+        "fiber_g": 0.0,
+        "sugar_g": 0.5,
+        "sodium_mg": 621
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "butter",
+      "name": "کره",
+      "name_en": "Butter",
+      "category": "روغن و چربی",
+      "categoryId": "oils-and-fats",
+      "image": "https://your-cdn.com/foods/butter.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 717,
+        "protein_g": 0.9,
+        "carbohydrate_g": 0.1,
+        "fat_g": 81.1,
+        "fiber_g": 0.0,
+        "sugar_g": 0.1,
+        "sodium_mg": 11
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "apple",
+      "name": "سیب",
+      "name_en": "Apple",
+      "category": "میوه‌ها",
+      "categoryId": "fruits",
+      "image": "https://your-cdn.com/foods/apple.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 52,
+        "protein_g": 0.3,
+        "carbohydrate_g": 13.8,
+        "fat_g": 0.2,
+        "fiber_g": 2.4,
+        "sugar_g": 10.4,
+        "sodium_mg": 1
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "banana",
+      "name": "موز",
+      "name_en": "Banana",
+      "category": "میوه‌ها",
+      "categoryId": "fruits",
+      "image": "https://your-cdn.com/foods/banana.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 89,
+        "protein_g": 1.1,
+        "carbohydrate_g": 22.8,
+        "fat_g": 0.3,
+        "fiber_g": 2.6,
+        "sugar_g": 12.2,
+        "sodium_mg": 1
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "orange",
+      "name": "پرتقال",
+      "name_en": "Orange",
+      "category": "میوه‌ها",
+      "categoryId": "fruits",
+      "image": "https://your-cdn.com/foods/orange.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 47,
+        "protein_g": 0.9,
+        "carbohydrate_g": 11.8,
+        "fat_g": 0.1,
+        "fiber_g": 2.4,
+        "sugar_g": 9.4,
+        "sodium_mg": 0
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "grape",
+      "name": "انگور",
+      "name_en": "Grapes",
+      "category": "میوه‌ها",
+      "categoryId": "fruits",
+      "image": "https://your-cdn.com/foods/grape.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 69,
+        "protein_g": 0.7,
+        "carbohydrate_g": 18.1,
+        "fat_g": 0.2,
+        "fiber_g": 0.9,
+        "sugar_g": 15.5,
+        "sodium_mg": 2
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "strawberry",
+      "name": "توت‌فرنگی",
+      "name_en": "Strawberry",
+      "category": "میوه‌ها",
+      "categoryId": "fruits",
+      "image": "https://your-cdn.com/foods/strawberry.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 32,
+        "protein_g": 0.7,
+        "carbohydrate_g": 7.7,
+        "fat_g": 0.3,
+        "fiber_g": 2.0,
+        "sugar_g": 4.9,
+        "sodium_mg": 1
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "watermelon",
+      "name": "هندوانه",
+      "name_en": "Watermelon",
+      "category": "میوه‌ها",
+      "categoryId": "fruits",
+      "image": "https://your-cdn.com/foods/watermelon.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 30,
+        "protein_g": 0.6,
+        "carbohydrate_g": 7.6,
+        "fat_g": 0.2,
+        "fiber_g": 0.4,
+        "sugar_g": 6.2,
+        "sodium_mg": 1
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "melon",
+      "name": "طالبی",
+      "name_en": "Cantaloupe melon",
+      "category": "میوه‌ها",
+      "categoryId": "fruits",
+      "image": "https://your-cdn.com/foods/melon.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 34,
+        "protein_g": 0.8,
+        "carbohydrate_g": 8.2,
+        "fat_g": 0.2,
+        "fiber_g": 0.9,
+        "sugar_g": 7.9,
+        "sodium_mg": 16
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "kiwi",
+      "name": "کیوی",
+      "name_en": "Kiwi",
+      "category": "میوه‌ها",
+      "categoryId": "fruits",
+      "image": "https://your-cdn.com/foods/kiwi.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 61,
+        "protein_g": 1.1,
+        "carbohydrate_g": 14.7,
+        "fat_g": 0.5,
+        "fiber_g": 3.0,
+        "sugar_g": 9.0,
+        "sodium_mg": 3
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "peach",
+      "name": "هلو",
+      "name_en": "Peach",
+      "category": "میوه‌ها",
+      "categoryId": "fruits",
+      "image": "https://your-cdn.com/foods/peach.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 39,
+        "protein_g": 0.9,
+        "carbohydrate_g": 9.5,
+        "fat_g": 0.3,
+        "fiber_g": 1.5,
+        "sugar_g": 8.4,
+        "sodium_mg": 0
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "pear",
+      "name": "گلابی",
+      "name_en": "Pear",
+      "category": "میوه‌ها",
+      "categoryId": "fruits",
+      "image": "https://your-cdn.com/foods/pear.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 57,
+        "protein_g": 0.4,
+        "carbohydrate_g": 15.2,
+        "fat_g": 0.1,
+        "fiber_g": 3.1,
+        "sugar_g": 9.8,
+        "sodium_mg": 1
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "plum",
+      "name": "آلو",
+      "name_en": "Plum",
+      "category": "میوه‌ها",
+      "categoryId": "fruits",
+      "image": "https://your-cdn.com/foods/plum.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 46,
+        "protein_g": 0.7,
+        "carbohydrate_g": 11.4,
+        "fat_g": 0.3,
+        "fiber_g": 1.4,
+        "sugar_g": 10.0,
+        "sodium_mg": 0
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "apricot",
+      "name": "زردآلو",
+      "name_en": "Apricot",
+      "category": "میوه‌ها",
+      "categoryId": "fruits",
+      "image": "https://your-cdn.com/foods/apricot.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 48,
+        "protein_g": 1.4,
+        "carbohydrate_g": 11.1,
+        "fat_g": 0.4,
+        "fiber_g": 2.0,
+        "sugar_g": 9.2,
+        "sodium_mg": 1
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "pomegranate",
+      "name": "انار",
+      "name_en": "Pomegranate",
+      "category": "میوه‌ها",
+      "categoryId": "fruits",
+      "image": "https://your-cdn.com/foods/pomegranate.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 83,
+        "protein_g": 1.7,
+        "carbohydrate_g": 18.7,
+        "fat_g": 1.2,
+        "fiber_g": 4.0,
+        "sugar_g": 13.7,
+        "sodium_mg": 3
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "fig-fresh",
+      "name": "انجیر تازه",
+      "name_en": "Fresh fig",
+      "category": "میوه‌ها",
+      "categoryId": "fruits",
+      "image": "https://your-cdn.com/foods/fig-fresh.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 74,
+        "protein_g": 0.8,
+        "carbohydrate_g": 19.2,
+        "fat_g": 0.3,
+        "fiber_g": 2.9,
+        "sugar_g": 16.3,
+        "sodium_mg": 1
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "date",
+      "name": "خرما",
+      "name_en": "Dates",
+      "category": "میوه‌ها",
+      "categoryId": "fruits",
+      "image": "https://your-cdn.com/foods/date.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 277,
+        "protein_g": 1.8,
+        "carbohydrate_g": 75.0,
+        "fat_g": 0.2,
+        "fiber_g": 6.7,
+        "sugar_g": 63.4,
+        "sodium_mg": 1
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "avocado",
+      "name": "آووکادو",
+      "name_en": "Avocado",
+      "category": "میوه‌ها",
+      "categoryId": "fruits",
+      "image": "https://your-cdn.com/foods/avocado.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 160,
+        "protein_g": 2.0,
+        "carbohydrate_g": 8.5,
+        "fat_g": 14.7,
+        "fiber_g": 6.7,
+        "sugar_g": 0.7,
+        "sodium_mg": 7
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "tomato",
+      "name": "گوجه‌فرنگی",
+      "name_en": "Tomato",
+      "category": "سبزیجات",
+      "categoryId": "vegetables",
+      "image": "https://your-cdn.com/foods/tomato.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 18,
+        "protein_g": 0.9,
+        "carbohydrate_g": 3.9,
+        "fat_g": 0.2,
+        "fiber_g": 1.2,
+        "sugar_g": 2.6,
+        "sodium_mg": 5
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "cucumber",
+      "name": "خیار",
+      "name_en": "Cucumber",
+      "category": "سبزیجات",
+      "categoryId": "vegetables",
+      "image": "https://your-cdn.com/foods/cucumber.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 15,
+        "protein_g": 0.7,
+        "carbohydrate_g": 3.6,
+        "fat_g": 0.1,
+        "fiber_g": 0.5,
+        "sugar_g": 1.7,
+        "sodium_mg": 2
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "lettuce",
+      "name": "کاهو",
+      "name_en": "Lettuce",
+      "category": "سبزیجات",
+      "categoryId": "vegetables",
+      "image": "https://your-cdn.com/foods/lettuce.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 15,
+        "protein_g": 1.4,
+        "carbohydrate_g": 2.9,
+        "fat_g": 0.2,
+        "fiber_g": 1.3,
+        "sugar_g": 0.8,
+        "sodium_mg": 28
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "spinach",
+      "name": "اسفناج",
+      "name_en": "Spinach",
+      "category": "سبزیجات",
+      "categoryId": "vegetables",
+      "image": "https://your-cdn.com/foods/spinach.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 23,
+        "protein_g": 2.9,
+        "carbohydrate_g": 3.6,
+        "fat_g": 0.4,
+        "fiber_g": 2.2,
+        "sugar_g": 0.4,
+        "sodium_mg": 79
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "carrot",
+      "name": "هویج",
+      "name_en": "Carrot",
+      "category": "سبزیجات",
+      "categoryId": "vegetables",
+      "image": "https://your-cdn.com/foods/carrot.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 41,
+        "protein_g": 0.9,
+        "carbohydrate_g": 9.6,
+        "fat_g": 0.2,
+        "fiber_g": 2.8,
+        "sugar_g": 4.7,
+        "sodium_mg": 69
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "onion",
+      "name": "پیاز",
+      "name_en": "Onion",
+      "category": "سبزیجات",
+      "categoryId": "vegetables",
+      "image": "https://your-cdn.com/foods/onion.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 40,
+        "protein_g": 1.1,
+        "carbohydrate_g": 9.3,
+        "fat_g": 0.1,
+        "fiber_g": 1.7,
+        "sugar_g": 4.2,
+        "sodium_mg": 4
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "garlic",
+      "name": "سیر",
+      "name_en": "Garlic",
+      "category": "سبزیجات",
+      "categoryId": "vegetables",
+      "image": "https://your-cdn.com/foods/garlic.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 149,
+        "protein_g": 6.4,
+        "carbohydrate_g": 33.1,
+        "fat_g": 0.5,
+        "fiber_g": 2.1,
+        "sugar_g": 1.0,
+        "sodium_mg": 17
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "bell-pepper",
+      "name": "فلفل دلمه‌ای",
+      "name_en": "Bell pepper",
+      "category": "سبزیجات",
+      "categoryId": "vegetables",
+      "image": "https://your-cdn.com/foods/bell-pepper.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 31,
+        "protein_g": 1.0,
+        "carbohydrate_g": 6.0,
+        "fat_g": 0.3,
+        "fiber_g": 2.1,
+        "sugar_g": 4.2,
+        "sodium_mg": 4
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "eggplant",
+      "name": "بادمجان",
+      "name_en": "Eggplant",
+      "category": "سبزیجات",
+      "categoryId": "vegetables",
+      "image": "https://your-cdn.com/foods/eggplant.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 25,
+        "protein_g": 1.0,
+        "carbohydrate_g": 5.9,
+        "fat_g": 0.2,
+        "fiber_g": 3.0,
+        "sugar_g": 3.5,
+        "sodium_mg": 2
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "zucchini",
+      "name": "کدو سبز",
+      "name_en": "Zucchini",
+      "category": "سبزیجات",
+      "categoryId": "vegetables",
+      "image": "https://your-cdn.com/foods/zucchini.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 17,
+        "protein_g": 1.2,
+        "carbohydrate_g": 3.1,
+        "fat_g": 0.3,
+        "fiber_g": 1.0,
+        "sugar_g": 2.5,
+        "sodium_mg": 8
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "broccoli",
+      "name": "بروکلی",
+      "name_en": "Broccoli",
+      "category": "سبزیجات",
+      "categoryId": "vegetables",
+      "image": "https://your-cdn.com/foods/broccoli.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 34,
+        "protein_g": 2.8,
+        "carbohydrate_g": 6.6,
+        "fat_g": 0.4,
+        "fiber_g": 2.6,
+        "sugar_g": 1.7,
+        "sodium_mg": 33
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "cauliflower",
+      "name": "گل‌کلم",
+      "name_en": "Cauliflower",
+      "category": "سبزیجات",
+      "categoryId": "vegetables",
+      "image": "https://your-cdn.com/foods/cauliflower.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 25,
+        "protein_g": 1.9,
+        "carbohydrate_g": 5.0,
+        "fat_g": 0.3,
+        "fiber_g": 2.0,
+        "sugar_g": 1.9,
+        "sodium_mg": 30
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "cabbage",
+      "name": "کلم سفید",
+      "name_en": "Cabbage",
+      "category": "سبزیجات",
+      "categoryId": "vegetables",
+      "image": "https://your-cdn.com/foods/cabbage.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 25,
+        "protein_g": 1.3,
+        "carbohydrate_g": 5.8,
+        "fat_g": 0.1,
+        "fiber_g": 2.5,
+        "sugar_g": 3.2,
+        "sodium_mg": 18
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "mushroom",
+      "name": "قارچ",
+      "name_en": "Mushroom",
+      "category": "سبزیجات",
+      "categoryId": "vegetables",
+      "image": "https://your-cdn.com/foods/mushroom.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 22,
+        "protein_g": 3.1,
+        "carbohydrate_g": 3.3,
+        "fat_g": 0.3,
+        "fiber_g": 1.0,
+        "sugar_g": 2.0,
+        "sodium_mg": 5
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "green-beans",
+      "name": "لوبیا سبز",
+      "name_en": "Green beans",
+      "category": "سبزیجات",
+      "categoryId": "vegetables",
+      "image": "https://your-cdn.com/foods/green-beans.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 31,
+        "protein_g": 1.8,
+        "carbohydrate_g": 7.0,
+        "fat_g": 0.2,
+        "fiber_g": 3.4,
+        "sugar_g": 3.3,
+        "sodium_mg": 6
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "almond",
+      "name": "بادام",
+      "name_en": "Almonds",
+      "category": "خشکبار و مغزها",
+      "categoryId": "nuts-and-dried-fruits",
+      "image": "https://your-cdn.com/foods/almond.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 579,
+        "protein_g": 21.2,
+        "carbohydrate_g": 21.6,
+        "fat_g": 49.9,
+        "fiber_g": 12.5,
+        "sugar_g": 4.4,
+        "sodium_mg": 1
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "walnut",
+      "name": "گردو",
+      "name_en": "Walnuts",
+      "category": "خشکبار و مغزها",
+      "categoryId": "nuts-and-dried-fruits",
+      "image": "https://your-cdn.com/foods/walnut.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 654,
+        "protein_g": 15.2,
+        "carbohydrate_g": 13.7,
+        "fat_g": 65.2,
+        "fiber_g": 6.7,
+        "sugar_g": 2.6,
+        "sodium_mg": 2
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "pistachio",
+      "name": "پسته",
+      "name_en": "Pistachios",
+      "category": "خشکبار و مغزها",
+      "categoryId": "nuts-and-dried-fruits",
+      "image": "https://your-cdn.com/foods/pistachio.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 560,
+        "protein_g": 20.2,
+        "carbohydrate_g": 27.2,
+        "fat_g": 45.3,
+        "fiber_g": 10.6,
+        "sugar_g": 7.7,
+        "sodium_mg": 1
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "hazelnut",
+      "name": "فندق",
+      "name_en": "Hazelnuts",
+      "category": "خشکبار و مغزها",
+      "categoryId": "nuts-and-dried-fruits",
+      "image": "https://your-cdn.com/foods/hazelnut.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 628,
+        "protein_g": 15.0,
+        "carbohydrate_g": 16.7,
+        "fat_g": 60.8,
+        "fiber_g": 9.7,
+        "sugar_g": 4.3,
+        "sodium_mg": 0
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "cashew",
+      "name": "بادام هندی",
+      "name_en": "Cashews",
+      "category": "خشکبار و مغزها",
+      "categoryId": "nuts-and-dried-fruits",
+      "image": "https://your-cdn.com/foods/cashew.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 553,
+        "protein_g": 18.2,
+        "carbohydrate_g": 30.2,
+        "fat_g": 43.9,
+        "fiber_g": 3.3,
+        "sugar_g": 5.9,
+        "sodium_mg": 12
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "peanut",
+      "name": "بادام زمینی",
+      "name_en": "Peanuts",
+      "category": "خشکبار و مغزها",
+      "categoryId": "nuts-and-dried-fruits",
+      "image": "https://your-cdn.com/foods/peanut.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 567,
+        "protein_g": 25.8,
+        "carbohydrate_g": 16.1,
+        "fat_g": 49.2,
+        "fiber_g": 8.5,
+        "sugar_g": 4.7,
+        "sodium_mg": 18
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "raisins",
+      "name": "کشمش",
+      "name_en": "Raisins",
+      "category": "خشکبار و مغزها",
+      "categoryId": "nuts-and-dried-fruits",
+      "image": "https://your-cdn.com/foods/raisins.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 299,
+        "protein_g": 3.1,
+        "carbohydrate_g": 79.2,
+        "fat_g": 0.5,
+        "fiber_g": 3.7,
+        "sugar_g": 59.2,
+        "sodium_mg": 11
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "dried-fig",
+      "name": "انجیر خشک",
+      "name_en": "Dried fig",
+      "category": "خشکبار و مغزها",
+      "categoryId": "nuts-and-dried-fruits",
+      "image": "https://your-cdn.com/foods/dried-fig.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 249,
+        "protein_g": 3.3,
+        "carbohydrate_g": 63.9,
+        "fat_g": 0.9,
+        "fiber_g": 9.8,
+        "sugar_g": 47.9,
+        "sodium_mg": 10
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "dried-apricot",
+      "name": "برگه زردآلو",
+      "name_en": "Dried apricot",
+      "category": "خشکبار و مغزها",
+      "categoryId": "nuts-and-dried-fruits",
+      "image": "https://your-cdn.com/foods/dried-apricot.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 241,
+        "protein_g": 3.4,
+        "carbohydrate_g": 62.6,
+        "fat_g": 0.5,
+        "fiber_g": 7.3,
+        "sugar_g": 53.4,
+        "sodium_mg": 10
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "sunflower-seeds",
+      "name": "تخمه آفتابگردان",
+      "name_en": "Sunflower seeds",
+      "category": "خشکبار و مغزها",
+      "categoryId": "nuts-and-dried-fruits",
+      "image": "https://your-cdn.com/foods/sunflower-seeds.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 584,
+        "protein_g": 20.8,
+        "carbohydrate_g": 20.0,
+        "fat_g": 51.5,
+        "fiber_g": 8.6,
+        "sugar_g": 2.6,
+        "sodium_mg": 9
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "pumpkin-seeds",
+      "name": "تخمه کدو",
+      "name_en": "Pumpkin seeds",
+      "category": "خشکبار و مغزها",
+      "categoryId": "nuts-and-dried-fruits",
+      "image": "https://your-cdn.com/foods/pumpkin-seeds.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 559,
+        "protein_g": 30.2,
+        "carbohydrate_g": 10.7,
+        "fat_g": 49.0,
+        "fiber_g": 6.0,
+        "sugar_g": 1.4,
+        "sodium_mg": 7
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "sesame-seeds",
+      "name": "کنجد",
+      "name_en": "Sesame seeds",
+      "category": "خشکبار و مغزها",
+      "categoryId": "nuts-and-dried-fruits",
+      "image": "https://your-cdn.com/foods/sesame-seeds.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 573,
+        "protein_g": 17.7,
+        "carbohydrate_g": 23.5,
+        "fat_g": 49.7,
+        "fiber_g": 11.8,
+        "sugar_g": 0.3,
+        "sodium_mg": 11
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "olive-oil",
+      "name": "روغن زیتون",
+      "name_en": "Olive oil",
+      "category": "روغن و چربی",
+      "categoryId": "oils-and-fats",
+      "image": "https://your-cdn.com/foods/olive-oil.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 884,
+        "protein_g": 0.0,
+        "carbohydrate_g": 0.0,
+        "fat_g": 100.0,
+        "fiber_g": 0.0,
+        "sugar_g": 0.0,
+        "sodium_mg": 2
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "sunflower-oil",
+      "name": "روغن آفتابگردان",
+      "name_en": "Sunflower oil",
+      "category": "روغن و چربی",
+      "categoryId": "oils-and-fats",
+      "image": "https://your-cdn.com/foods/sunflower-oil.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 884,
+        "protein_g": 0.0,
+        "carbohydrate_g": 0.0,
+        "fat_g": 100.0,
+        "fiber_g": 0.0,
+        "sugar_g": 0.0,
+        "sodium_mg": 0
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "canola-oil",
+      "name": "روغن کانولا",
+      "name_en": "Canola oil",
+      "category": "روغن و چربی",
+      "categoryId": "oils-and-fats",
+      "image": "https://your-cdn.com/foods/canola-oil.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 884,
+        "protein_g": 0.0,
+        "carbohydrate_g": 0.0,
+        "fat_g": 100.0,
+        "fiber_g": 0.0,
+        "sugar_g": 0.0,
+        "sodium_mg": 0
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "coconut-oil",
+      "name": "روغن نارگیل",
+      "name_en": "Coconut oil",
+      "category": "روغن و چربی",
+      "categoryId": "oils-and-fats",
+      "image": "https://your-cdn.com/foods/coconut-oil.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 892,
+        "protein_g": 0.0,
+        "carbohydrate_g": 0.0,
+        "fat_g": 99.1,
+        "fiber_g": 0.0,
+        "sugar_g": 0.0,
+        "sodium_mg": 0
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "cream",
+      "name": "خامه",
+      "name_en": "Cream",
+      "category": "روغن و چربی",
+      "categoryId": "oils-and-fats",
+      "image": "https://your-cdn.com/foods/cream.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 340,
+        "protein_g": 2.1,
+        "carbohydrate_g": 2.8,
+        "fat_g": 36.0,
+        "fiber_g": 0.0,
+        "sugar_g": 2.9,
+        "sodium_mg": 27
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "sugar-white",
+      "name": "شکر سفید",
+      "name_en": "White sugar",
+      "category": "قندها و شیرین‌کننده‌ها",
+      "categoryId": "sugars-and-sweeteners",
+      "image": "https://your-cdn.com/foods/sugar-white.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 387,
+        "protein_g": 0.0,
+        "carbohydrate_g": 100.0,
+        "fat_g": 0.0,
+        "fiber_g": 0.0,
+        "sugar_g": 100.0,
+        "sodium_mg": 1
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "honey",
+      "name": "عسل",
+      "name_en": "Honey",
+      "category": "قندها و شیرین‌کننده‌ها",
+      "categoryId": "sugars-and-sweeteners",
+      "image": "https://your-cdn.com/foods/honey.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 304,
+        "protein_g": 0.3,
+        "carbohydrate_g": 82.4,
+        "fat_g": 0.0,
+        "fiber_g": 0.2,
+        "sugar_g": 82.1,
+        "sodium_mg": 4
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "molasses-grape",
+      "name": "شیره انگور",
+      "name_en": "Grape molasses",
+      "category": "قندها و شیرین‌کننده‌ها",
+      "categoryId": "sugars-and-sweeteners",
+      "image": "https://your-cdn.com/foods/molasses-grape.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 290,
+        "protein_g": 0.5,
+        "carbohydrate_g": 74.0,
+        "fat_g": 0.0,
+        "fiber_g": 0.0,
+        "sugar_g": 68.0,
+        "sodium_mg": 20
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "salt",
+      "name": "نمک",
+      "name_en": "Salt",
+      "category": "چاشنی و ادویه",
+      "categoryId": "seasonings-and-spices",
+      "image": "https://your-cdn.com/foods/salt.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 0,
+        "protein_g": 0.0,
+        "carbohydrate_g": 0.0,
+        "fat_g": 0.0,
+        "fiber_g": 0.0,
+        "sugar_g": 0.0,
+        "sodium_mg": 38758
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "black-pepper",
+      "name": "فلفل سیاه",
+      "name_en": "Black pepper",
+      "category": "چاشنی و ادویه",
+      "categoryId": "seasonings-and-spices",
+      "image": "https://your-cdn.com/foods/black-pepper.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 251,
+        "protein_g": 10.4,
+        "carbohydrate_g": 63.9,
+        "fat_g": 3.3,
+        "fiber_g": 25.3,
+        "sugar_g": 0.6,
+        "sodium_mg": 20
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "turmeric",
+      "name": "زردچوبه",
+      "name_en": "Turmeric",
+      "category": "چاشنی و ادویه",
+      "categoryId": "seasonings-and-spices",
+      "image": "https://your-cdn.com/foods/turmeric.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 312,
+        "protein_g": 9.7,
+        "carbohydrate_g": 67.1,
+        "fat_g": 3.3,
+        "fiber_g": 22.7,
+        "sugar_g": 3.2,
+        "sodium_mg": 27
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "cinnamon",
+      "name": "دارچین",
+      "name_en": "Cinnamon",
+      "category": "چاشنی و ادویه",
+      "categoryId": "seasonings-and-spices",
+      "image": "https://your-cdn.com/foods/cinnamon.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 247,
+        "protein_g": 4.0,
+        "carbohydrate_g": 80.6,
+        "fat_g": 1.2,
+        "fiber_g": 53.1,
+        "sugar_g": 2.2,
+        "sodium_mg": 10
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "saffron",
+      "name": "زعفران",
+      "name_en": "Saffron",
+      "category": "چاشنی و ادویه",
+      "categoryId": "seasonings-and-spices",
+      "image": "https://your-cdn.com/foods/saffron.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 310,
+        "protein_g": 11.4,
+        "carbohydrate_g": 65.4,
+        "fat_g": 5.9,
+        "fiber_g": 3.9,
+        "sugar_g": 0.0,
+        "sodium_mg": 148
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "vinegar",
+      "name": "سرکه",
+      "name_en": "Vinegar",
+      "category": "چاشنی و ادویه",
+      "categoryId": "seasonings-and-spices",
+      "image": "https://your-cdn.com/foods/vinegar.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 18,
+        "protein_g": 0.0,
+        "carbohydrate_g": 0.0,
+        "fat_g": 0.0,
+        "fiber_g": 0.0,
+        "sugar_g": 0.0,
+        "sodium_mg": 2
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "rice-raw-white",
+      "name": "برنج سفید خام",
+      "name_en": "Raw white rice",
+      "category": "غلات و نشاسته",
+      "categoryId": "grains-and-starches",
+      "image": "https://your-cdn.com/foods/rice-raw-white.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 365,
+        "protein_g": 7.1,
+        "carbohydrate_g": 80.0,
+        "fat_g": 0.7,
+        "fiber_g": 1.3,
+        "sugar_g": 0.1,
+        "sodium_mg": 5
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "lentils-raw",
+      "name": "عدس خام",
+      "name_en": "Raw lentils",
+      "category": "حبوبات",
+      "categoryId": "legumes",
+      "image": "https://your-cdn.com/foods/lentils-raw.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 352,
+        "protein_g": 24.6,
+        "carbohydrate_g": 63.4,
+        "fat_g": 1.1,
+        "fiber_g": 10.7,
+        "sugar_g": 2.0,
+        "sodium_mg": 6
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "chickpeas-raw",
+      "name": "نخود خام",
+      "name_en": "Raw chickpeas",
+      "category": "حبوبات",
+      "categoryId": "legumes",
+      "image": "https://your-cdn.com/foods/chickpeas-raw.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 378,
+        "protein_g": 20.5,
+        "carbohydrate_g": 63.0,
+        "fat_g": 6.0,
+        "fiber_g": 12.2,
+        "sugar_g": 10.7,
+        "sodium_mg": 24
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "beans-red-raw",
+      "name": "لوبیا قرمز خام",
+      "name_en": "Raw kidney beans",
+      "category": "حبوبات",
+      "categoryId": "legumes",
+      "image": "https://your-cdn.com/foods/beans-red-raw.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 333,
+        "protein_g": 24.0,
+        "carbohydrate_g": 60.0,
+        "fat_g": 0.8,
+        "fiber_g": 25.0,
+        "sugar_g": 2.2,
+        "sodium_mg": 24
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "herbs-fresh-mixed",
+      "name": "سبزی خوردن تازه",
+      "name_en": "Fresh mixed herbs",
+      "category": "سبزیجات",
+      "categoryId": "vegetables",
+      "image": "https://your-cdn.com/foods/herbs-fresh-mixed.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 35,
+        "protein_g": 3.0,
+        "carbohydrate_g": 6.0,
+        "fat_g": 0.6,
+        "fiber_g": 3.5,
+        "sugar_g": 1.5,
+        "sodium_mg": 45
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "parsley",
+      "name": "جعفری",
+      "name_en": "Parsley",
+      "category": "سبزیجات",
+      "categoryId": "vegetables",
+      "image": "https://your-cdn.com/foods/parsley.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 36,
+        "protein_g": 3.0,
+        "carbohydrate_g": 6.3,
+        "fat_g": 0.8,
+        "fiber_g": 3.3,
+        "sugar_g": 0.9,
+        "sodium_mg": 56
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "cilantro",
+      "name": "گشنیز",
+      "name_en": "Cilantro",
+      "category": "سبزیجات",
+      "categoryId": "vegetables",
+      "image": "https://your-cdn.com/foods/cilantro.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 23,
+        "protein_g": 2.1,
+        "carbohydrate_g": 3.7,
+        "fat_g": 0.5,
+        "fiber_g": 2.8,
+        "sugar_g": 0.9,
+        "sodium_mg": 46
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "dill",
+      "name": "شوید",
+      "name_en": "Dill",
+      "category": "سبزیجات",
+      "categoryId": "vegetables",
+      "image": "https://your-cdn.com/foods/dill.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 43,
+        "protein_g": 3.5,
+        "carbohydrate_g": 7.0,
+        "fat_g": 1.1,
+        "fiber_g": 2.1,
+        "sugar_g": 0.0,
+        "sodium_mg": 61
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "mint",
+      "name": "نعناع",
+      "name_en": "Mint",
+      "category": "سبزیجات",
+      "categoryId": "vegetables",
+      "image": "https://your-cdn.com/foods/mint.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 70,
+        "protein_g": 3.8,
+        "carbohydrate_g": 14.9,
+        "fat_g": 0.9,
+        "fiber_g": 8.0,
+        "sugar_g": 0.0,
+        "sodium_mg": 31
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "basil",
+      "name": "ریحان",
+      "name_en": "Basil",
+      "category": "سبزیجات",
+      "categoryId": "vegetables",
+      "image": "https://your-cdn.com/foods/basil.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 23,
+        "protein_g": 3.2,
+        "carbohydrate_g": 2.7,
+        "fat_g": 0.6,
+        "fiber_g": 1.6,
+        "sugar_g": 0.3,
+        "sodium_mg": 4
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "tea-brewed",
+      "name": "چای دم‌کرده بدون شکر",
+      "name_en": "Brewed tea without sugar",
+      "category": "نوشیدنی‌ها",
+      "categoryId": "beverages",
+      "image": "https://your-cdn.com/foods/tea-brewed.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 1,
+        "protein_g": 0.0,
+        "carbohydrate_g": 0.3,
+        "fat_g": 0.0,
+        "fiber_g": 0.0,
+        "sugar_g": 0.0,
+        "sodium_mg": 1
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "coffee-brewed",
+      "name": "قهوه دم‌کرده بدون شکر",
+      "name_en": "Brewed coffee without sugar",
+      "category": "نوشیدنی‌ها",
+      "categoryId": "beverages",
+      "image": "https://your-cdn.com/foods/coffee-brewed.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 2,
+        "protein_g": 0.1,
+        "carbohydrate_g": 0.0,
+        "fat_g": 0.0,
+        "fiber_g": 0.0,
+        "sugar_g": 0.0,
+        "sodium_mg": 5
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "orange-juice",
+      "name": "آب پرتقال طبیعی",
+      "name_en": "Orange juice",
+      "category": "نوشیدنی‌ها",
+      "categoryId": "beverages",
+      "image": "https://your-cdn.com/foods/orange-juice.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 45,
+        "protein_g": 0.7,
+        "carbohydrate_g": 10.4,
+        "fat_g": 0.2,
+        "fiber_g": 0.2,
+        "sugar_g": 8.4,
+        "sodium_mg": 1
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "doogh-plain",
+      "name": "دوغ ساده",
+      "name_en": "Plain doogh",
+      "category": "نوشیدنی‌ها",
+      "categoryId": "beverages",
+      "image": "https://your-cdn.com/foods/doogh-plain.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 27,
+        "protein_g": 1.5,
+        "carbohydrate_g": 2.8,
+        "fat_g": 1.0,
+        "fiber_g": 0.0,
+        "sugar_g": 2.8,
+        "sodium_mg": 300
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "beetroot",
+      "name": "لبو / چغندر",
+      "name_en": "Beetroot",
+      "category": "سبزیجات",
+      "categoryId": "vegetables",
+      "image": "https://your-cdn.com/foods/beetroot.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 43,
+        "protein_g": 1.6,
+        "carbohydrate_g": 9.6,
+        "fat_g": 0.2,
+        "fiber_g": 2.8,
+        "sugar_g": 6.8,
+        "sodium_mg": 78
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "turnip",
+      "name": "شلغم",
+      "name_en": "Turnip",
+      "category": "سبزیجات",
+      "categoryId": "vegetables",
+      "image": "https://your-cdn.com/foods/turnip.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 28,
+        "protein_g": 0.9,
+        "carbohydrate_g": 6.4,
+        "fat_g": 0.1,
+        "fiber_g": 1.8,
+        "sugar_g": 3.8,
+        "sodium_mg": 67
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "pumpkin",
+      "name": "کدو حلوایی",
+      "name_en": "Pumpkin",
+      "category": "سبزیجات",
+      "categoryId": "vegetables",
+      "image": "https://your-cdn.com/foods/pumpkin.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 26,
+        "protein_g": 1.0,
+        "carbohydrate_g": 6.5,
+        "fat_g": 0.1,
+        "fiber_g": 0.5,
+        "sugar_g": 2.8,
+        "sodium_mg": 1
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "okra",
+      "name": "بامیه",
+      "name_en": "Okra",
+      "category": "سبزیجات",
+      "categoryId": "vegetables",
+      "image": "https://your-cdn.com/foods/okra.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 33,
+        "protein_g": 1.9,
+        "carbohydrate_g": 7.5,
+        "fat_g": 0.2,
+        "fiber_g": 3.2,
+        "sugar_g": 1.5,
+        "sodium_mg": 7
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "peas-green",
+      "name": "نخودفرنگی",
+      "name_en": "Green peas",
+      "category": "سبزیجات",
+      "categoryId": "vegetables",
+      "image": "https://your-cdn.com/foods/peas-green.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 81,
+        "protein_g": 5.4,
+        "carbohydrate_g": 14.5,
+        "fat_g": 0.4,
+        "fiber_g": 5.1,
+        "sugar_g": 5.7,
+        "sodium_mg": 5
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "leek",
+      "name": "تره‌فرنگی",
+      "name_en": "Leek",
+      "category": "سبزیجات",
+      "categoryId": "vegetables",
+      "image": "https://your-cdn.com/foods/leek.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 61,
+        "protein_g": 1.5,
+        "carbohydrate_g": 14.2,
+        "fat_g": 0.3,
+        "fiber_g": 1.8,
+        "sugar_g": 3.9,
+        "sodium_mg": 20
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "radish",
+      "name": "تربچه",
+      "name_en": "Radish",
+      "category": "سبزیجات",
+      "categoryId": "vegetables",
+      "image": "https://your-cdn.com/foods/radish.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 16,
+        "protein_g": 0.7,
+        "carbohydrate_g": 3.4,
+        "fat_g": 0.1,
+        "fiber_g": 1.6,
+        "sugar_g": 1.9,
+        "sodium_mg": 39
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "mango",
+      "name": "انبه",
+      "name_en": "Mango",
+      "category": "میوه‌ها",
+      "categoryId": "fruits",
+      "image": "https://your-cdn.com/foods/mango.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 60,
+        "protein_g": 0.8,
+        "carbohydrate_g": 15.0,
+        "fat_g": 0.4,
+        "fiber_g": 1.6,
+        "sugar_g": 13.7,
+        "sodium_mg": 1
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "pineapple",
+      "name": "آناناس",
+      "name_en": "Pineapple",
+      "category": "میوه‌ها",
+      "categoryId": "fruits",
+      "image": "https://your-cdn.com/foods/pineapple.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 50,
+        "protein_g": 0.5,
+        "carbohydrate_g": 13.1,
+        "fat_g": 0.1,
+        "fiber_g": 1.4,
+        "sugar_g": 9.9,
+        "sodium_mg": 1
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "cherry",
+      "name": "گیلاس",
+      "name_en": "Cherry",
+      "category": "میوه‌ها",
+      "categoryId": "fruits",
+      "image": "https://your-cdn.com/foods/cherry.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 63,
+        "protein_g": 1.1,
+        "carbohydrate_g": 16.0,
+        "fat_g": 0.2,
+        "fiber_g": 2.1,
+        "sugar_g": 12.8,
+        "sodium_mg": 0
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "sour-cherry",
+      "name": "آلبالو",
+      "name_en": "Sour cherry",
+      "category": "میوه‌ها",
+      "categoryId": "fruits",
+      "image": "https://your-cdn.com/foods/sour-cherry.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 50,
+        "protein_g": 1.0,
+        "carbohydrate_g": 12.2,
+        "fat_g": 0.3,
+        "fiber_g": 1.6,
+        "sugar_g": 8.5,
+        "sodium_mg": 3
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "persimmon",
+      "name": "خرمالو",
+      "name_en": "Persimmon",
+      "category": "میوه‌ها",
+      "categoryId": "fruits",
+      "image": "https://your-cdn.com/foods/persimmon.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 70,
+        "protein_g": 0.6,
+        "carbohydrate_g": 18.6,
+        "fat_g": 0.2,
+        "fiber_g": 3.6,
+        "sugar_g": 12.5,
+        "sodium_mg": 1
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "lemon",
+      "name": "لیموترش",
+      "name_en": "Lemon",
+      "category": "میوه‌ها",
+      "categoryId": "fruits",
+      "image": "https://your-cdn.com/foods/lemon.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 29,
+        "protein_g": 1.1,
+        "carbohydrate_g": 9.3,
+        "fat_g": 0.3,
+        "fiber_g": 2.8,
+        "sugar_g": 2.5,
+        "sodium_mg": 2
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "lime",
+      "name": "لیمو سبز",
+      "name_en": "Lime",
+      "category": "میوه‌ها",
+      "categoryId": "fruits",
+      "image": "https://your-cdn.com/foods/lime.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 30,
+        "protein_g": 0.7,
+        "carbohydrate_g": 10.5,
+        "fat_g": 0.2,
+        "fiber_g": 2.8,
+        "sugar_g": 1.7,
+        "sodium_mg": 2
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    },
+    {
+      "id": "coconut-fresh",
+      "name": "نارگیل تازه",
+      "name_en": "Fresh coconut",
+      "category": "میوه‌ها",
+      "categoryId": "fruits",
+      "image": "https://your-cdn.com/foods/coconut-fresh.jpg",
+      "serving": {
+        "amount": 100,
+        "unit": "گرم"
+      },
+      "nutrition_per_100g": {
+        "calories": 354,
+        "protein_g": 3.3,
+        "carbohydrate_g": 15.2,
+        "fat_g": 33.5,
+        "fiber_g": 9.0,
+        "sugar_g": 6.2,
+        "sodium_mg": 20
+      },
+      "source": "USDA FoodData Central / estimated seed data",
+      "verified": false
+    }
+  ]
+}

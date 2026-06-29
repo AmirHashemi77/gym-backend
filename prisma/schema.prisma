@@ -269,3 +269,36 @@ model PushSubscription {
 
   @@index([userId])
 }
+
+model FoodCategory {
+  id         String @id @default(cuid())
+  name       String
+  categoryId String @unique
+  order      Int    @default(0)
+  foods      Food[]
+
+  @@map("food_categories")
+}
+
+model Food {
+  id            String       @id
+  name          String
+  nameEn        String
+  image         String?
+  servingAmount Int
+  servingUnit   String
+  calories      Float
+  proteinG      Float
+  carbohydrateG Float
+  fatG          Float
+  fiberG        Float
+  sugarG        Float
+  sodiumMg      Float
+  source        String       @default("USDA FoodData Central")
+  verified      Boolean      @default(true)
+  categoryId    String
+  category      FoodCategory @relation(fields: [categoryId], references: [id])
+
+  @@index([categoryId])
+  @@map("foods")
+}
