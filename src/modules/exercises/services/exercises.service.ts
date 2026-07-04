@@ -2,7 +2,7 @@ import { Injectable, NotFoundException } from '@nestjs/common';
 import slugify from 'slugify';
 import { CreateExerciseDto } from '../dto/create-exercise.dto';
 import { ExercisesRepository } from '../repositories/exercises.repository';
-import { PaginationQueryDto } from '../../../common/dto/pagination-query.dto';
+import { ExerciseQueryDto } from '../dto/exercise-query.dto';
 import { getPaginationMeta } from '../../../common/utils/pagination.util';
 import { UpdateExerciseDto } from '../dto/update-exercise.dto';
 
@@ -28,7 +28,13 @@ export class ExercisesService {
     return { data: exercises };
   }
 
-  async findMany(query: PaginationQueryDto) {
+  async getMuscleGroups() {
+    const rows = await this.exercisesRepository.getMuscleGroups();
+    const data = rows.map((r) => ({ muscleGroup: r.muscleGroup, count: r._count.muscleGroup }));
+    return { success: true, message: 'لیست ناحیه‌های بدن', data };
+  }
+
+  async findMany(query: ExerciseQueryDto) {
     const [items, total] = await this.exercisesRepository.findMany(query);
     return { data: { items, meta: getPaginationMeta(query.page, query.limit, total) } };
   }

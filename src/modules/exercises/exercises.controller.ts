@@ -6,8 +6,8 @@ import { RolesGuard } from '../../common/guards/roles.guard';
 import { Roles } from '../../common/decorators/roles.decorator';
 import { CurrentUser } from '../../common/decorators/current-user.decorator';
 import { JwtUser } from '../../common/entities/jwt-user.entity';
-import { PaginationQueryDto } from '../../common/dto/pagination-query.dto';
 import { CreateExerciseDto } from './dto/create-exercise.dto';
+import { ExerciseQueryDto } from './dto/exercise-query.dto';
 import { UpdateExerciseDto } from './dto/update-exercise.dto';
 import { ExercisesService } from './services/exercises.service';
 
@@ -24,8 +24,13 @@ export class ExercisesController {
     return this.exercisesService.create(dto, user.sub);
   }
 
+  @Get('muscle-groups')
+  getMuscleGroups() {
+    return this.exercisesService.getMuscleGroups();
+  }
+
   @Get()
-  findMany(@Query() query: PaginationQueryDto) {
+  findMany(@Query() query: ExerciseQueryDto) {
     return this.exercisesService.findMany(query);
   }
 

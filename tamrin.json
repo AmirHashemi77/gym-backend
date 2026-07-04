@@ -1,0 +1,2949 @@
+[
+  {
+    "id": 3,
+    "name": "فلای بک دمبل (تقویت سرشانه ی پشتی)",
+    "muscleGroup": "SHOULDERS",
+    "description": "تقویت عضله ی دلتوئید خلفی(سرشانه پشتی)",
+    "videoUrl": "videos/3.mp4"
+  },
+  {
+    "id": 4,
+    "name": "سرشانه اسمیت از پشت",
+    "muscleGroup": "SHOULDERS",
+    "description": "تقویت سرشانه قدامی",
+    "videoUrl": "videos/4.mp4"
+  },
+  {
+    "id": 5,
+    "name": "نشر روبرو تک تک با دمبل",
+    "muscleGroup": "SHOULDERS",
+    "description": "تقویت سرشانه قدامی",
+    "videoUrl": "videos/5.mp4"
+  },
+  {
+    "id": 6,
+    "name": "سرشانه اسمیت از جلو",
+    "muscleGroup": "SHOULDERS",
+    "description": "تقویت سرشانه جلویی یا قدامی",
+    "videoUrl": "videos/6.mp4"
+  },
+  {
+    "id": 7,
+    "name": "سرشانه جانبی سیم کش تک دست",
+    "muscleGroup": "SHOULDERS",
+    "description": "تقویت سرشانه میانی",
+    "videoUrl": "videos/7.mp4"
+  },
+  {
+    "id": 8,
+    "name": "سرشانه هالتر از پشت",
+    "muscleGroup": "SHOULDERS",
+    "description": "تقویت سرشانه جلویی یا قدامی",
+    "videoUrl": "videos/8.mp4"
+  },
+  {
+    "id": 9,
+    "name": "جلوبازو سیم کش خوابیده روی نیمکت",
+    "muscleGroup": "BICEPS",
+    "description": null,
+    "videoUrl": "videos/9.mp4"
+  },
+  {
+    "id": 10,
+    "name": "کراس روبرو پرسی",
+    "muscleGroup": "CHEST",
+    "description": null,
+    "videoUrl": "videos/10.mp4"
+  },
+  {
+    "id": 11,
+    "name": "لیفت هالتر روی خرک اسکوات تقویت عضلاتی پشتی و زیربغل",
+    "muscleGroup": "BACK",
+    "description": null,
+    "videoUrl": "videos/11.mp4"
+  },
+  {
+    "id": 13,
+    "name": "قایقی با دستگیره دوبل تقویت پهنای پشتی و راست کننده ی ستون فقرات",
+    "muscleGroup": "BACK",
+    "description": null,
+    "videoUrl": "videos/13.mp4"
+  },
+  {
+    "id": 14,
+    "name": "نشر روبرو دمبل چکشی تک تک",
+    "muscleGroup": "SHOULDERS",
+    "description": null,
+    "videoUrl": "videos/14.mp4"
+  },
+  {
+    "id": 16,
+    "name": "سیم کش عمود از جلو دست باز",
+    "muscleGroup": "BACK",
+    "description": null,
+    "videoUrl": "videos/16.mp4"
+  },
+  {
+    "id": 17,
+    "name": "شراگز دمبل",
+    "muscleGroup": "BACK",
+    "description": null,
+    "videoUrl": "videos/17.mp4"
+  },
+  {
+    "id": 18,
+    "name": "سیم کش عمود از پشت",
+    "muscleGroup": "BACK",
+    "description": null,
+    "videoUrl": "videos/18.mp4"
+  },
+  {
+    "id": 20,
+    "name": "هالتر خم تناوبی لیفت ۳/۴",
+    "muscleGroup": "BACK",
+    "description": null,
+    "videoUrl": "videos/20.mp4"
+  },
+  {
+    "id": 21,
+    "name": "پول‌آور طناب خم",
+    "muscleGroup": "BACK",
+    "description": null,
+    "videoUrl": "videos/21.mp4"
+  },
+  {
+    "id": 22,
+    "name": "رو دمبل تمرکز ترپز",
+    "muscleGroup": "BACK",
+    "description": null,
+    "videoUrl": "videos/22.mp4"
+  },
+  {
+    "id": 23,
+    "name": "داک دمبل روی سکو یا استپ",
+    "muscleGroup": "CALVES",
+    "description": null,
+    "videoUrl": "videos/23.mp4"
+  },
+  {
+    "id": 24,
+    "name": "دمبل استاتوداینامیک دایره ای",
+    "muscleGroup": "SHOULDERS",
+    "description": null,
+    "videoUrl": "videos/24.mp4"
+  },
+  {
+    "id": 26,
+    "name": "پرس پا عرض شانه",
+    "muscleGroup": "QUADRICEPS",
+    "description": null,
+    "videoUrl": "videos/26.mp4"
+  },
+  {
+    "id": 27,
+    "name": "هاگ پا چسبیده",
+    "muscleGroup": "QUADRICEPS",
+    "description": null,
+    "videoUrl": "videos/27.mp4"
+  },
+  {
+    "id": 28,
+    "name": "سرشانه پرسی دستگاه",
+    "muscleGroup": "SHOULDERS",
+    "description": null,
+    "videoUrl": "videos/28.mp4"
+  },
+  {
+    "id": 30,
+    "name": "جلوبازو دمبل چکشی",
+    "muscleGroup": "BICEPS",
+    "description": null,
+    "videoUrl": "videos/30.mp4"
+  },
+  {
+    "id": 31,
+    "name": "زیرسینه هالتر",
+    "muscleGroup": "CHEST",
+    "description": null,
+    "videoUrl": "videos/31.mp4"
+  },
+  {
+    "id": 32,
+    "name": "بالاسینه هالتر",
+    "muscleGroup": "CHEST",
+    "description": null,
+    "videoUrl": "videos/32.mp4"
+  },
+  {
+    "id": 33,
+    "name": "زیربغل هالتر خم مچ برعکس دست باز",
+    "muscleGroup": "BACK",
+    "description": null,
+    "videoUrl": "videos/33.mp4"
+  },
+  {
+    "id": 34,
+    "name": "پشت بازو دمبل فرانسوی یا تک دمبل جفت دست",
+    "muscleGroup": "TRICEPS",
+    "description": null,
+    "videoUrl": "videos/34.mp4"
+  },
+  {
+    "id": 35,
+    "name": "بالاسینه دمبل چسبیده برای قفسه ی سینه",
+    "muscleGroup": "CHEST",
+    "description": null,
+    "videoUrl": "videos/35.mp4"
+  },
+  {
+    "id": 36,
+    "name": "پرس سینه دمبل",
+    "muscleGroup": "CHEST",
+    "description": null,
+    "videoUrl": "videos/36.mp4"
+  },
+  {
+    "id": 37,
+    "name": "زیربغل هالتر خم",
+    "muscleGroup": "BACK",
+    "description": null,
+    "videoUrl": "videos/37.mp4"
+  },
+  {
+    "id": 38,
+    "name": "شکم خلبانی",
+    "muscleGroup": "CORE",
+    "description": null,
+    "videoUrl": "videos/38.mp4"
+  },
+  {
+    "id": 39,
+    "name": "داک تی بار",
+    "muscleGroup": "BACK",
+    "description": null,
+    "videoUrl": "videos/39.mp4"
+  },
+  {
+    "id": 41,
+    "name": "سی سی هاگ دستگاه",
+    "muscleGroup": "QUADRICEPS",
+    "description": null,
+    "videoUrl": "videos/41.mp4"
+  },
+  {
+    "id": 42,
+    "name": "هاگ پا سه زاویه",
+    "muscleGroup": "QUADRICEPS",
+    "description": null,
+    "videoUrl": "videos/42.mp4"
+  },
+  {
+    "id": 43,
+    "name": "جلوبازو سیم کش",
+    "muscleGroup": "BICEPS",
+    "description": null,
+    "videoUrl": "videos/43.mp4"
+  },
+  {
+    "id": 44,
+    "name": "پشت بازو سیم کش",
+    "muscleGroup": "TRICEPS",
+    "description": null,
+    "videoUrl": "videos/44.mp4"
+  },
+  {
+    "id": 46,
+    "name": "جلوبازو سیم کش نشسته",
+    "muscleGroup": "BICEPS",
+    "description": null,
+    "videoUrl": "videos/46.mp4"
+  },
+  {
+    "id": 47,
+    "name": "جلوبازو سیم کش دست باز",
+    "muscleGroup": "BICEPS",
+    "description": null,
+    "videoUrl": "videos/47.mp4"
+  },
+  {
+    "id": 48,
+    "name": "جلوبازو دمبل تناوبی استارت آپ",
+    "muscleGroup": "BICEPS",
+    "description": null,
+    "videoUrl": "videos/48.mp4"
+  },
+  {
+    "id": 49,
+    "name": "پشت بازو دمبل پشت گردن",
+    "muscleGroup": "TRICEPS",
+    "description": null,
+    "videoUrl": "videos/49.mp4"
+  },
+  {
+    "id": 50,
+    "name": "داک تی بار",
+    "muscleGroup": "BACK",
+    "description": null,
+    "videoUrl": "videos/50.mp4"
+  },
+  {
+    "id": 51,
+    "name": "جلوبازو دمبل چکشی استارت اپ",
+    "muscleGroup": "BICEPS",
+    "description": null,
+    "videoUrl": "videos/51.mp4"
+  },
+  {
+    "id": 52,
+    "name": "پول اور دمبل",
+    "muscleGroup": "BACK",
+    "description": null,
+    "videoUrl": "videos/52.mp4"
+  },
+  {
+    "id": 53,
+    "name": "زیربغل تک خم دمبل",
+    "muscleGroup": "BACK",
+    "description": null,
+    "videoUrl": "videos/53.mp4"
+  },
+  {
+    "id": 54,
+    "name": "پشت بازو سیم کش وی",
+    "muscleGroup": "TRICEPS",
+    "description": null,
+    "videoUrl": "videos/54.mp4"
+  },
+  {
+    "id": 55,
+    "name": "کراس روبرو پرسی",
+    "muscleGroup": "CHEST",
+    "description": null,
+    "videoUrl": "videos/55.mp4"
+  },
+  {
+    "id": 56,
+    "name": "کراس روبرو",
+    "muscleGroup": "CHEST",
+    "description": null,
+    "videoUrl": "videos/56.mp4"
+  },
+  {
+    "id": 57,
+    "name": "نشر روبرو سیم کش تک چکشی",
+    "muscleGroup": "SHOULDERS",
+    "description": null,
+    "videoUrl": "videos/57.mp4"
+  },
+  {
+    "id": 58,
+    "name": "اچ دست صاف (پرسی)",
+    "muscleGroup": "CHEST",
+    "description": null,
+    "videoUrl": "videos/58.mp4"
+  },
+  {
+    "id": 59,
+    "name": "اچ دست موازی",
+    "muscleGroup": "CHEST",
+    "description": null,
+    "videoUrl": "videos/59.mp4"
+  },
+  {
+    "id": 60,
+    "name": "پرس سینه دمبل کم کردنی دراپ ست",
+    "muscleGroup": "CHEST",
+    "description": null,
+    "videoUrl": "videos/60.mp4"
+  },
+  {
+    "id": 61,
+    "name": "کراس اور از بالا",
+    "muscleGroup": "CHEST",
+    "description": null,
+    "videoUrl": "videos/61.mp4"
+  },
+  {
+    "id": 62,
+    "name": "بالاسینه اسمیت",
+    "muscleGroup": "CHEST",
+    "description": null,
+    "videoUrl": "videos/62.mp4"
+  },
+  {
+    "id": 63,
+    "name": "جلوپا دمبل",
+    "muscleGroup": "QUADRICEPS",
+    "description": null,
+    "videoUrl": "videos/63.mp4"
+  },
+  {
+    "id": 64,
+    "name": "بالاسینه دستگاه تک تک مایل",
+    "muscleGroup": "CHEST",
+    "description": null,
+    "videoUrl": "videos/64.mp4"
+  },
+  {
+    "id": 65,
+    "name": "فلای دستگاه",
+    "muscleGroup": "CHEST",
+    "description": null,
+    "videoUrl": "videos/65.mp4"
+  },
+  {
+    "id": 66,
+    "name": "تی بار هالتر دستگیره دوبل",
+    "muscleGroup": "BACK",
+    "description": null,
+    "videoUrl": "videos/66.mp4"
+  },
+  {
+    "id": 67,
+    "name": "بالاسینه دمبل ایستاده",
+    "muscleGroup": "CHEST",
+    "description": null,
+    "videoUrl": "videos/67.mp4"
+  },
+  {
+    "id": 68,
+    "name": "پرس سینه دمبل +پرس سینه دمبل چسبیده",
+    "muscleGroup": "CHEST",
+    "description": null,
+    "videoUrl": "videos/68.mp4"
+  },
+  {
+    "id": 69,
+    "name": "پرس سینه اسمیت دوبل",
+    "muscleGroup": "CHEST",
+    "description": null,
+    "videoUrl": "videos/69.mp4"
+  },
+  {
+    "id": 70,
+    "name": "شکم دستگاه",
+    "muscleGroup": "CORE",
+    "description": null,
+    "videoUrl": "videos/70.mp4"
+  },
+  {
+    "id": 71,
+    "name": "پرس پا جمع دستگاه",
+    "muscleGroup": "QUADRICEPS",
+    "description": null,
+    "videoUrl": "videos/71.mp4"
+  },
+  {
+    "id": 72,
+    "name": "کیک بک وزن بدن (روز پا)",
+    "muscleGroup": "GLUTES",
+    "description": null,
+    "videoUrl": "videos/72.mp4"
+  },
+  {
+    "id": 73,
+    "name": "ساید لگ (روز‌پا)",
+    "muscleGroup": "GLUTES",
+    "description": null,
+    "videoUrl": "videos/73.mp4"
+  },
+  {
+    "id": 74,
+    "name": "سی سی هاگ دستگاه",
+    "muscleGroup": "QUADRICEPS",
+    "description": null,
+    "videoUrl": "videos/74.mp4"
+  },
+  {
+    "id": 75,
+    "name": "سی سی اسکوات دستگاه",
+    "muscleGroup": "QUADRICEPS",
+    "description": null,
+    "videoUrl": "videos/75.mp4"
+  },
+  {
+    "id": 76,
+    "name": "سی سی آزاد",
+    "muscleGroup": "QUADRICEPS",
+    "description": null,
+    "videoUrl": "videos/76.mp4"
+  },
+  {
+    "id": 77,
+    "name": "هاگ پا جمع",
+    "muscleGroup": "QUADRICEPS",
+    "description": null,
+    "videoUrl": "videos/77.mp4"
+  },
+  {
+    "id": 78,
+    "name": "شکم کشویی",
+    "muscleGroup": "CORE",
+    "description": null,
+    "videoUrl": "videos/78.mp4"
+  },
+  {
+    "id": 79,
+    "name": "شکم وی (v)",
+    "muscleGroup": "CORE",
+    "description": null,
+    "videoUrl": "videos/79.mp4"
+  },
+  {
+    "id": 80,
+    "name": "شکم سی درجه",
+    "muscleGroup": "CORE",
+    "description": null,
+    "videoUrl": "videos/80.mp4"
+  },
+  {
+    "id": 81,
+    "name": "کرانچ",
+    "muscleGroup": "CORE",
+    "description": null,
+    "videoUrl": "videos/81.mp4"
+  },
+  {
+    "id": 82,
+    "name": "اسکوات هالتر",
+    "muscleGroup": "QUADRICEPS",
+    "description": null,
+    "videoUrl": "videos/82.mp4"
+  },
+  {
+    "id": 83,
+    "name": "جلوبازو دمبل چکشی تک از روبرو",
+    "muscleGroup": "BICEPS",
+    "description": null,
+    "videoUrl": "videos/83.mp4"
+  },
+  {
+    "id": 84,
+    "name": "جلوبازو دمبل تناوبی",
+    "muscleGroup": "BICEPS",
+    "description": null,
+    "videoUrl": "videos/84.mp4"
+  },
+  {
+    "id": 85,
+    "name": "جلوبازو دمبل چکشی جفت و تک تک",
+    "muscleGroup": "BICEPS",
+    "description": null,
+    "videoUrl": "videos/85.mp4"
+  },
+  {
+    "id": 86,
+    "name": "جلوبازو هالتر",
+    "muscleGroup": "BICEPS",
+    "description": null,
+    "videoUrl": "videos/86.mp4"
+  },
+  {
+    "id": 87,
+    "name": "قایقی با دستگیره ی دوبل",
+    "muscleGroup": "BACK",
+    "description": null,
+    "videoUrl": "videos/87.mp4"
+  },
+  {
+    "id": 88,
+    "name": "سیم کش عمود دوبل",
+    "muscleGroup": "BACK",
+    "description": null,
+    "videoUrl": "videos/88.mp4"
+  },
+  {
+    "id": 89,
+    "name": "فلای دستگاه",
+    "muscleGroup": "CHEST",
+    "description": null,
+    "videoUrl": "videos/89.mp4"
+  },
+  {
+    "id": 90,
+    "name": "پرس سینه دستگاه",
+    "muscleGroup": "CHEST",
+    "description": null,
+    "videoUrl": "videos/90.mp4"
+  },
+  {
+    "id": 91,
+    "name": "جلوبازو سیم کش",
+    "muscleGroup": "BICEPS",
+    "description": null,
+    "videoUrl": "videos/91.mp4"
+  },
+  {
+    "id": 92,
+    "name": "نشرروبرو سیم کش خم",
+    "muscleGroup": "SHOULDERS",
+    "description": null,
+    "videoUrl": "videos/92.mp4"
+  },
+  {
+    "id": 93,
+    "name": "نشرروبرو سیم کش",
+    "muscleGroup": "SHOULDERS",
+    "description": null,
+    "videoUrl": "videos/93.mp4"
+  },
+  {
+    "id": 94,
+    "name": "بالاسینه هالتر",
+    "muscleGroup": "CHEST",
+    "description": null,
+    "videoUrl": "videos/94.mp4"
+  },
+  {
+    "id": 95,
+    "name": "بالاسینه دمبل",
+    "muscleGroup": "CHEST",
+    "description": null,
+    "videoUrl": "videos/95.mp4"
+  },
+  {
+    "id": 96,
+    "name": "پرس سینه دمبل",
+    "muscleGroup": "CHEST",
+    "description": null,
+    "videoUrl": "videos/96.mp4"
+  },
+  {
+    "id": 97,
+    "name": "نشرروبرو دمبل تک تک",
+    "muscleGroup": "SHOULDERS",
+    "description": null,
+    "videoUrl": "videos/97.mp4"
+  },
+  {
+    "id": 98,
+    "name": "جانبی دمبل (صلیب)",
+    "muscleGroup": "SHOULDERS",
+    "description": null,
+    "videoUrl": "videos/98.mp4"
+  },
+  {
+    "id": 100,
+    "name": "پشت پا سی سی دستگاه",
+    "muscleGroup": "HAMSTRINGS",
+    "description": null,
+    "videoUrl": "videos/100.mp4"
+  },
+  {
+    "id": 101,
+    "name": "سرشانه جانبی هالتر",
+    "muscleGroup": "SHOULDERS",
+    "description": null,
+    "videoUrl": "videos/101.mp4"
+  },
+  {
+    "id": 102,
+    "name": "سرشانه مایلی دمبل",
+    "muscleGroup": "SHOULDERS",
+    "description": null,
+    "videoUrl": "videos/102.mp4"
+  },
+  {
+    "id": 103,
+    "name": "سرشانه آرنولدی دمبل",
+    "muscleGroup": "SHOULDERS",
+    "description": null,
+    "videoUrl": "videos/103.mp4"
+  },
+  {
+    "id": 104,
+    "name": "سرشانه پرسی دمبل",
+    "muscleGroup": "SHOULDERS",
+    "description": null,
+    "videoUrl": "videos/104.mp4"
+  },
+  {
+    "id": 105,
+    "name": "فلای بک دستگاه",
+    "muscleGroup": "SHOULDERS",
+    "description": null,
+    "videoUrl": "videos/105.mp4"
+  },
+  {
+    "id": 106,
+    "name": "سیم کش عمود از پشت",
+    "muscleGroup": "BACK",
+    "description": null,
+    "videoUrl": "videos/106.mp4"
+  },
+  {
+    "id": 107,
+    "name": "قایقی‌دوبل‌تمرکز‌دوکتف",
+    "muscleGroup": "BACK",
+    "description": null,
+    "videoUrl": "videos/107.mp4"
+  },
+  {
+    "id": 108,
+    "name": "سیم کش عمود از جلو مچ برعکس",
+    "muscleGroup": "BACK",
+    "description": null,
+    "videoUrl": "videos/108.mp4"
+  },
+  {
+    "id": 109,
+    "name": "بارفیکس دست باز کمکی",
+    "muscleGroup": "BACK",
+    "description": null,
+    "videoUrl": "videos/109.mp4"
+  },
+  {
+    "id": 110,
+    "name": "لیفت ۳/۴",
+    "muscleGroup": "BACK",
+    "description": null,
+    "videoUrl": "videos/110.mp4"
+  },
+  {
+    "id": 111,
+    "name": "ددلیفت(لیفت کامل)",
+    "muscleGroup": "BACK",
+    "description": null,
+    "videoUrl": "videos/111.mp4"
+  },
+  {
+    "id": 112,
+    "name": "اچ ازاد تک ایستاده",
+    "muscleGroup": "CHEST",
+    "description": null,
+    "videoUrl": "videos/112.mp4"
+  },
+  {
+    "id": 113,
+    "name": "هاگ دستگاه تک پا",
+    "muscleGroup": "QUADRICEPS",
+    "description": null,
+    "videoUrl": "videos/113.mp4"
+  },
+  {
+    "id": 114,
+    "name": "جلوبازو سیم کش نیمه پایین",
+    "muscleGroup": "BICEPS",
+    "description": null,
+    "videoUrl": "videos/114.mp4"
+  },
+  {
+    "id": 115,
+    "name": "کیک بک روی نیمکت",
+    "muscleGroup": "GLUTES",
+    "description": null,
+    "videoUrl": "videos/115.mp4"
+  },
+  {
+    "id": 116,
+    "name": "جلوبازو هالتر باز",
+    "muscleGroup": "BICEPS",
+    "description": null,
+    "videoUrl": "videos/116.mp4"
+  },
+  {
+    "id": 117,
+    "name": "زیربغل پول اور سیم کش تک از بغل",
+    "muscleGroup": "BACK",
+    "description": null,
+    "videoUrl": "videos/117.mp4"
+  },
+  {
+    "id": 118,
+    "name": "لیفت سیم کش تناوبی سیم کش خم",
+    "muscleGroup": "BACK",
+    "description": null,
+    "videoUrl": "videos/118.mp4"
+  },
+  {
+    "id": 119,
+    "name": "تی بار‌دوبل هالتر",
+    "muscleGroup": "BACK",
+    "description": null,
+    "videoUrl": "videos/119.mp4"
+  },
+  {
+    "id": 120,
+    "name": "تی بار دستگاه",
+    "muscleGroup": "BACK",
+    "description": null,
+    "videoUrl": "videos/120.mp4"
+  },
+  {
+    "id": 121,
+    "name": "پرس سینه دمبل مندرج",
+    "muscleGroup": "CHEST",
+    "description": null,
+    "videoUrl": "videos/121.mp4"
+  },
+  {
+    "id": 122,
+    "name": "شنا سوئدی و زاویه ی صحیح",
+    "muscleGroup": "CHEST",
+    "description": null,
+    "videoUrl": "videos/122.mp4"
+  },
+  {
+    "id": 123,
+    "name": "فلای بک ضربدری نشسته",
+    "muscleGroup": "SHOULDERS",
+    "description": null,
+    "videoUrl": "videos/123.mp4"
+  },
+  {
+    "id": 124,
+    "name": "پشت بازو طناب پشت گردن",
+    "muscleGroup": "TRICEPS",
+    "description": null,
+    "videoUrl": "videos/124.mp4"
+  },
+  {
+    "id": 125,
+    "name": "پشت بازو طناب",
+    "muscleGroup": "TRICEPS",
+    "description": null,
+    "videoUrl": "videos/125.mp4"
+  },
+  {
+    "id": 126,
+    "name": "پول اور سیم کش خم",
+    "muscleGroup": "BACK",
+    "description": null,
+    "videoUrl": "videos/126.mp4"
+  },
+  {
+    "id": 127,
+    "name": "سرشانه جانبی اسمیت",
+    "muscleGroup": "SHOULDERS",
+    "description": null,
+    "videoUrl": "videos/127.mp4"
+  },
+  {
+    "id": 128,
+    "name": "مایلی دمبل",
+    "muscleGroup": "CHEST",
+    "description": null,
+    "videoUrl": "videos/128.mp4"
+  },
+  {
+    "id": 129,
+    "name": "کراس از‌پایین",
+    "muscleGroup": "CHEST",
+    "description": null,
+    "videoUrl": "videos/129.mp4"
+  },
+  {
+    "id": 130,
+    "name": "قفسه دمبل باز",
+    "muscleGroup": "CHEST",
+    "description": null,
+    "videoUrl": "videos/130.mp4"
+  },
+  {
+    "id": 131,
+    "name": "نشرروبرو هالتر اسپایدر",
+    "muscleGroup": "SHOULDERS",
+    "description": null,
+    "videoUrl": "videos/131.mp4"
+  },
+  {
+    "id": 132,
+    "name": "نشرروبرو صفحه",
+    "muscleGroup": "SHOULDERS",
+    "description": null,
+    "videoUrl": "videos/132.mp4"
+  },
+  {
+    "id": 133,
+    "name": "شکم تمرکزی چرخشی",
+    "muscleGroup": "CORE",
+    "description": null,
+    "videoUrl": "videos/133.mp4"
+  },
+  {
+    "id": 134,
+    "name": "شکم کوه نوردی",
+    "muscleGroup": "CORE",
+    "description": null,
+    "videoUrl": "videos/134.mp4"
+  },
+  {
+    "id": 135,
+    "name": "شکم طناب کش",
+    "muscleGroup": "CORE",
+    "description": null,
+    "videoUrl": "videos/135.mp4"
+  },
+  {
+    "id": 136,
+    "name": "بالاسینه لندماین",
+    "muscleGroup": "CHEST",
+    "description": null,
+    "videoUrl": "videos/136.mp4"
+  },
+  {
+    "id": 137,
+    "name": "قفسه سیم کش خوابیده",
+    "muscleGroup": "CHEST",
+    "description": null,
+    "videoUrl": "videos/137.mp4"
+  },
+  {
+    "id": 138,
+    "name": "پرس سینه سیم کش",
+    "muscleGroup": "CHEST",
+    "description": null,
+    "videoUrl": "videos/138.mp4"
+  },
+  {
+    "id": 139,
+    "name": "قفسه بالا سینه سیم کش خوابیده",
+    "muscleGroup": "CHEST",
+    "description": null,
+    "videoUrl": "videos/139.mp4"
+  },
+  {
+    "id": 140,
+    "name": "نشرخم سیم کش",
+    "muscleGroup": "SHOULDERS",
+    "description": null,
+    "videoUrl": "videos/140.mp4"
+  },
+  {
+    "id": 141,
+    "name": "هیپ تراست یا پل باسن باهالتر",
+    "muscleGroup": "GLUTES",
+    "description": null,
+    "videoUrl": "videos/141.mp4"
+  },
+  {
+    "id": 142,
+    "name": "سی سی ازاد با کراس",
+    "muscleGroup": "CHEST",
+    "description": null,
+    "videoUrl": "videos/142.mp4"
+  },
+  {
+    "id": 143,
+    "name": "لانگ تک دمبل پا روی استپ",
+    "muscleGroup": "QUADRICEPS",
+    "description": null,
+    "videoUrl": "videos/143.mp4"
+  },
+  {
+    "id": 144,
+    "name": "بالاسینه دمبل چرخشی",
+    "muscleGroup": "CHEST",
+    "description": null,
+    "videoUrl": "videos/144.mp4"
+  },
+  {
+    "id": 145,
+    "name": "اسکوات دمبل پاشنه روی صفحه",
+    "muscleGroup": "QUADRICEPS",
+    "description": null,
+    "videoUrl": "videos/145.mp4"
+  },
+  {
+    "id": 146,
+    "name": "سیم کش عمود از جلو(لت از جلو)",
+    "muscleGroup": "BACK",
+    "description": null,
+    "videoUrl": "videos/146.mp4"
+  },
+  {
+    "id": 147,
+    "name": "جلوبازو سیم کش لت",
+    "muscleGroup": "BICEPS",
+    "description": null,
+    "videoUrl": "videos/147.mp4"
+  },
+  {
+    "id": 148,
+    "name": "سیم کش عمود دوبل",
+    "muscleGroup": "BACK",
+    "description": null,
+    "videoUrl": "videos/148.mp4"
+  },
+  {
+    "id": 149,
+    "name": "تک خم سیم کش نشسته",
+    "muscleGroup": "BACK",
+    "description": null,
+    "videoUrl": "videos/149.mp4"
+  },
+  {
+    "id": 150,
+    "name": "تک خم سیم کش نشسته از بالا",
+    "muscleGroup": "BACK",
+    "description": null,
+    "videoUrl": "videos/150.mp4"
+  },
+  {
+    "id": 151,
+    "name": "پول اور دمبل",
+    "muscleGroup": "BACK",
+    "description": null,
+    "videoUrl": "videos/151.mp4"
+  },
+  {
+    "id": 152,
+    "name": "پول اور هالتر",
+    "muscleGroup": "BACK",
+    "description": null,
+    "videoUrl": "videos/152.mp4"
+  },
+  {
+    "id": 153,
+    "name": "لت معکوس دستگاه",
+    "muscleGroup": "BACK",
+    "description": null,
+    "videoUrl": "videos/153.mp4"
+  },
+  {
+    "id": 154,
+    "name": "لت دستگاه",
+    "muscleGroup": "BACK",
+    "description": null,
+    "videoUrl": "videos/154.mp4"
+  },
+  {
+    "id": 156,
+    "name": "بالاسینه لندماین",
+    "muscleGroup": "CHEST",
+    "description": null,
+    "videoUrl": "videos/156.mp4"
+  },
+  {
+    "id": 157,
+    "name": "پرس سینه هالتر",
+    "muscleGroup": "CHEST",
+    "description": null,
+    "videoUrl": "videos/157.mp4"
+  },
+  {
+    "id": 158,
+    "name": "سرشانه پرسی سیم کش",
+    "muscleGroup": "SHOULDERS",
+    "description": null,
+    "videoUrl": "videos/158.mp4"
+  },
+  {
+    "id": 159,
+    "name": "قایقی دست جمع",
+    "muscleGroup": "BACK",
+    "description": null,
+    "videoUrl": "videos/159.mp4"
+  },
+  {
+    "id": 160,
+    "name": "جانبی دمبل تکیه به دیوار",
+    "muscleGroup": "SHOULDERS",
+    "description": null,
+    "videoUrl": "videos/160.mp4"
+  },
+  {
+    "id": 161,
+    "name": "نشرخم دمبل تکیه به دیوار",
+    "muscleGroup": "SHOULDERS",
+    "description": null,
+    "videoUrl": "videos/161.mp4"
+  },
+  {
+    "id": 162,
+    "name": "پرس سینه دمبل مچ برعکس",
+    "muscleGroup": "CHEST",
+    "description": null,
+    "videoUrl": "videos/162.mp4"
+  },
+  {
+    "id": 163,
+    "name": "سیم کش طنابی عمود از جلو",
+    "muscleGroup": "BACK",
+    "description": null,
+    "videoUrl": "videos/163.mp4"
+  },
+  {
+    "id": 164,
+    "name": "زیرسینه پروانه دمبل",
+    "muscleGroup": "CHEST",
+    "description": null,
+    "videoUrl": "videos/164.mp4"
+  },
+  {
+    "id": 165,
+    "name": "زیرسینه دمبل",
+    "muscleGroup": "CHEST",
+    "description": null,
+    "videoUrl": "videos/165.mp4"
+  },
+  {
+    "id": 166,
+    "name": "اسکوات جفرسون",
+    "muscleGroup": "QUADRICEPS",
+    "description": null,
+    "videoUrl": "videos/166.mp4"
+  },
+  {
+    "id": 167,
+    "name": "سرشانه مایلی دمبل‌تکیه به دیوار",
+    "muscleGroup": "SHOULDERS",
+    "description": null,
+    "videoUrl": "videos/167.mp4"
+  },
+  {
+    "id": 170,
+    "name": "جلو پا با توضیحات کامل زوایا",
+    "muscleGroup": "QUADRICEPS",
+    "description": null,
+    "videoUrl": "videos/170.mp4"
+  },
+  {
+    "id": 171,
+    "name": "پشت پا خوابیده",
+    "muscleGroup": "HAMSTRINGS",
+    "description": null,
+    "videoUrl": "videos/171.mp4"
+  },
+  {
+    "id": 172,
+    "name": "زیربغل سیم کش دوبل نشسته معکوس",
+    "muscleGroup": "BACK",
+    "description": null,
+    "videoUrl": "videos/172.mp4"
+  },
+  {
+    "id": 173,
+    "name": "لانگ درجا هالتر",
+    "muscleGroup": "QUADRICEPS",
+    "description": null,
+    "videoUrl": "videos/173.mp4"
+  },
+  {
+    "id": 174,
+    "name": "توضیحات زوایا در دستگاه هاگ پا",
+    "muscleGroup": "QUADRICEPS",
+    "description": null,
+    "videoUrl": "videos/174.mp4"
+  },
+  {
+    "id": 175,
+    "name": "ساق پا نشسته با توضیحات کامل",
+    "muscleGroup": "CALVES",
+    "description": null,
+    "videoUrl": "videos/175.mp4"
+  },
+  {
+    "id": 176,
+    "name": "سلام ژاپنی (این حرکت رو سبک اجرا کنید)",
+    "muscleGroup": "HAMSTRINGS",
+    "description": null,
+    "videoUrl": "videos/176.mp4"
+  },
+  {
+    "id": 177,
+    "name": "سیم کش تک چکشی از پایین",
+    "muscleGroup": "BICEPS",
+    "description": null,
+    "videoUrl": "videos/177.mp4"
+  },
+  {
+    "id": 178,
+    "name": "فیله کمر انقباض مثبت",
+    "muscleGroup": "BACK",
+    "description": null,
+    "videoUrl": "videos/178.mp4"
+  },
+  {
+    "id": 179,
+    "name": "جلوبازو سیم کش۲۱ با توضیحات کامل",
+    "muscleGroup": "BICEPS",
+    "description": null,
+    "videoUrl": "videos/179.mp4"
+  },
+  {
+    "id": 180,
+    "name": "رو دمبل روی میز‌بالاسینه",
+    "muscleGroup": "BACK",
+    "description": null,
+    "videoUrl": "videos/180.mp4"
+  },
+  {
+    "id": 181,
+    "name": "جفت دمبل خم چسبیده",
+    "muscleGroup": "BACK",
+    "description": null,
+    "videoUrl": "videos/181.mp4"
+  },
+  {
+    "id": 182,
+    "name": "دیپ اسکوات صفحه",
+    "muscleGroup": "QUADRICEPS",
+    "description": null,
+    "videoUrl": "videos/182.mp4"
+  },
+  {
+    "id": 183,
+    "name": "کراس روبرو چکشی",
+    "muscleGroup": "CHEST",
+    "description": null,
+    "videoUrl": "videos/183.mp4"
+  },
+  {
+    "id": 184,
+    "name": "سی سی اسکوات",
+    "muscleGroup": "QUADRICEPS",
+    "description": null,
+    "videoUrl": "videos/184.mp4"
+  },
+  {
+    "id": 185,
+    "name": "پرس پا باز",
+    "muscleGroup": "QUADRICEPS",
+    "description": null,
+    "videoUrl": "videos/185.mp4"
+  },
+  {
+    "id": 186,
+    "name": "بالاسینه دمبل ۸",
+    "muscleGroup": "CHEST",
+    "description": null,
+    "videoUrl": "videos/186.mp4"
+  },
+  {
+    "id": 187,
+    "name": "فیس پول",
+    "muscleGroup": "SHOULDERS",
+    "description": null,
+    "videoUrl": "videos/187.mp4"
+  },
+  {
+    "id": 188,
+    "name": "سرشانه پرسی دستگاه (پرسی ،موازی)",
+    "muscleGroup": "SHOULDERS",
+    "description": null,
+    "videoUrl": "videos/188.mp4"
+  },
+  {
+    "id": 189,
+    "name": "فلای بک دستگاه آرنج صاف",
+    "muscleGroup": "SHOULDERS",
+    "description": null,
+    "videoUrl": "videos/189.mp4"
+  },
+  {
+    "id": 190,
+    "name": "نشرخم دمبل روی میز بالاسینه (معمولی و چکشی)",
+    "muscleGroup": "SHOULDERS",
+    "description": null,
+    "videoUrl": "videos/190.mp4"
+  },
+  {
+    "id": 191,
+    "name": "نشرخم دمبل نشسته",
+    "muscleGroup": "SHOULDERS",
+    "description": null,
+    "videoUrl": "videos/191.mp4"
+  },
+  {
+    "id": 192,
+    "name": "سرشانه پرسی دمبل معکوس",
+    "muscleGroup": "SHOULDERS",
+    "description": null,
+    "videoUrl": "videos/192.mp4"
+  },
+  {
+    "id": 193,
+    "name": "فیس پول چرخشی دست باز",
+    "muscleGroup": "SHOULDERS",
+    "description": null,
+    "videoUrl": "videos/193.mp4"
+  },
+  {
+    "id": 194,
+    "name": "جانبی سیم کش چکشی",
+    "muscleGroup": "SHOULDERS",
+    "description": null,
+    "videoUrl": "videos/194.mp4"
+  },
+  {
+    "id": 195,
+    "name": "پرس سینه اسمیت",
+    "muscleGroup": "CHEST",
+    "description": null,
+    "videoUrl": "videos/195.mp4"
+  },
+  {
+    "id": 196,
+    "name": "پرس سینه هالتر ای زد",
+    "muscleGroup": "CHEST",
+    "description": null,
+    "videoUrl": "videos/196.mp4"
+  },
+  {
+    "id": 197,
+    "name": "کراس از بالا مچ برعکس",
+    "muscleGroup": "CHEST",
+    "description": null,
+    "videoUrl": "videos/197.mp4"
+  },
+  {
+    "id": 198,
+    "name": "کراس از روبرو مورب",
+    "muscleGroup": "CHEST",
+    "description": null,
+    "videoUrl": "videos/198.mp4"
+  },
+  {
+    "id": 199,
+    "name": "قایقی دوبل باز",
+    "muscleGroup": "BACK",
+    "description": null,
+    "videoUrl": "videos/199.mp4"
+  },
+  {
+    "id": 200,
+    "name": "سیم کش عمود دوبل",
+    "muscleGroup": "BACK",
+    "description": null,
+    "videoUrl": "videos/200.mp4"
+  },
+  {
+    "id": 201,
+    "name": "رو دمبل روی میز بالاسینه",
+    "muscleGroup": "BACK",
+    "description": null,
+    "videoUrl": "videos/201.mp4"
+  },
+  {
+    "id": 202,
+    "name": "مایلی دمبل تکیه به دیوار",
+    "muscleGroup": "CHEST",
+    "description": null,
+    "videoUrl": "videos/202.mp4"
+  },
+  {
+    "id": 203,
+    "name": "جانبی دمبل تکیه به دیوار",
+    "muscleGroup": "SHOULDERS",
+    "description": null,
+    "videoUrl": "videos/203.mp4"
+  },
+  {
+    "id": 204,
+    "name": "تک خم دمبل مچ برعکس",
+    "muscleGroup": "BACK",
+    "description": null,
+    "videoUrl": "videos/204.mp4"
+  },
+  {
+    "id": 205,
+    "name": "صفحه پلیت حرکتی",
+    "muscleGroup": "FULL_BODY",
+    "description": null,
+    "videoUrl": "videos/205.mp4"
+  },
+  {
+    "id": 206,
+    "name": "سرشانه جانبی نیمه و کامل تناوبی",
+    "muscleGroup": "SHOULDERS",
+    "description": null,
+    "videoUrl": "videos/206.mp4"
+  },
+  {
+    "id": 207,
+    "name": "نشرروبرو صفحه چرخشی",
+    "muscleGroup": "SHOULDERS",
+    "description": null,
+    "videoUrl": "videos/207.mp4"
+  },
+  {
+    "id": 208,
+    "name": "پشت پا خوابیده تناوبی نیمه بالا و کامل",
+    "muscleGroup": "HAMSTRINGS",
+    "description": null,
+    "videoUrl": "videos/208.mp4"
+  },
+  {
+    "id": 209,
+    "name": "پشت بازو سیم کش طناب خم",
+    "muscleGroup": "TRICEPS",
+    "description": null,
+    "videoUrl": "videos/209.mp4"
+  },
+  {
+    "id": 210,
+    "name": "سرشانه جانبی هالتر خم",
+    "muscleGroup": "SHOULDERS",
+    "description": null,
+    "videoUrl": "videos/210.mp4"
+  },
+  {
+    "id": 211,
+    "name": "جانبی هالتر",
+    "muscleGroup": "SHOULDERS",
+    "description": null,
+    "videoUrl": "videos/211.mp4"
+  },
+  {
+    "id": 212,
+    "name": "بالاسینه دمبل موازی",
+    "muscleGroup": "CHEST",
+    "description": null,
+    "videoUrl": "videos/212.mp4"
+  },
+  {
+    "id": 213,
+    "name": "نشرروبرو صفحه اسپایدر روی میز بالاسینه",
+    "muscleGroup": "SHOULDERS",
+    "description": null,
+    "videoUrl": "videos/213.mp4"
+  },
+  {
+    "id": 214,
+    "name": "سرشانه پرسی دمبل موازی",
+    "muscleGroup": "SHOULDERS",
+    "description": null,
+    "videoUrl": "videos/214.mp4"
+  },
+  {
+    "id": 215,
+    "name": "قایقی دوبل تمرکز ترپز(دوکتف)",
+    "muscleGroup": "BACK",
+    "description": null,
+    "videoUrl": "videos/215.mp4"
+  },
+  {
+    "id": 216,
+    "name": "بارفیکس کمکی دست موازی",
+    "muscleGroup": "BACK",
+    "description": null,
+    "videoUrl": "videos/216.mp4"
+  },
+  {
+    "id": 217,
+    "name": "اچ سیم کش دستگاه",
+    "muscleGroup": "CHEST",
+    "description": null,
+    "videoUrl": "videos/217.mp4"
+  },
+  {
+    "id": 218,
+    "name": "پشت بازو دیپ دستگاه",
+    "muscleGroup": "TRICEPS",
+    "description": null,
+    "videoUrl": "videos/218.mp4"
+  },
+  {
+    "id": 219,
+    "name": "پول اور دمبل تناوبی",
+    "muscleGroup": "BACK",
+    "description": null,
+    "videoUrl": "videos/219.mp4"
+  },
+  {
+    "id": 220,
+    "name": "سیم کش عمود از جلو دست جمع مچبرعکس",
+    "muscleGroup": "BACK",
+    "description": null,
+    "videoUrl": "videos/220.mp4"
+  },
+  {
+    "id": 221,
+    "name": "تک خم دمبل تکیه به زانو",
+    "muscleGroup": "BACK",
+    "description": null,
+    "videoUrl": "videos/221.mp4"
+  },
+  {
+    "id": 222,
+    "name": "شراگز صفحه خم",
+    "muscleGroup": "BACK",
+    "description": null,
+    "videoUrl": "videos/222.mp4"
+  },
+  {
+    "id": 223,
+    "name": "شراگز دمبل",
+    "muscleGroup": "BACK",
+    "description": null,
+    "videoUrl": "videos/223.mp4"
+  },
+  {
+    "id": 224,
+    "name": "زیربغل تک خم دمبل مچ برعکس",
+    "muscleGroup": "BACK",
+    "description": null,
+    "videoUrl": "videos/224.mp4"
+  },
+  {
+    "id": 226,
+    "name": "پشت پا هالتر سه زاویه",
+    "muscleGroup": "HAMSTRINGS",
+    "description": null,
+    "videoUrl": "videos/226.mp4"
+  },
+  {
+    "id": 227,
+    "name": "اسکوات جفرسون",
+    "muscleGroup": "QUADRICEPS",
+    "description": null,
+    "videoUrl": "videos/227.mp4"
+  },
+  {
+    "id": 228,
+    "name": "جلو پا مکث ۳",
+    "muscleGroup": "QUADRICEPS",
+    "description": null,
+    "videoUrl": "videos/228.mp4"
+  },
+  {
+    "id": 229,
+    "name": "لانگ هالتر در جا",
+    "muscleGroup": "QUADRICEPS",
+    "description": null,
+    "videoUrl": "videos/229.mp4"
+  },
+  {
+    "id": 230,
+    "name": "لیفت دمبل روی صندلی",
+    "muscleGroup": "BACK",
+    "description": null,
+    "videoUrl": "videos/230.mp4"
+  },
+  {
+    "id": 231,
+    "name": "زیربغل هالتر خم با ای زد مچ برعکس",
+    "muscleGroup": "BACK",
+    "description": null,
+    "videoUrl": "videos/231.mp4"
+  },
+  {
+    "id": 232,
+    "name": "فیس پول خوابیده",
+    "muscleGroup": "SHOULDERS",
+    "description": null,
+    "videoUrl": "videos/232.mp4"
+  },
+  {
+    "id": 233,
+    "name": "سی سی ازاد با دمبل",
+    "muscleGroup": "QUADRICEPS",
+    "description": null,
+    "videoUrl": "videos/233.mp4"
+  },
+  {
+    "id": 234,
+    "name": "پشت پا دمبل",
+    "muscleGroup": "HAMSTRINGS",
+    "description": null,
+    "videoUrl": "videos/234.mp4"
+  },
+  {
+    "id": 235,
+    "name": "مایلی سیم کش از بین دوپا",
+    "muscleGroup": "CHEST",
+    "description": null,
+    "videoUrl": "videos/235.mp4"
+  },
+  {
+    "id": 236,
+    "name": "نشرروبرو طناب",
+    "muscleGroup": "SHOULDERS",
+    "description": null,
+    "videoUrl": "videos/236.mp4"
+  },
+  {
+    "id": 237,
+    "name": "جلوبازو هالتر نشسته",
+    "muscleGroup": "BICEPS",
+    "description": null,
+    "videoUrl": "videos/237.mp4"
+  },
+  {
+    "id": 238,
+    "name": "لیفت دمبل نشسته",
+    "muscleGroup": "BACK",
+    "description": null,
+    "videoUrl": "videos/238.mp4"
+  },
+  {
+    "id": 239,
+    "name": "بالاسینه هالتر ۲ زمانه",
+    "muscleGroup": "CHEST",
+    "description": null,
+    "videoUrl": "videos/239.mp4"
+  },
+  {
+    "id": 240,
+    "name": "رو دمبل تکیه به دیوار",
+    "muscleGroup": "BACK",
+    "description": null,
+    "videoUrl": "videos/240.mp4"
+  },
+  {
+    "id": 241,
+    "name": "پشت بازو پرسی (هالتر یا اسمیت تفاوت نداره)نگتیو",
+    "muscleGroup": "TRICEPS",
+    "description": null,
+    "videoUrl": "videos/241.mp4"
+  },
+  {
+    "id": 242,
+    "name": "سرشانه تک کاپ دمبل",
+    "muscleGroup": "SHOULDERS",
+    "description": null,
+    "videoUrl": "videos/242.mp4"
+  },
+  {
+    "id": 243,
+    "name": "جانبی سیم کش دست باز",
+    "muscleGroup": "SHOULDERS",
+    "description": null,
+    "videoUrl": "videos/243.mp4"
+  },
+  {
+    "id": 245,
+    "name": "بالاسینه و پرس سینه دمبل چرخشی",
+    "muscleGroup": "CHEST",
+    "description": null,
+    "videoUrl": "videos/245.mp4"
+  },
+  {
+    "id": 246,
+    "name": "بالاسینه و پرس سینه دمبل موازی",
+    "muscleGroup": "CHEST",
+    "description": null,
+    "videoUrl": "videos/246.mp4"
+  },
+  {
+    "id": 247,
+    "name": "نشرروبرو هالتر",
+    "muscleGroup": "SHOULDERS",
+    "description": null,
+    "videoUrl": "videos/247.mp4"
+  },
+  {
+    "id": 248,
+    "name": "پشت بازو سیم کش وی",
+    "muscleGroup": "TRICEPS",
+    "description": null,
+    "videoUrl": "videos/248.mp4"
+  },
+  {
+    "id": 249,
+    "name": "اکستنشن به بغل",
+    "muscleGroup": "TRICEPS",
+    "description": null,
+    "videoUrl": "videos/249.mp4"
+  },
+  {
+    "id": 251,
+    "name": "پرس سینه سیم کش ایستاده",
+    "muscleGroup": "CHEST",
+    "description": null,
+    "videoUrl": "videos/251.mp4"
+  },
+  {
+    "id": 252,
+    "name": "بالاسینه دستگاه",
+    "muscleGroup": "CHEST",
+    "description": null,
+    "videoUrl": "videos/252.mp4"
+  },
+  {
+    "id": 253,
+    "name": "پرس سینه هالتر گیوتینی",
+    "muscleGroup": "CHEST",
+    "description": null,
+    "videoUrl": "videos/253.mp4"
+  },
+  {
+    "id": 254,
+    "name": "جلوبازو دمبل چکشی تک از روبرو",
+    "muscleGroup": "BICEPS",
+    "description": null,
+    "videoUrl": "videos/254.mp4"
+  },
+  {
+    "id": 255,
+    "name": "پرس سینه دمبل چرخشی",
+    "muscleGroup": "CHEST",
+    "description": null,
+    "videoUrl": "videos/255.mp4"
+  },
+  {
+    "id": 256,
+    "name": "جلوبازو طناب",
+    "muscleGroup": "BICEPS",
+    "description": null,
+    "videoUrl": "videos/256.mp4"
+  },
+  {
+    "id": 257,
+    "name": "قایقی دست باز",
+    "muscleGroup": "BACK",
+    "description": null,
+    "videoUrl": "videos/257.mp4"
+  },
+  {
+    "id": 258,
+    "name": "قایقی طناب",
+    "muscleGroup": "BACK",
+    "description": null,
+    "videoUrl": "videos/258.mp4"
+  },
+  {
+    "id": 259,
+    "name": "سیم کش خم طناب",
+    "muscleGroup": "BACK",
+    "description": null,
+    "videoUrl": "videos/259.mp4"
+  },
+  {
+    "id": 260,
+    "name": "زیربغل سیم کش خم مچ برعکس",
+    "muscleGroup": "BACK",
+    "description": null,
+    "videoUrl": "videos/260.mp4"
+  },
+  {
+    "id": 261,
+    "name": "زیربغل سیم کش خم",
+    "muscleGroup": "BACK",
+    "description": null,
+    "videoUrl": "videos/261.mp4"
+  },
+  {
+    "id": 262,
+    "name": "سرشانه جانبی دمبل",
+    "muscleGroup": "SHOULDERS",
+    "description": null,
+    "videoUrl": "videos/262.mp4"
+  },
+  {
+    "id": 263,
+    "name": "جلوبازو دمبل چکشی",
+    "muscleGroup": "BICEPS",
+    "description": null,
+    "videoUrl": "videos/263.mp4"
+  },
+  {
+    "id": 264,
+    "name": "پشت بازو سیم کش پشت گردن",
+    "muscleGroup": "TRICEPS",
+    "description": null,
+    "videoUrl": "videos/264.mp4"
+  },
+  {
+    "id": 265,
+    "name": "پشت بازو سیم کش تک دست مچ برعکس",
+    "muscleGroup": "TRICEPS",
+    "description": null,
+    "videoUrl": "videos/265.mp4"
+  },
+  {
+    "id": 266,
+    "name": "پشت بازو سیم کش تک دست",
+    "muscleGroup": "TRICEPS",
+    "description": null,
+    "videoUrl": "videos/266.mp4"
+  },
+  {
+    "id": 267,
+    "name": "شکم سیم کش نشسته",
+    "muscleGroup": "CORE",
+    "description": null,
+    "videoUrl": "videos/267.mp4"
+  },
+  {
+    "id": 268,
+    "name": "شکم سیم کش",
+    "muscleGroup": "CORE",
+    "description": null,
+    "videoUrl": "videos/268.mp4"
+  },
+  {
+    "id": 269,
+    "name": "شکم میزشیب دار",
+    "muscleGroup": "CORE",
+    "description": null,
+    "videoUrl": "videos/269.mp4"
+  },
+  {
+    "id": 270,
+    "name": "شکم سی درجه",
+    "muscleGroup": "CORE",
+    "description": null,
+    "videoUrl": "videos/270.mp4"
+  },
+  {
+    "id": 271,
+    "name": "شکم سیم کش نشسته",
+    "muscleGroup": "CORE",
+    "description": null,
+    "videoUrl": "videos/271.mp4"
+  },
+  {
+    "id": 272,
+    "name": "شکم دستگاه",
+    "muscleGroup": "CORE",
+    "description": null,
+    "videoUrl": "videos/272.mp4"
+  },
+  {
+    "id": 273,
+    "name": "داک هالتر",
+    "muscleGroup": "BACK",
+    "description": null,
+    "videoUrl": "videos/273.mp4"
+  },
+  {
+    "id": 274,
+    "name": "نشرروبرو هالتر",
+    "muscleGroup": "SHOULDERS",
+    "description": null,
+    "videoUrl": "videos/274.mp4"
+  },
+  {
+    "id": 276,
+    "name": "توضیحات دیپ سیم کش دوبل",
+    "muscleGroup": "TRICEPS",
+    "description": null,
+    "videoUrl": "videos/276.mp4"
+  },
+  {
+    "id": 277,
+    "name": "دیپ اسکوات سیم کش دوبل",
+    "muscleGroup": "QUADRICEPS",
+    "description": null,
+    "videoUrl": "videos/277.mp4"
+  },
+  {
+    "id": 278,
+    "name": "جلوبازو هالتر دست جمع",
+    "muscleGroup": "BICEPS",
+    "description": null,
+    "videoUrl": "videos/278.mp4"
+  },
+  {
+    "id": 279,
+    "name": "جلوبازو لاری دستگاه",
+    "muscleGroup": "BICEPS",
+    "description": null,
+    "videoUrl": "videos/279.mp4"
+  },
+  {
+    "id": 280,
+    "name": "پشت بازو کیک بک دمبل",
+    "muscleGroup": "TRICEPS",
+    "description": null,
+    "videoUrl": "videos/280.mp4"
+  },
+  {
+    "id": 281,
+    "name": "پول اور طناب خم",
+    "muscleGroup": "BACK",
+    "description": null,
+    "videoUrl": "videos/281.mp4"
+  },
+  {
+    "id": 282,
+    "name": "سیم کش خم دست باز",
+    "muscleGroup": "BACK",
+    "description": null,
+    "videoUrl": "videos/282.mp4"
+  },
+  {
+    "id": 283,
+    "name": "پشت بازو سیم کش دوبل",
+    "muscleGroup": "TRICEPS",
+    "description": null,
+    "videoUrl": "videos/283.mp4"
+  },
+  {
+    "id": 284,
+    "name": "شراگز خم دمبل روی میز بالاسینه",
+    "muscleGroup": "BACK",
+    "description": null,
+    "videoUrl": "videos/284.mp4"
+  },
+  {
+    "id": 285,
+    "name": "سیم کش عمود دوبل باز از پشت",
+    "muscleGroup": "BACK",
+    "description": null,
+    "videoUrl": "videos/285.mp4"
+  },
+  {
+    "id": 286,
+    "name": "پرس سینه دمبل هشت به بالا",
+    "muscleGroup": "CHEST",
+    "description": null,
+    "videoUrl": "videos/286.mp4"
+  },
+  {
+    "id": 287,
+    "name": "پرس سینه دمبل ۸",
+    "muscleGroup": "CHEST",
+    "description": null,
+    "videoUrl": "videos/287.mp4"
+  },
+  {
+    "id": 288,
+    "name": "لانگ درجا با دمبل",
+    "muscleGroup": "QUADRICEPS",
+    "description": null,
+    "videoUrl": "videos/288.mp4"
+  },
+  {
+    "id": 289,
+    "name": "اسکوات بلغاری با دمبل",
+    "muscleGroup": "QUADRICEPS",
+    "description": null,
+    "videoUrl": "videos/289.mp4"
+  },
+  {
+    "id": 291,
+    "name": "پشت پا خوابیده تک تک",
+    "muscleGroup": "HAMSTRINGS",
+    "description": null,
+    "videoUrl": "videos/291.mp4"
+  },
+  {
+    "id": 292,
+    "name": "خیاطه دستگاه",
+    "muscleGroup": "QUADRICEPS",
+    "description": null,
+    "videoUrl": "videos/292.mp4"
+  },
+  {
+    "id": 293,
+    "name": "اسکوات اسمیت تمرکزی",
+    "muscleGroup": "QUADRICEPS",
+    "description": null,
+    "videoUrl": "videos/293.mp4"
+  },
+  {
+    "id": 294,
+    "name": "دیپ اسکوات سیم کش دوبل",
+    "muscleGroup": "QUADRICEPS",
+    "description": null,
+    "videoUrl": "videos/294.mp4"
+  },
+  {
+    "id": 296,
+    "name": "پول اور دمبل روی شیب مثبت",
+    "muscleGroup": "BACK",
+    "description": null,
+    "videoUrl": "videos/296.mp4"
+  },
+  {
+    "id": 297,
+    "name": "لیفت دمبل چرخشی",
+    "muscleGroup": "BACK",
+    "description": null,
+    "videoUrl": "videos/297.mp4"
+  },
+  {
+    "id": 298,
+    "name": "پشت بازو طناب از پایین",
+    "muscleGroup": "TRICEPS",
+    "description": null,
+    "videoUrl": "videos/298.mp4"
+  },
+  {
+    "id": 300,
+    "name": "فلای بک دمبل موازی",
+    "muscleGroup": "SHOULDERS",
+    "description": null,
+    "videoUrl": "videos/300.mp4"
+  },
+  {
+    "id": 302,
+    "name": "فلای بک دمبل خم",
+    "muscleGroup": "SHOULDERS",
+    "description": null,
+    "videoUrl": "videos/302.mp4"
+  },
+  {
+    "id": 303,
+    "name": "نشرروبرو سیم کش مچ برعکس",
+    "muscleGroup": "SHOULDERS",
+    "description": null,
+    "videoUrl": "videos/303.mp4"
+  },
+  {
+    "id": 304,
+    "name": "سیم کش عمود از جلو دست جمع مچ برعکس",
+    "muscleGroup": "BACK",
+    "description": null,
+    "videoUrl": "videos/304.mp4"
+  },
+  {
+    "id": 305,
+    "name": "جلوبازو هالتر برکیال",
+    "muscleGroup": "BICEPS",
+    "description": null,
+    "videoUrl": "videos/305.mp4"
+  },
+  {
+    "id": 307,
+    "name": "سیم کش عمود دوبل",
+    "muscleGroup": "BACK",
+    "description": null,
+    "videoUrl": "videos/307.mp4"
+  },
+  {
+    "id": 308,
+    "name": "سرشانه کورل دمبل",
+    "muscleGroup": "SHOULDERS",
+    "description": null,
+    "videoUrl": "videos/308.mp4"
+  },
+  {
+    "id": 309,
+    "name": "جلوبازو هالتر مچ برعکس",
+    "muscleGroup": "BICEPS",
+    "description": null,
+    "videoUrl": "videos/309.mp4"
+  },
+  {
+    "id": 310,
+    "name": "زیربغل سیم کش خم دوبل",
+    "muscleGroup": "BACK",
+    "description": null,
+    "videoUrl": "videos/310.mp4"
+  },
+  {
+    "id": 312,
+    "name": "اسکوات اسمیت(هالتر)تناوبی نیمه،کامل",
+    "muscleGroup": "QUADRICEPS",
+    "description": null,
+    "videoUrl": "videos/312.mp4"
+  },
+  {
+    "id": 313,
+    "name": "آموزش سرچ کانال حتما حتما نگاه کنین",
+    "muscleGroup": "FULL_BODY",
+    "description": null,
+    "videoUrl": "videos/313.mp4"
+  },
+  {
+    "id": 314,
+    "name": "فیله کمر اسپایدر",
+    "muscleGroup": "BACK",
+    "description": null,
+    "videoUrl": "videos/314.mp4"
+  },
+  {
+    "id": 315,
+    "name": "پلانک",
+    "muscleGroup": "CORE",
+    "description": null,
+    "videoUrl": "videos/315.mp4"
+  },
+  {
+    "id": 316,
+    "name": "هیپ تراست تک پا",
+    "muscleGroup": "GLUTES",
+    "description": null,
+    "videoUrl": "videos/316.mp4"
+  },
+  {
+    "id": 317,
+    "name": "فیله کمر دستگاه",
+    "muscleGroup": "BACK",
+    "description": null,
+    "videoUrl": "videos/317.mp4"
+  },
+  {
+    "id": 319,
+    "name": "قایقی دوبل تمرکز ترپز(دوکتف باید عقب کامل جمع بشن)",
+    "muscleGroup": "BACK",
+    "description": null,
+    "videoUrl": "videos/319.mp4"
+  },
+  {
+    "id": 320,
+    "name": "پشت پا تکیه به اسمیت",
+    "muscleGroup": "HAMSTRINGS",
+    "description": null,
+    "videoUrl": "videos/320.mp4"
+  },
+  {
+    "id": 321,
+    "name": "جلوبازو هالتر نیمه بالا",
+    "muscleGroup": "BICEPS",
+    "description": null,
+    "videoUrl": "videos/321.mp4"
+  },
+  {
+    "id": 322,
+    "name": "جلوبازو هالتر نیمه بالا",
+    "muscleGroup": "BICEPS",
+    "description": null,
+    "videoUrl": "videos/322.mp4"
+  },
+  {
+    "id": 323,
+    "name": "پشت بازو دیپ نیمکت",
+    "muscleGroup": "TRICEPS",
+    "description": null,
+    "videoUrl": "videos/323.mp4"
+  },
+  {
+    "id": 324,
+    "name": "بالاسینه هالتر ۲ زمانه",
+    "muscleGroup": "CHEST",
+    "description": null,
+    "videoUrl": "videos/324.mp4"
+  },
+  {
+    "id": 326,
+    "name": "زیرشکم خلبانی نیمه بالا",
+    "muscleGroup": "CORE",
+    "description": null,
+    "videoUrl": "videos/326.mp4"
+  },
+  {
+    "id": 327,
+    "name": "پشت بازو دمبل تک پشت گردن",
+    "muscleGroup": "TRICEPS",
+    "description": null,
+    "videoUrl": "videos/327.mp4"
+  },
+  {
+    "id": 328,
+    "name": "پشت بازو هالتر نشسته",
+    "muscleGroup": "TRICEPS",
+    "description": null,
+    "videoUrl": "videos/328.mp4"
+  },
+  {
+    "id": 329,
+    "name": "هاگ پا تک از بغل",
+    "muscleGroup": "QUADRICEPS",
+    "description": null,
+    "videoUrl": "videos/329.mp4"
+  },
+  {
+    "id": 335,
+    "name": "جلوپا تک تناوبی جفت",
+    "muscleGroup": "QUADRICEPS",
+    "description": null,
+    "videoUrl": "videos/335.mp4"
+  },
+  {
+    "id": 336,
+    "name": "پشت پا تک تناوبی جفت",
+    "muscleGroup": "HAMSTRINGS",
+    "description": null,
+    "videoUrl": "videos/336.mp4"
+  },
+  {
+    "id": 337,
+    "name": "خیاطه دستگاه",
+    "muscleGroup": "QUADRICEPS",
+    "description": null,
+    "videoUrl": "videos/337.mp4"
+  },
+  {
+    "id": 338,
+    "name": "جلوبازو تک دمبل جفت دست اسپایدر",
+    "muscleGroup": "BICEPS",
+    "description": null,
+    "videoUrl": "videos/338.mp4"
+  },
+  {
+    "id": 339,
+    "name": "جفت دمبل چسبیده میان پا",
+    "muscleGroup": "BACK",
+    "description": null,
+    "videoUrl": "videos/339.mp4"
+  },
+  {
+    "id": 340,
+    "name": "شکم تبرزنی",
+    "muscleGroup": "CORE",
+    "description": null,
+    "videoUrl": "videos/340.mp4"
+  },
+  {
+    "id": 341,
+    "name": "اسکوات هالتر از جلو",
+    "muscleGroup": "QUADRICEPS",
+    "description": null,
+    "videoUrl": "videos/341.mp4"
+  },
+  {
+    "id": 342,
+    "name": "جلوبازو جفت دمبل چسبیده",
+    "muscleGroup": "BICEPS",
+    "description": null,
+    "videoUrl": "videos/342.mp4"
+  },
+  {
+    "id": 343,
+    "name": "جانبی دمبل نشسته تمرکزی",
+    "muscleGroup": "SHOULDERS",
+    "description": null,
+    "videoUrl": "videos/343.mp4"
+  },
+  {
+    "id": 344,
+    "name": "پشت پا سیم کش",
+    "muscleGroup": "HAMSTRINGS",
+    "description": null,
+    "videoUrl": "videos/344.mp4"
+  },
+  {
+    "id": 345,
+    "name": "کیک بک سیم کش",
+    "muscleGroup": "GLUTES",
+    "description": null,
+    "videoUrl": "videos/345.mp4"
+  },
+  {
+    "id": 346,
+    "name": "زیربغل اچ آزاد تک ایستاده",
+    "muscleGroup": "BACK",
+    "description": null,
+    "videoUrl": "videos/346.mp4"
+  },
+  {
+    "id": 347,
+    "name": "دیپ با دستگاه شنا سوئدی",
+    "muscleGroup": "CHEST",
+    "description": null,
+    "videoUrl": "videos/347.mp4"
+  },
+  {
+    "id": 348,
+    "name": "پرس سینه سیم کش نشسته",
+    "muscleGroup": "CHEST",
+    "description": null,
+    "videoUrl": "videos/348.mp4"
+  },
+  {
+    "id": 349,
+    "name": "کراس اور از بالا خم",
+    "muscleGroup": "CHEST",
+    "description": null,
+    "videoUrl": "videos/349.mp4"
+  },
+  {
+    "id": 352,
+    "name": "اسکوات بنچ اسمیت (روی صندلی)",
+    "muscleGroup": "QUADRICEPS",
+    "description": null,
+    "videoUrl": "videos/352.mp4"
+  },
+  {
+    "id": 353,
+    "name": "سرشانه نشرخم دمبل هشت",
+    "muscleGroup": "SHOULDERS",
+    "description": null,
+    "videoUrl": "videos/353.mp4"
+  },
+  {
+    "id": 357,
+    "name": "زیربغل جفت سیم کش نشسته مچ برعکس",
+    "muscleGroup": "BACK",
+    "description": null,
+    "videoUrl": "videos/357.mp4"
+  },
+  {
+    "id": 358,
+    "name": "پول اور طناب روی شیب مثبت",
+    "muscleGroup": "BACK",
+    "description": null,
+    "videoUrl": "videos/358.mp4"
+  },
+  {
+    "id": 359,
+    "name": "زیربغل طناب اسپایدر",
+    "muscleGroup": "BACK",
+    "description": null,
+    "videoUrl": "videos/359.mp4"
+  },
+  {
+    "id": 360,
+    "name": "اچ سیم کش تک از بغل",
+    "muscleGroup": "CHEST",
+    "description": null,
+    "videoUrl": "videos/360.mp4"
+  },
+  {
+    "id": 361,
+    "name": "زیرشکم خوابیده",
+    "muscleGroup": "CORE",
+    "description": null,
+    "videoUrl": "videos/361.mp4"
+  },
+  {
+    "id": 362,
+    "name": "جلوبازو لاری تک دمبل",
+    "muscleGroup": "BICEPS",
+    "description": null,
+    "videoUrl": "videos/362.mp4"
+  },
+  {
+    "id": 363,
+    "name": "جلوبازو لاری تک دمبل چکشی",
+    "muscleGroup": "BICEPS",
+    "description": null,
+    "videoUrl": "videos/363.mp4"
+  },
+  {
+    "id": 364,
+    "name": "جلوبازو تک دمبل ایستاده روی میز بالاسینه",
+    "muscleGroup": "BICEPS",
+    "description": null,
+    "videoUrl": "videos/364.mp4"
+  },
+  {
+    "id": 365,
+    "name": "جلوبازو تک دمبل چکشی ایستاده روی میزبالاسینه",
+    "muscleGroup": "BICEPS",
+    "description": null,
+    "videoUrl": "videos/365.mp4"
+  },
+  {
+    "id": 367,
+    "name": "قفسه سیم کش نشسته (کراس روبرو)",
+    "muscleGroup": "CHEST",
+    "description": null,
+    "videoUrl": "videos/367.mp4"
+  },
+  {
+    "id": 368,
+    "name": "شنا سوئدی مچ برعکس فشار به قسمت بیرونی سینه شما وارد میشه،با احتیاط اجرا کنید...",
+    "muscleGroup": "CHEST",
+    "description": null,
+    "videoUrl": "videos/368.mp4"
+  },
+  {
+    "id": 369,
+    "name": "کراس نشسته مچ برعکس",
+    "muscleGroup": "CHEST",
+    "description": null,
+    "videoUrl": "videos/369.mp4"
+  },
+  {
+    "id": 370,
+    "name": "جانبی تک دمبل تکیه به میز بالاسینه",
+    "muscleGroup": "SHOULDERS",
+    "description": null,
+    "videoUrl": "videos/370.mp4"
+  },
+  {
+    "id": 371,
+    "name": "کیک بک سیم کش روی میز(نیمکت)",
+    "muscleGroup": "GLUTES",
+    "description": null,
+    "videoUrl": "videos/371.mp4"
+  },
+  {
+    "id": 375,
+    "name": "پشت پا تک دمبل پاباز",
+    "muscleGroup": "HAMSTRINGS",
+    "description": null,
+    "videoUrl": "videos/375.mp4"
+  },
+  {
+    "id": 380,
+    "name": "شکم تمرکزی ایزومتریک",
+    "muscleGroup": "CORE",
+    "description": null,
+    "videoUrl": "videos/380.mp4"
+  },
+  {
+    "id": 385,
+    "name": "بیرون پا دستگاه",
+    "muscleGroup": "GLUTES",
+    "description": null,
+    "videoUrl": "videos/385.mp4"
+  },
+  {
+    "id": 386,
+    "name": "مچ هالتر",
+    "muscleGroup": "FOREARMS",
+    "description": null,
+    "videoUrl": "videos/386.mp4"
+  },
+  {
+    "id": 387,
+    "name": "ساعد هالتر",
+    "muscleGroup": "FOREARMS",
+    "description": null,
+    "videoUrl": "videos/387.mp4"
+  },
+  {
+    "id": 389,
+    "name": "جلوبازو صفحه پلیت چکشی (پلیت)",
+    "muscleGroup": "BICEPS",
+    "description": null,
+    "videoUrl": "videos/389.mp4"
+  },
+  {
+    "id": 391,
+    "name": "مچ هالتر اسپایدر",
+    "muscleGroup": "FOREARMS",
+    "description": null,
+    "videoUrl": "videos/391.mp4"
+  },
+  {
+    "id": 392,
+    "name": "جلوبازو هالتر مچ برعکس اسپایدر",
+    "muscleGroup": "BICEPS",
+    "description": null,
+    "videoUrl": "videos/392.mp4"
+  },
+  {
+    "id": 393,
+    "name": "مچ،ساعد هالتر نشسته",
+    "muscleGroup": "FOREARMS",
+    "description": null,
+    "videoUrl": "videos/393.mp4"
+  },
+  {
+    "id": 395,
+    "name": "نشر خم دمبل هشت",
+    "muscleGroup": "SHOULDERS",
+    "description": null,
+    "videoUrl": "videos/395.mp4"
+  },
+  {
+    "id": 396,
+    "name": "کراس از بالا مچ برعکس",
+    "muscleGroup": "CHEST",
+    "description": null,
+    "videoUrl": "videos/396.mp4"
+  },
+  {
+    "id": 403,
+    "name": "نشرروبرو صفحه",
+    "muscleGroup": "SHOULDERS",
+    "description": null,
+    "videoUrl": "videos/403.mp4"
+  },
+  {
+    "id": 404,
+    "name": "مایلی دمبل",
+    "muscleGroup": "CHEST",
+    "description": null,
+    "videoUrl": "videos/404.mp4"
+  },
+  {
+    "id": 405,
+    "name": "مایلی سیمکش",
+    "muscleGroup": "CHEST",
+    "description": null,
+    "videoUrl": "videos/405.mp4"
+  },
+  {
+    "id": 406,
+    "name": "جلوبازو سیمکش چکشی ازروبرو",
+    "muscleGroup": "BICEPS",
+    "description": null,
+    "videoUrl": "videos/406.mp4"
+  },
+  {
+    "id": 407,
+    "name": "مایلی سیمکش چکشی",
+    "muscleGroup": "CHEST",
+    "description": null,
+    "videoUrl": "videos/407.mp4"
+  },
+  {
+    "id": 408,
+    "name": "پشت بازو سیمکش چکشی ازروبرو",
+    "muscleGroup": "TRICEPS",
+    "description": null,
+    "videoUrl": "videos/408.mp4"
+  },
+  {
+    "id": 409,
+    "name": "مایلی دمبل چکشی",
+    "muscleGroup": "CHEST",
+    "description": null,
+    "videoUrl": "videos/409.mp4"
+  },
+  {
+    "id": 410,
+    "name": "پشت بازو سیمکش ضربدری",
+    "muscleGroup": "TRICEPS",
+    "description": null,
+    "videoUrl": "videos/410.mp4"
+  },
+  {
+    "id": 411,
+    "name": "رو صفحه",
+    "muscleGroup": "BACK",
+    "description": null,
+    "videoUrl": "videos/411.mp4"
+  },
+  {
+    "id": 412,
+    "name": "تک خم دمبل تمرکزترپز",
+    "muscleGroup": "BACK",
+    "description": null,
+    "videoUrl": "videos/412.mp4"
+  },
+  {
+    "id": 413,
+    "name": "هالترخم دست موازی",
+    "muscleGroup": "BACK",
+    "description": null,
+    "videoUrl": "videos/413.mp4"
+  },
+  {
+    "id": 414,
+    "name": "جلوبازودمبل استارت آپ چکشی",
+    "muscleGroup": "BICEPS",
+    "description": null,
+    "videoUrl": "videos/414.mp4"
+  },
+  {
+    "id": 415,
+    "name": "جلوبازو استارت آپ ایزومتریک چرخشی",
+    "muscleGroup": "BICEPS",
+    "description": null,
+    "videoUrl": "videos/415.mp4"
+  },
+  {
+    "id": 416,
+    "name": "جلوبازو جفت دمبل استارت آپ",
+    "muscleGroup": "BICEPS",
+    "description": null,
+    "videoUrl": "videos/416.mp4"
+  },
+  {
+    "id": 418,
+    "name": "کراس روبرو ۲زاویه",
+    "muscleGroup": "CHEST",
+    "description": null,
+    "videoUrl": "videos/418.mp4"
+  },
+  {
+    "id": 419,
+    "name": "کراس از بالا ۲زاویه",
+    "muscleGroup": "CHEST",
+    "description": null,
+    "videoUrl": "videos/419.mp4"
+  },
+  {
+    "id": 422,
+    "name": "سرشانه دمبل استاتوداینامیک ازجلو",
+    "muscleGroup": "SHOULDERS",
+    "description": null,
+    "videoUrl": "videos/422.mp4"
+  },
+  {
+    "id": 423,
+    "name": "سرشانه دمبل استاتوداینامیک",
+    "muscleGroup": "SHOULDERS",
+    "description": null,
+    "videoUrl": "videos/423.mp4"
+  },
+  {
+    "id": 424,
+    "name": "جلوبازو جفت دمبل چکشی به داخل",
+    "muscleGroup": "BICEPS",
+    "description": null,
+    "videoUrl": "videos/424.mp4"
+  },
+  {
+    "id": 425,
+    "name": "نشرخم سیمکش ضربدری",
+    "muscleGroup": "SHOULDERS",
+    "description": null,
+    "videoUrl": "videos/425.mp4"
+  },
+  {
+    "id": 426,
+    "name": "فلای بک سیمکش ضربدری ازبالا",
+    "muscleGroup": "SHOULDERS",
+    "description": null,
+    "videoUrl": "videos/426.mp4"
+  },
+  {
+    "id": 431,
+    "name": "جلوپاسیمکش",
+    "muscleGroup": "QUADRICEPS",
+    "description": null,
+    "videoUrl": "videos/431.mp4"
+  },
+  {
+    "id": 432,
+    "name": "خیاطه سیمکش",
+    "muscleGroup": "QUADRICEPS",
+    "description": null,
+    "videoUrl": "videos/432.mp4"
+  },
+  {
+    "id": 433,
+    "name": "جلوپاسیمکش گیرش ازبالا",
+    "muscleGroup": "QUADRICEPS",
+    "description": null,
+    "videoUrl": "videos/433.mp4"
+  },
+  {
+    "id": 434,
+    "name": "بالاسینه ایستاده تک مایل",
+    "muscleGroup": "CHEST",
+    "description": null,
+    "videoUrl": "videos/434.mp4"
+  },
+  {
+    "id": 435,
+    "name": "بالاسینه لندماین",
+    "muscleGroup": "CHEST",
+    "description": null,
+    "videoUrl": "videos/435.mp4"
+  },
+  {
+    "id": 436,
+    "name": "شنا سوئدی مچ برعکس",
+    "muscleGroup": "CHEST",
+    "description": null,
+    "videoUrl": "videos/436.mp4"
+  },
+  {
+    "id": 437,
+    "name": "فلای دستگاه ایستاده",
+    "muscleGroup": "CHEST",
+    "description": null,
+    "videoUrl": "videos/437.mp4"
+  },
+  {
+    "id": 439,
+    "name": "سی سی با وزن بدن",
+    "muscleGroup": "QUADRICEPS",
+    "description": null,
+    "videoUrl": "videos/439.mp4"
+  },
+  {
+    "id": 440,
+    "name": "سرشانه سیمکش ازجلو",
+    "muscleGroup": "SHOULDERS",
+    "description": null,
+    "videoUrl": "videos/440.mp4"
+  },
+  {
+    "id": 444,
+    "name": "داک هالتر لندماین",
+    "muscleGroup": "BACK",
+    "description": null,
+    "videoUrl": "videos/444.mp4"
+  },
+  {
+    "id": 445,
+    "name": "پشت پا هالتر لندماین",
+    "muscleGroup": "HAMSTRINGS",
+    "description": null,
+    "videoUrl": "videos/445.mp4"
+  },
+  {
+    "id": 446,
+    "name": "جلوبازو صفحه پلیت",
+    "muscleGroup": "BICEPS",
+    "description": null,
+    "videoUrl": "videos/446.mp4"
+  },
+  {
+    "id": 447,
+    "name": "پشت بازو طناب گیرش ازبالا",
+    "muscleGroup": "TRICEPS",
+    "description": null,
+    "videoUrl": "videos/447.mp4"
+  },
+  {
+    "id": 448,
+    "name": "پشت بازو سیمکش تک دست مچ برعکس",
+    "muscleGroup": "TRICEPS",
+    "description": null,
+    "videoUrl": "videos/448.mp4"
+  },
+  {
+    "id": 450,
+    "name": "پلانک چرخشی",
+    "muscleGroup": "CORE",
+    "description": null,
+    "videoUrl": "videos/450.mp4"
+  },
+  {
+    "id": 451,
+    "name": "شکم کشویی باقایقی",
+    "muscleGroup": "CORE",
+    "description": null,
+    "videoUrl": "videos/451.mp4"
+  },
+  {
+    "id": 452,
+    "name": "زیرشکم خلبانی بادمبل",
+    "muscleGroup": "CORE",
+    "description": null,
+    "videoUrl": "videos/452.mp4"
+  },
+  {
+    "id": 454,
+    "name": "شکم سی درجه",
+    "muscleGroup": "CORE",
+    "description": null,
+    "videoUrl": "videos/454.mp4"
+  },
+  {
+    "id": 455,
+    "name": "تک خم دمبل تمرکزترپز",
+    "muscleGroup": "BACK",
+    "description": null,
+    "videoUrl": "videos/455.mp4"
+  },
+  {
+    "id": 457,
+    "name": "کراس روبرو چسبیده",
+    "muscleGroup": "CHEST",
+    "description": null,
+    "videoUrl": "videos/457.mp4"
+  },
+  {
+    "id": 458,
+    "name": "جانبی سیمکش ضربدری خوابیده",
+    "muscleGroup": "SHOULDERS",
+    "description": null,
+    "videoUrl": "videos/458.mp4"
+  },
+  {
+    "id": 459,
+    "name": "پشت پا دمبل تک ایستاده",
+    "muscleGroup": "HAMSTRINGS",
+    "description": null,
+    "videoUrl": "videos/459.mp4"
+  },
+  {
+    "id": 460,
+    "name": "اسکوات اسپیلیت دمبل",
+    "muscleGroup": "QUADRICEPS",
+    "description": null,
+    "videoUrl": "videos/460.mp4"
+  },
+  {
+    "id": 461,
+    "name": "اسکوات گابلت",
+    "muscleGroup": "QUADRICEPS",
+    "description": null,
+    "videoUrl": "videos/461.mp4"
+  },
+  {
+    "id": 462,
+    "name": "هاگ پا هفت",
+    "muscleGroup": "QUADRICEPS",
+    "description": null,
+    "videoUrl": "videos/462.mp4"
+  },
+  {
+    "id": 465,
+    "name": "کراس روبرو چرخشی",
+    "muscleGroup": "CHEST",
+    "description": null,
+    "videoUrl": "videos/465.mp4"
+  },
+  {
+    "id": 466,
+    "name": "جلوبازو هالتر تک دست",
+    "muscleGroup": "BICEPS",
+    "description": null,
+    "videoUrl": "videos/466.mp4"
+  },
+  {
+    "id": 467,
+    "name": "جلوبازو سیمکش به پشت گردن",
+    "muscleGroup": "BICEPS",
+    "description": null,
+    "videoUrl": "videos/467.mp4"
+  },
+  {
+    "id": 468,
+    "name": "جلوبازو تک خم دمبل",
+    "muscleGroup": "BICEPS",
+    "description": null,
+    "videoUrl": "videos/468.mp4"
+  },
+  {
+    "id": 471,
+    "name": "آموزش سرچ کانال حتما حتما نگاه کنین",
+    "muscleGroup": "FULL_BODY",
+    "description": null,
+    "videoUrl": "videos/471.mp4"
+  },
+  {
+    "id": 473,
+    "name": "بالاسینه دمبل چسبیده تناوبی قفسه بالادمبل",
+    "muscleGroup": "CHEST",
+    "description": null,
+    "videoUrl": "videos/473.mp4"
+  },
+  {
+    "id": 474,
+    "name": "پرس سینه دمبل چسبیده تناوبی قفسه دمبل",
+    "muscleGroup": "CHEST",
+    "description": null,
+    "videoUrl": "videos/474.mp4"
+  },
+  {
+    "id": 475,
+    "name": "اسکوات اسپیلیت سیمکش دوبل",
+    "muscleGroup": "QUADRICEPS",
+    "description": null,
+    "videoUrl": "videos/475.mp4"
+  },
+  {
+    "id": 487,
+    "name": "پیاده روی بادمبل روی پنجه",
+    "muscleGroup": "CALVES",
+    "description": null,
+    "videoUrl": "videos/487.mp4"
+  },
+  {
+    "id": 490,
+    "name": "زیرشکم های نی",
+    "muscleGroup": "CORE",
+    "description": null,
+    "videoUrl": "videos/490.mp4"
+  },
+  {
+    "id": 491,
+    "name": "شکم روسی",
+    "muscleGroup": "CORE",
+    "description": null,
+    "videoUrl": "videos/491.mp4"
+  },
+  {
+    "id": 492,
+    "name": "زیرشکم خلبانی پاصاف",
+    "muscleGroup": "CORE",
+    "description": null,
+    "videoUrl": "videos/492.mp4"
+  },
+  {
+    "id": 493,
+    "name": "زیرشکم خوابیده",
+    "muscleGroup": "CORE",
+    "description": null,
+    "videoUrl": "videos/493.mp4"
+  },
+  {
+    "id": 494,
+    "name": "شکم کوه نوردی",
+    "muscleGroup": "CORE",
+    "description": null,
+    "videoUrl": "videos/494.mp4"
+  },
+  {
+    "id": 496,
+    "name": "سوپاین لگ فیت",
+    "muscleGroup": "CORE",
+    "description": null,
+    "videoUrl": "videos/496.mp4"
+  },
+  {
+    "id": 497,
+    "name": "لانگ پیاده روی ارتشی",
+    "muscleGroup": "QUADRICEPS",
+    "description": null,
+    "videoUrl": "videos/497.mp4"
+  },
+  {
+    "id": 498,
+    "name": "پول آور سیمکش ضربدری",
+    "muscleGroup": "BACK",
+    "description": null,
+    "videoUrl": "videos/498.mp4"
+  },
+  {
+    "id": 500,
+    "name": "سرشانه پرسی دمبل چسبیده",
+    "muscleGroup": "SHOULDERS",
+    "description": null,
+    "videoUrl": "videos/500.mp4"
+  },
+  {
+    "id": 501,
+    "name": "پشت پا هالتر پا باز",
+    "muscleGroup": "HAMSTRINGS",
+    "description": null,
+    "videoUrl": "videos/501.mp4"
+  },
+  {
+    "id": 506,
+    "name": "شکم سیمکش با لت",
+    "muscleGroup": "CORE",
+    "description": null,
+    "videoUrl": "videos/506.mp4"
+  },
+  {
+    "id": 509,
+    "name": "پشت بازو طناب پشت به دستگاه",
+    "muscleGroup": "TRICEPS",
+    "description": null,
+    "videoUrl": "videos/509.mp4"
+  },
+  {
+    "id": 510,
+    "name": "زیرسینه سیمکش خوابیده",
+    "muscleGroup": "CHEST",
+    "description": null,
+    "videoUrl": "videos/510.mp4"
+  },
+  {
+    "id": 514,
+    "name": "بارفیکس خوابیده مچ برعکس",
+    "muscleGroup": "BACK",
+    "description": null,
+    "videoUrl": "videos/514.mp4"
+  },
+  {
+    "id": 515,
+    "name": "بارفیکس خوابیده",
+    "muscleGroup": "BACK",
+    "description": null,
+    "videoUrl": "videos/515.mp4"
+  },
+  {
+    "id": 516,
+    "name": "سلام ژاپنی",
+    "muscleGroup": "HAMSTRINGS",
+    "description": null,
+    "videoUrl": "videos/516.mp4"
+  },
+  {
+    "id": 517,
+    "name": "ساعد صفحه مچ برعکس",
+    "muscleGroup": "FOREARMS",
+    "description": null,
+    "videoUrl": "videos/517.mp4"
+  },
+  {
+    "id": 518,
+    "name": "جلوبازوصفحه پلیت دست جمع",
+    "muscleGroup": "BICEPS",
+    "description": null,
+    "videoUrl": "videos/518.mp4"
+  },
+  {
+    "id": 519,
+    "name": "ساعد صفحه پلیت",
+    "muscleGroup": "FOREARMS",
+    "description": null,
+    "videoUrl": "videos/519.mp4"
+  },
+  {
+    "id": 529,
+    "name": "پول اور سیمکش وی نشسته",
+    "muscleGroup": "BACK",
+    "description": null,
+    "videoUrl": "videos/529.mp4"
+  }
+]

@@ -1,8 +1,8 @@
 import { Injectable } from '@nestjs/common';
 import { Prisma } from '@prisma/client';
 import { PrismaService } from '../../../database/prisma.service';
-import { PaginationQueryDto } from '../../../common/dto/pagination-query.dto';
 import { getPagination } from '../../../common/utils/pagination.util';
+import { ExerciseQueryDto } from '../dto/exercise-query.dto';
 
 @Injectable()
 export class ExercisesRepository {
@@ -12,10 +12,11 @@ export class ExercisesRepository {
     return this.prisma.exercise.create({ data });
   }
 
-  findMany(query: PaginationQueryDto) {
+  findMany(query: ExerciseQueryDto) {
     const { skip, take } = getPagination(query);
     const where: Prisma.ExerciseWhereInput = {
       deletedAt: null,
+      muscleGroup: query.muscleGroup ?? undefined,
       OR: query.search
         ? [
             { title: { contains: query.search, mode: 'insensitive' } },
@@ -63,6 +64,15 @@ export class ExercisesRepository {
         creator: { select: { id: true, fullName: true } },
         _count: { select: { bookmarks: true } },
       },
+    });
+  }
+
+  getMuscleGroups() {
+    return this.prisma.exercise.groupBy({
+      by: ['muscleGroup'],
+      where: { deletedAt: null, muscleGroup: { not: null } },
+      _count: { muscleGroup: true },
+      orderBy: { _count: { muscleGroup: 'desc' } },
     });
   }
 
