@@ -153,6 +153,51 @@ Quick checks:
 - DB logs: `docker compose -f docker-compose.prod.yml logs -f postgres`
 - API logs: `docker compose -f docker-compose.prod.yml logs -f api`
 
+### Windows Server Deploy
+
+If you are deploying on Windows Server, the simplest path for this project is:
+
+- run PostgreSQL natively on Windows
+- run the NestJS API natively with Node.js 20
+- keep Nginx in front and proxy `/api/` and `/uploads/` to `127.0.0.1:3000`
+
+Recommended `.env.production` values for this setup:
+
+```env
+NODE_ENV=production
+HOST=127.0.0.1
+PORT=3000
+TRUST_PROXY=true
+SWAGGER_ENABLED=false
+RUN_MIGRATIONS=true
+
+DATABASE_URL="postgresql://bahman:change-this-db-password@127.0.0.1:5432/bahman_fitness?schema=public"
+FRONTEND_URL="https://app.example.com"
+```
+
+Prepare the backend in PowerShell:
+
+```powershell
+Copy-Item .env.production.example .env.production
+notepad .env.production
+powershell -ExecutionPolicy Bypass -File .\deploy\windows\prepare-backend.ps1
+```
+
+Run the backend in PowerShell:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\deploy\windows\run-backend.ps1
+```
+
+Quick checks:
+
+- API health: `Invoke-WebRequest http://127.0.0.1:3000/api/v1/health`
+- API logs in current console after `run-backend.ps1`
+- If Nginx runs on the Windows host, proxy `/api/` and `/uploads/` to `127.0.0.1:3000`
+- If Nginx runs in Docker or WSL, proxy `/api/` and `/uploads/` to `host.docker.internal:3000`, and set `HOST=0.0.0.0` in `.env.production`
+
+For a persistent Windows service, run the backend with a Windows service manager such as NSSM after verifying that the manual start works.
+
 ### Manual Production Commands
 
 ```bash

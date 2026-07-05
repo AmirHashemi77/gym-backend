@@ -1,13 +1,15 @@
 server {
     listen 80;
-    server_name app.example.com;
+    server_name _;
 
-    root /var/www/gym-frontend/dist;
+    root /usr/share/nginx/html;
     index index.html;
 
     client_max_body_size 220M;
 
     location /api/ {
+        # If Nginx runs on the Windows host, keep 127.0.0.1.
+        # If Nginx runs in Docker/WSL, replace it with host.docker.internal:3000.
         proxy_pass http://127.0.0.1:3000;
         proxy_http_version 1.1;
         proxy_set_header Host $host;
@@ -21,6 +23,8 @@ server {
     }
 
     location /uploads/ {
+        # If Nginx runs on the Windows host, keep 127.0.0.1.
+        # If Nginx runs in Docker/WSL, replace it with host.docker.internal:3000.
         proxy_pass http://127.0.0.1:3000;
         proxy_http_version 1.1;
         proxy_set_header Host $host;
@@ -32,5 +36,11 @@ server {
 
     location / {
         try_files $uri $uri/ /index.html;
+    }
+
+    location ~* \.(js|css|png|jpg|jpeg|gif|svg|ico|woff|woff2)$ {
+        expires 30d;
+        add_header Cache-Control "public, no-transform";
+        try_files $uri =404;
     }
 }
