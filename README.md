@@ -86,10 +86,77 @@ All seed users use password `Password123!`.
 
 ## Deployment
 
-The project is ready for VPS or Docker deployment. Configure `.env`, run PostgreSQL, then:
+### What Is Needed
+
+- Production env values with real JWT secrets and the correct `DATABASE_URL`
+- A PostgreSQL instance reachable from the API
+- A process manager or Docker so the service restarts automatically
+- A reverse proxy such as Nginx for HTTPS and domain routing
+- Optional object storage for uploads; if S3 is not configured, uploads are stored in `public/uploads`
+
+### VPS Deploy
 
 ```bash
-npm run prisma:deploy
+cp .env.production.example .env.production
+npm ci
 npm run build
-npm run start:prod
+NODE_ENV=production npm run prisma:deploy
+NODE_ENV=production npm run start:prod
+```
+
+For a real VPS, run the last command under `pm2` or `systemd`, and put Nginx in front of port `3000`.
+
+### Docker Deploy
+
+```bash
+cp .env.production.example .env.production
+docker compose -f docker-compose.prod.yml up -d --build
+```
+
+The API will:
+
+- wait for PostgreSQL health
+- run `prisma migrate deploy` on startup
+- expose `GET /api/v1/health` for health checks
+- use the server-side `public` directory as a bind mount, so existing media and new uploads stay outside the image
+- serve local fallback uploads from `public/uploads`
+
+### Connect To Existing Nginx Frontend
+
+If your frontend is already served by Nginx on the same VPS, the simplest setup is:
+
+- keep frontend on `/`
+- proxy `/api/` to this backend on `127.0.0.1:3000`
+- proxy `/uploads/` to this backend so local uploaded files are reachable
+- set the frontend API base URL to `/api/v1`
+
+Use [deploy/nginx/frontend-with-api.conf.example](deploy/nginx/frontend-with-api.conf.example) as the template for your site config, or merge its `location /api/` and `location /uploads/` blocks into your current Nginx server block.
+
+Important:
+
+- `client_max_body_size 220M` is required if you want video upload to work through Nginx
+- `FRONTEND_URL` in `.env.production` must be your real frontend domain, for example `https://app.example.com`
+- in the production compose file, the backend is exposed only on `127.0.0.1:3000`, so Nginx on the same server can reach it but it is not publicly open
+
+### Bring Up Database And API
+
+```bash
+cp .env.production.example .env.production
+docker compose -f docker-compose.prod.yml up -d postgres
+docker compose -f docker-compose.prod.yml up -d api
+docker compose -f docker-compose.prod.yml ps
+```
+
+Quick checks:
+
+- API health: `curl http://127.0.0.1:3000/api/v1/health`
+- DB logs: `docker compose -f docker-compose.prod.yml logs -f postgres`
+- API logs: `docker compose -f docker-compose.prod.yml logs -f api`
+
+### Manual Production Commands
+
+```bash
+NODE_ENV=production npm run prisma:deploy
+NODE_ENV=production npm run build
+NODE_ENV=production npm run start:prod
 ```

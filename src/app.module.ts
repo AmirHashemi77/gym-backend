@@ -13,12 +13,20 @@ import { NotificationsModule } from './modules/notifications/notifications.modul
 import { CoachModule } from './modules/coach/coach.module';
 import { NutritionModule } from './modules/nutrition/nutrition.module';
 import { FoodsModule } from './modules/foods/foods.module';
+import { HealthController } from './health.controller';
+import { HealthService } from './health.service';
 import { DatabaseModule } from './database/database.module';
 import { RequestLoggerMiddleware } from './common/middlewares/request-logger.middleware';
+import { validateEnvironment } from './config/validate-environment';
 
 @Module({
+  controllers: [HealthController],
   imports: [
-    ConfigModule.forRoot({ isGlobal: true, envFilePath: ['.env'] }),
+    ConfigModule.forRoot({
+      isGlobal: true,
+      envFilePath: [`.env.${process.env.NODE_ENV ?? 'development'}`, '.env'],
+      validate: validateEnvironment,
+    }),
     ScheduleModule.forRoot(),
     ThrottlerModule.forRoot([{ ttl: 60_000, limit: 100 }]),
     DatabaseModule,
@@ -34,6 +42,7 @@ import { RequestLoggerMiddleware } from './common/middlewares/request-logger.mid
     FoodsModule,
   ],
   providers: [
+    HealthService,
     {
       provide: APP_GUARD,
       useClass: ThrottlerGuard,
