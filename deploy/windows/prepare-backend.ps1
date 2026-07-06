@@ -11,8 +11,8 @@ if (-not (Test-Path ".env.production")) {
 Import-EnvFile ".env.production"
 $env:NODE_ENV = "production"
 
-Write-Host "Installing dependencies..."
-npm ci
+Write-Host "Installing dependencies including build-time tools..."
+npm ci --include=dev
 if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
 
 Write-Host "Generating Prisma client..."
