@@ -19,12 +19,15 @@ import { DatabaseModule } from './database/database.module';
 import { RequestLoggerMiddleware } from './common/middlewares/request-logger.middleware';
 import { validateEnvironment } from './config/validate-environment';
 
+const nodeEnv = process.env.NODE_ENV ?? 'development';
+const envFilePath = nodeEnv === 'production' ? ['.env.production'] : [`.env.${nodeEnv}`, '.env'];
+
 @Module({
   controllers: [HealthController],
   imports: [
     ConfigModule.forRoot({
       isGlobal: true,
-      envFilePath: [`.env.${process.env.NODE_ENV ?? 'development'}`, '.env'],
+      envFilePath,
       validate: validateEnvironment,
     }),
     ScheduleModule.forRoot(),
