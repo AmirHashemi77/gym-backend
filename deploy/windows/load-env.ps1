@@ -1,6 +1,19 @@
 $ErrorActionPreference = "Stop"
 
-function Import-EnvFile {
+function Normalize-EnvText {
+    param(
+        [AllowNull()]
+        [string]$Value
+    )
+
+    if ($null -eq $Value) {
+        return $null
+    }
+
+    return ($Value -replace '[\uFEFF\u200E\u200F\u202A-\u202E\u2066-\u2069]', '').Trim()
+}
+
+function Parse-EnvEntries {
     param(
         [Parameter(Mandatory = $true)]
         [string]$Path
@@ -10,8 +23,10 @@ function Import-EnvFile {
         throw "Environment file '$Path' was not found."
     }
 
+    $entries = New-Object System.Collections.Generic.List[object]
+
     Get-Content $Path | ForEach-Object {
-        $line = $_.Trim()
+        $line = Normalize-EnvText $_
 
         if (-not $line -or $line.StartsWith("#")) {
             return
@@ -22,8 +37,8 @@ function Import-EnvFile {
             return
         }
 
-        $name = $line.Substring(0, $separatorIndex).Trim()
-        $value = $line.Substring($separatorIndex + 1).Trim()
+        $name = Normalize-EnvText $line.Substring(0, $separatorIndex)
+        $value = Normalize-EnvText $line.Substring($separatorIndex + 1)
 
         if (
             ($value.StartsWith('"') -and $value.EndsWith('"')) -or
@@ -32,6 +47,24 @@ function Import-EnvFile {
             $value = $value.Substring(1, $value.Length - 2)
         }
 
+        $entries.Add([PSCustomObject]@{
+            Name = $name
+            Value = $value
+        })
+    }
+
+    return $entries
+}
+
+function Import-EnvFile {
+    param(
+        [Parameter(Mandatory = $true)]
+        [string]$Path
+    )
+
+    foreach ($entry in (Parse-EnvEntries $Path)) {
+        $name = $entry.Name
+        $value = $entry.Value
         [System.Environment]::SetEnvironmentVariable($name, $value, "Process")
         Set-Item -Path "Env:$name" -Value $value
     }
@@ -45,11 +78,11 @@ function Sync-EnvFile {
         [string]$TargetPath
     )
 
-    if (-not (Test-Path $SourcePath)) {
-        throw "Environment source file '$SourcePath' was not found."
+    $content = foreach ($entry in (Parse-EnvEntries $SourcePath)) {
+        $escapedValue = $entry.Value.Replace('\', '\\').Replace('"', '\"')
+        "$($entry.Name)=""$escapedValue"""
     }
 
-    $content = Get-Content -Raw $SourcePath
     $utf8NoBom = New-Object System.Text.UTF8Encoding($false)
-    [System.IO.File]::WriteAllText((Resolve-Path $TargetPath), $content, $utf8NoBom)
+    [System.IO.File]::WriteAllLines((Resolve-Path $TargetPath), $content, $utf8NoBom)
 }
