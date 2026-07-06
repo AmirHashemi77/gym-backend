@@ -11,7 +11,9 @@ if (-not (Test-Path "dist/main.js")) {
     throw "dist/main.js was not found. Run deploy\\windows\\prepare-backend.ps1 first."
 }
 
+. "$PSScriptRoot\load-env.ps1"
+Import-EnvFile ".env.production"
 $env:NODE_ENV = "production"
 
-Write-Host "Starting backend on http://127.0.0.1:3000 ..."
+Write-Host "Starting backend on http://$($env:HOST):$($env:PORT) ..."
 node dist/main.js

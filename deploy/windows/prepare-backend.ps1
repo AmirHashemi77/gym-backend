@@ -7,6 +7,8 @@ if (-not (Test-Path ".env.production")) {
     throw ".env.production was not found. Copy .env.production.example to .env.production first."
 }
 
+. "$PSScriptRoot\load-env.ps1"
+Import-EnvFile ".env.production"
 $env:NODE_ENV = "production"
 
 Write-Host "Installing dependencies..."
