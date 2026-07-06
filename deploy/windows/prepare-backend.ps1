@@ -12,7 +12,10 @@ Import-EnvFile ".env.production"
 $env:NODE_ENV = "production"
 
 Write-Host "Syncing .env from .env.production for Prisma commands..."
-Copy-Item ".env.production" ".env" -Force
+if (-not (Test-Path ".env")) {
+    New-Item -ItemType File -Path ".env" -Force | Out-Null
+}
+Sync-EnvFile ".env.production" ".env"
 
 Write-Host "Installing dependencies including build-time tools..."
 npm ci --include=dev

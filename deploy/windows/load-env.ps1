@@ -33,5 +33,23 @@ function Import-EnvFile {
         }
 
         [System.Environment]::SetEnvironmentVariable($name, $value, "Process")
+        Set-Item -Path "Env:$name" -Value $value
     }
+}
+
+function Sync-EnvFile {
+    param(
+        [Parameter(Mandatory = $true)]
+        [string]$SourcePath,
+        [Parameter(Mandatory = $true)]
+        [string]$TargetPath
+    )
+
+    if (-not (Test-Path $SourcePath)) {
+        throw "Environment source file '$SourcePath' was not found."
+    }
+
+    $content = Get-Content -Raw $SourcePath
+    $utf8NoBom = New-Object System.Text.UTF8Encoding($false)
+    [System.IO.File]::WriteAllText((Resolve-Path $TargetPath), $content, $utf8NoBom)
 }
