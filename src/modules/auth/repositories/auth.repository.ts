@@ -1,5 +1,5 @@
-import { Injectable } from '@nestjs/common';
-import { Gender, Role } from '@prisma/client';
+import { Injectable, Logger } from '@nestjs/common';
+import { Gender, Prisma, Role } from '@prisma/client';
 import { PrismaService } from '../../../database/prisma.service';
 
 interface RegisterStudentInput {
@@ -16,6 +16,9 @@ interface RegisterStudentInput {
 
 @Injectable()
 export class AuthRepository {
+  private readonly logger = new Logger(AuthRepository.name);
+  private warnedAboutMissingGenderColumn = false;
+
   constructor(private readonly prisma: PrismaService) {}
 
   findRegistrationConflict(phone: string, email?: string) {
@@ -51,17 +54,67 @@ export class AuthRepository {
   }
 
   findUserByPhone(phone: string) {
-    return this.prisma.user.findFirst({
-      where: { phone, deletedAt: null },
-      include: { studentProfile: true },
-    });
+    return this.withMissingGenderFallback(
+      () =>
+        this.prisma.user.findFirst({
+          where: { phone, deletedAt: null },
+          select: {
+            id: true,
+            fullName: true,
+            phone: true,
+            email: true,
+            password: true,
+            role: true,
+            avatar: true,
+            studentProfile: { select: { gender: true } },
+          },
+        }),
+      () =>
+        this.prisma.user.findFirst({
+          where: { phone, deletedAt: null },
+          select: {
+            id: true,
+            fullName: true,
+            phone: true,
+            email: true,
+            password: true,
+            role: true,
+            avatar: true,
+          },
+        }),
+    );
   }
 
   findUserById(id: string) {
-    return this.prisma.user.findFirst({
-      where: { id, deletedAt: null },
-      include: { studentProfile: true },
-    });
+    return this.withMissingGenderFallback(
+      () =>
+        this.prisma.user.findFirst({
+          where: { id, deletedAt: null },
+          select: {
+            id: true,
+            fullName: true,
+            phone: true,
+            email: true,
+            password: true,
+            role: true,
+            avatar: true,
+            studentProfile: { select: { gender: true } },
+          },
+        }),
+      () =>
+        this.prisma.user.findFirst({
+          where: { id, deletedAt: null },
+          select: {
+            id: true,
+            fullName: true,
+            phone: true,
+            email: true,
+            password: true,
+            role: true,
+            avatar: true,
+          },
+        }),
+    );
   }
 
   updatePassword(userId: string, password: string) {
@@ -73,10 +126,57 @@ export class AuthRepository {
   }
 
   findRefreshToken(token: string) {
-    return this.prisma.refreshToken.findUnique({
-      where: { token },
-      include: { user: { include: { studentProfile: true } } },
-    });
+    return this.withMissingGenderFallback(
+      () =>
+        this.prisma.refreshToken.findUnique({
+          where: { token },
+          select: {
+            id: true,
+            userId: true,
+            token: true,
+            expiresAt: true,
+            revokedAt: true,
+            createdAt: true,
+            user: {
+              select: {
+                id: true,
+                fullName: true,
+                phone: true,
+                email: true,
+                password: true,
+                role: true,
+                avatar: true,
+                deletedAt: true,
+                studentProfile: { select: { gender: true } },
+              },
+            },
+          },
+        }),
+      () =>
+        this.prisma.refreshToken.findUnique({
+          where: { token },
+          select: {
+            id: true,
+            userId: true,
+            token: true,
+            expiresAt: true,
+            revokedAt: true,
+            createdAt: true,
+            user: {
+              select: {
+                id: true,
+                fullName: true,
+                phone: true,
+                email: true,
+                password: true,
+                role: true,
+                avatar: true,
+                deletedAt: true,
+              },
+            },
+          },
+        }),
+    );
   }
 
   revokeRefreshToken(token: string) {
@@ -88,5 +188,32 @@ export class AuthRepository {
       where: { userId, revokedAt: null },
       data: { revokedAt: new Date() },
     });
+  }
+
+  private async withMissingGenderFallback<T>(queryWithGender: () => Promise<T>, queryWithoutGender: () => Promise<T>) {
+    try {
+      return await queryWithGender();
+    } catch (error) {
+      if (!this.isMissingGenderColumnError(error)) throw error;
+      this.logMissingGenderWarning();
+      return queryWithoutGender();
+    }
+  }
+
+  private isMissingGenderColumnError(error: unknown): boolean {
+    if (!(error instanceof Prisma.PrismaClientKnownRequestError) || error.code !== 'P2022') {
+      return false;
+    }
+
+    const column = typeof error.meta?.column === 'string' ? error.meta.column : '';
+    return column === 'StudentProfile.gender' || error.message.includes('StudentProfile') || error.message.includes('gender');
+  }
+
+  private logMissingGenderWarning(): void {
+    if (this.warnedAboutMissingGenderColumn) return;
+    this.warnedAboutMissingGenderColumn = true;
+    this.logger.warn(
+      'Database schema is missing StudentProfile.gender. Auth is falling back to gender-less queries; run `prisma migrate deploy` on production.',
+    );
   }
 }
