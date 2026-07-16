@@ -61,7 +61,9 @@ export class ProgramsService {
 
   async getActiveStats(studentId: string) {
     const program = await this.programsRepository.findActiveByStudent(studentId);
-    if (!program) throw new NotFoundException('برنامه فعالی یافت نشد');
+    if (!program) {
+      return { message: 'برنامه فعالی یافت نشد', data: null };
+    }
 
     const totalDays = program.durationDays;
     const elapsedDays = Math.floor((Date.now() - program.createdAt.getTime()) / 86_400_000);
