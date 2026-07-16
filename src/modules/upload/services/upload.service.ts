@@ -3,7 +3,7 @@ import { ConfigService } from '@nestjs/config';
 import { PutObjectCommand, S3Client } from '@aws-sdk/client-s3';
 import { randomUUID } from 'crypto';
 import { createReadStream } from 'fs';
-import { mkdir, rename, rm, writeFile } from 'fs/promises';
+import { copyFile, mkdir, rename, rm, writeFile } from 'fs/promises';
 import { dirname, extname, join } from 'path';
 
 @Injectable()
@@ -85,7 +85,7 @@ export class UploadService {
     await mkdir(dirname(destinationPath), { recursive: true });
 
     if (file.path) {
-      await rename(file.path, destinationPath);
+      await this.moveFile(file.path, destinationPath);
     } else if (file.buffer) {
       await writeFile(destinationPath, file.buffer);
     } else {
@@ -93,6 +93,21 @@ export class UploadService {
     }
 
     return `/uploads/${key}`;
+  }
+
+  /**
+   * Temp files live on the container filesystem while production uploads live
+   * on a Docker volume. rename(2) cannot cross those filesystem boundaries,
+   * so fall back to copy + unlink when Linux reports EXDEV.
+   */
+  private async moveFile(sourcePath: string, destinationPath: string): Promise<void> {
+    try {
+      await rename(sourcePath, destinationPath);
+    } catch (error) {
+      if ((error as NodeJS.ErrnoException).code !== 'EXDEV') throw error;
+      await copyFile(sourcePath, destinationPath);
+      await rm(sourcePath, { force: true });
+    }
   }
 
   private async cleanupTempFile(file: Express.Multer.File): Promise<void> {

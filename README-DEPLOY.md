@@ -332,6 +332,39 @@ docker tag bahman-fitness-frontend:1.0.0 bahman-fitness-frontend:1.0.1
 
 ## ۱۱. نگهداری و عیب‌یابی
 
+### محل ذخیره ویدیوهای آپلودشده از فرم حرکت
+
+فرانت فایل را به endpoint زیر ارسال می‌کند:
+
+```text
+POST /api/v1/upload/video
+```
+
+اگر تنظیمات `S3_*` در `.env` خالی باشند، بک‌اند ویدیو را در مسیر زیر داخل volume پایدار ذخیره می‌کند:
+
+```text
+/app/public/uploads/videos/<uuid>.<extension>
+```
+
+پاسخ API یک URL نسبی مانند زیر برمی‌گرداند و فرانت همان مقدار را در `videoUrl` حرکت ذخیره می‌کند:
+
+```text
+/uploads/videos/550e8400-e29b-41d4-a716-446655440000.mp4
+```
+
+این فایل‌ها در volume با نام `bahman-fitness_uploads` باقی می‌مانند و با build یا recreate کردن container حذف نمی‌شوند. از `docker compose down -v` و `docker volume rm bahman-fitness_uploads` استفاده نکنید.
+
+بررسی فایل‌های ذخیره‌شده:
+
+```bash
+docker exec bahman-fitness-backend-1 find /app/public/uploads/videos -maxdepth 1 -type f | head
+curl -I http://127.0.0.1/uploads/videos/FILE_NAME.mp4
+```
+
+اگر `S3_BUCKET`، `S3_ENDPOINT`، `S3_ACCESS_KEY_ID` و `S3_SECRET_ACCESS_KEY` مقدار داشته باشند، سرویس به‌جای volume فایل را در S3 ذخیره می‌کند. برای اجبار به ذخیره local، این متغیرها را خالی نگه دارید.
+
+## ۱۲. نگهداری عمومی و عیب‌یابی
+
 ```bash
 docker compose -f docker-compose.server.yml ps -a
 docker compose -f docker-compose.server.yml restart backend
